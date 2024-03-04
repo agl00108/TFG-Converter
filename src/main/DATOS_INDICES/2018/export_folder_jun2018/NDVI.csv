@@ -1,0 +1,2 @@
+system:index,agregado,dn_surface,idPanel,mean,municipio,p25,p50,p75,parcela,poligono,provincia,recinto,uso_sigpac,zona,.geo
+00000000000000000000,0.0,123165.085317685,23:32:0:0:3:101:3,0.10913077783597377,32.0,0.09266400601194481,0.10450623318456777,0.12233996383584797,101.0,3.0,23.0,3.0,OV,0.0,"{""type"":""MultiPoint"",""coordinates"":[]}"
