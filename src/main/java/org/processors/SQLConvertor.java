@@ -16,6 +16,7 @@ import java.io.*;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.Objects;
 
 public class SQLConvertor
 {
@@ -92,11 +93,11 @@ public class SQLConvertor
             String insertInto = String.format("INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, " +
                             "POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)\nVALUES " +
                             "(TO_DATE('%s', 'YYYY-MM-DD'), %d, %d, %d, %d, %d, %s,\n" +
-                            "    utl_raw.cast_to_raw('%s'),\n" +
-                            "    utl_raw.cast_to_raw('%s')\n);\n",
+                            "    %s, -- Reflectancia\n" +
+                            "    %s -- Temperatura\n);\n",
                     formattedDate, provinciaCodigo, municipioCodigo, poligono, parcela, recinto, lluviaStr,
-                    jsonReflectancia != null ? jsonReflectancia : "NULL",
-                    jsonTemperatura != null ? jsonTemperatura : "NULL");
+                    jsonReflectancia != null ? "utl_raw.cast_to_raw('" + jsonReflectancia + "')" : "utl_raw.cast_to_raw('{}')",
+                    jsonTemperatura != null ? "utl_raw.cast_to_raw('" + jsonTemperatura + "')" : "utl_raw.cast_to_raw('{}')");
 
             // Escribir el INSERT INTO en el archivo .sql
             writer.write(insertInto);
@@ -172,8 +173,8 @@ public class SQLConvertor
             por tanto el índice almacenado en lastRowIndices, que posteriormente se incrementa para seguir el órden
         */
             String nombreArchivo = tipoJSON.equals("indices") ?
-                    String.format("JSONIndices/indices_%s_%d.json", "20240226", encontrado ? (fila - 1) : lastRowIndices) :
-                    String.format("JSONTemperaturas/temperatura_%s_%d.json", "20240226", fila - 1);
+                    String.format("JSONIndices/indice_%s_%d.json", "20240305", encontrado ? (fila - 1) : lastRowIndices) :
+                    String.format("JSONTemperaturas/temperatura_%s_%d.json", "20240305", fila - 1);
 
             rutaCompleta = Paths.get(rutaBase, nombreArchivo).toString();
 
@@ -184,6 +185,7 @@ public class SQLConvertor
 
             JsonNode dataNode = jsonNode.path("data");
             JsonNode primerElemento = dataNode.isArray() && !dataNode.isEmpty() ? dataNode.get(0) : null;
+            JsonNode NDMI = dataNode.isArray() && !dataNode.isEmpty() ? dataNode.get(3) : null;
 
             if (primerElemento != null)
             {
@@ -196,6 +198,8 @@ public class SQLConvertor
                 int recintoJson = Integer.parseInt(campos[4]);
                 JsonNode annioNode = dataNode.get(1).path("Año");
                 JsonNode mesNode = dataNode.get(2).path("Mes");
+
+                String campoNDMI = primerElemento.path("ID").asText();
 
                 int annioJson = annioNode.isNull() ? 0 : annioNode.asInt();
                 String mesJson = mesNode.isNull() ? "" : mesNode.asText();
@@ -210,6 +214,8 @@ public class SQLConvertor
                         if(tipoJSON.equals("indices"))
                             lastRowIndices++;
                     }
+   /*                 if(Objects.equals(campoNDMI, ""))
+                        return null;*/
                     return objectMapper.writeValueAsString(jsonNode);
                 }
             }
