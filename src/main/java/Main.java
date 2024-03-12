@@ -1,9 +1,10 @@
 import org.processors.*;
 
+import java.io.IOException;
+
 public class Main
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) throws IOException {
         /*
         //Primero creamos un excel combinator que nos servirá para combinar todos los excel genrados
         ExcelCombinator comb=new ExcelCombinator();
@@ -41,8 +42,13 @@ public class Main
             ind.writeExcelFile(excelFile, year);
         }
         comb.combineExcelFiles("src/main/archivosExcel/resultadoPrecipitaciones/","src/main/archivosExcel/resultadoPRECIPITACIONES.xlsx");
-        */
-        SQLConvertor prueba=new SQLConvertor();
+*/
+     SQLConvertor prueba=new SQLConvertor();
         prueba.generarInsercionDesdeExcel("src/main/archivosExcel/resultadoPRECIPITACIONES.xlsx", "src/main/insertDatos.sql");
+
+        /*
+        GEUConverter conv=new GEUConverter();
+        conv.transformarArchivoSQL("src/main/J4Input.sql", "src/main/J4Output.sql");
+        */
     }
 }

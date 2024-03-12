@@ -173,8 +173,8 @@ public class SQLConvertor
             por tanto el índice almacenado en lastRowIndices, que posteriormente se incrementa para seguir el órden
         */
             String nombreArchivo = tipoJSON.equals("indices") ?
-                    String.format("JSONIndices/indice_%s_%d.json", "20240305", encontrado ? (fila - 1) : lastRowIndices) :
-                    String.format("JSONTemperaturas/temperatura_%s_%d.json", "20240305", fila - 1);
+                    String.format("JSONIndices/indice_%s_%d.json", "20240312", encontrado ? (fila - 1) : lastRowIndices) :
+                    String.format("JSONTemperaturas/temperatura_%s_%d.json", "20240312", fila - 1);
 
             rutaCompleta = Paths.get(rutaBase, nombreArchivo).toString();
 
