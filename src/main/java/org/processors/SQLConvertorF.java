@@ -16,9 +16,8 @@ import java.io.*;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Objects;
 
-public class SQLConvertor
+public class SQLConvertorF
 {
     static boolean encontrado=true; //Booleano para ver si se ha encontrado el dato de índices
     static int lastRowIndices=0; //Último archivo procesado de índices

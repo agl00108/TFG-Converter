@@ -1,5 +1,5 @@
 /**
- * @brief Clase para pasar los datos descargados de Google Earth Engine sobre precipitaciones a .xlsl
+ * @brief Clase para pasar los datos descargados de Google Earth Engine sobre temperaturas a .xlsl
  * @author Alba Gómez Liébana   agl00108
  * @date 21/02/2024
  */
@@ -15,16 +15,15 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.*;
 import java.util.*;
 
-public class CSVPrecip
+public class CSVPTemperaturaF
 {
-
     private Map<String, Map<String, String>> dataMap;
     private Set<String> headers;
 
     /**
      * @brief constructor
      */
-    public CSVPrecip()
+    public CSVPTemperaturaF()
     {
         this.dataMap = new HashMap<>();
         this.headers = new LinkedHashSet<>();
@@ -59,7 +58,7 @@ public class CSVPrecip
     public void writeExcelFile(String excelFile, String year)
     {
         Workbook workbook = new XSSFWorkbook();
-        Sheet sheet = workbook.createSheet("Tabla");
+        Sheet sheet = workbook.createSheet("Temperatura");
 
         // Añadir encabezados a la hoja Excel
         Row headerRow = sheet.createRow(0);
@@ -74,8 +73,8 @@ public class CSVPrecip
 
         cellProvincia.setCellValue("Provincia");
         cellMunicipio.setCellValue("Municipio");
-        cellPoligono.setCellValue("Poligono");
         cellParcela.setCellValue("Parcela");
+        cellPoligono.setCellValue("Poligono");
         cellRecinto.setCellValue("Recinto");
         cellYear.setCellValue("Año");
         cellMonth.setCellValue("Mes");
@@ -110,8 +109,8 @@ public class CSVPrecip
 
             setCell(cellProvinciaData, provincia);
             setCell(cellMunicipioData, municipio);
-            setCell(cellPoligonoData, poligono);
             setCell(cellParcelaData, parcela);
+            setCell(cellPoligonoData, poligono);
             setCell(cellRecintoData, recinto);
             cellYearData.setCellValue(year);
             cellMonthData.setCellValue(month);
@@ -147,15 +146,16 @@ public class CSVPrecip
         try (CSVReader csvReader = new CSVReader(new FileReader(file)))
         {
             List<String[]> csvData = csvReader.readAll();
+            int indiceProvincia = 10;
+            int indiceMunicipio = 7;
+            int indiceParcela = 8;
+            int indicePoligono = 9;
+            int indiceRecinto = 11;
+            int indiceMax = 4;
+            int indiceMean = 5;
+            int indiceMin = 6;
 
-            int indiceProvincia = 8;
-            int indiceMunicipio = 5;
-            int indiceParcela = 6;
-            int indicePoligono = 7;
-            int indiceRecinto = 9;
-            int indiceMean = 4;
-
-            String fileName = file.getName().replace(".csv", "");
+            String fileName = file.getName();
 
             // Extraer año y mes del nombre de la carpeta
             String[] fileNameParts = fileName.split("_");
@@ -170,14 +170,24 @@ public class CSVPrecip
                 String parcela = rowData[indiceParcela];
                 String poligono = rowData[indicePoligono];
                 String recinto = rowData[indiceRecinto];
+                String max = rowData[indiceMax];
                 String mean = rowData[indiceMean];
+                String min = rowData[indiceMin];
 
-                if(!Objects.equals(municipio, "municipio"))
+                if (!Objects.equals(municipio, "municipio"))
                 {
+                    // Ajustar la construcción de la clave para incluir
                     String key = provincia + "," + municipio + "," + poligono + "," + parcela + "," + recinto + "," + year + "," + month;
-                    dataMap.computeIfAbsent(key, k -> new HashMap<>()).put("lluvia", mean);
+
+                    // Almacenar los valores en un mapa interno, si la clave ya existe, actualizar los valores
+                    dataMap.computeIfAbsent(key, k -> new HashMap<>()).put("max_" + fileName.substring(0,3), max);
+                    dataMap.computeIfAbsent(key, k -> new HashMap<>()).put("mean_" + fileName.substring(0,3), mean);
+                    dataMap.computeIfAbsent(key, k -> new HashMap<>()).put("min_" + fileName.substring(0,3), min);
+
                     // Añadir el encabezado a la lista solo si no está presente
-                    headers.add("lluvia");
+                    headers.add("max_" + fileName.substring(0,3));
+                    headers.add("mean_" + fileName.substring(0,3));
+                    headers.add("min_" + fileName.substring(0,3));
                 }
             }
         } catch (FileNotFoundException e) {
@@ -187,31 +197,6 @@ public class CSVPrecip
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-    }
-
-    /**
-     * @brief Función para obtener el mes a poner en la columna
-     * @param month mes
-     * @return string con el mes
-     */
-    private String getMonthName(String month)
-    {
-        // Mapeo de las tres letras del mes a su nombre completo
-        Map<String, String> monthMap = new HashMap<>();
-        monthMap.put("ene", "Enero");
-        monthMap.put("feb", "Febrero");
-        monthMap.put("mar", "Marzo");
-        monthMap.put("abr", "Abril");
-        monthMap.put("may", "Mayo");
-        monthMap.put("jun", "Junio");
-        monthMap.put("jul", "Julio");
-        monthMap.put("ago", "Agosto");
-        monthMap.put("sep", "Septiembre");
-        monthMap.put("oct", "Octubre");
-        monthMap.put("nov", "Noviembre");
-        monthMap.put("dic", "Diciembre");
-
-        return monthMap.getOrDefault(month, "Desconocido");
     }
 
 
@@ -232,4 +217,29 @@ public class CSVPrecip
         }
     }
 
+    /**
+     * @brief Función para obtener el mes a poner en la columna
+     * @param month mes
+     * @return string con el mes
+     */
+    private String getMonthName(String month)
+    {
+        // Mapeo de las tres letras del mes a su nombre completo
+        Map<String, String> monthMap = new HashMap<>();
+        monthMap.put("Jan", "Enero");
+        monthMap.put("Feb", "Febrero");
+        monthMap.put("Mar", "Marzo");
+        monthMap.put("Apr", "Abril");
+        monthMap.put("May", "Mayo");
+        monthMap.put("Jun", "Junio");
+        monthMap.put("Jul", "Julio");
+        monthMap.put("Aug", "Agosto");
+        monthMap.put("Sep", "Septiembre");
+        monthMap.put("Oct", "Octubre");
+        monthMap.put("Nov", "Noviembre");
+        monthMap.put("Dec", "Diciembre");
+
+        return monthMap.getOrDefault(month, "Desconocido");
+    }
 }
+

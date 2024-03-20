@@ -1,21 +1,18 @@
+package org.processors;
 /**
- * @brief Clase para pasar los datos descargados de Google Earth Engine sobre temperaturas a .xlsl
+ * @brief Clase para pasar los datos descargados de Google Earth Engine sobre Índices de Vegetación a .xlsl
  * @author Alba Gómez Liébana   agl00108
  * @date 21/02/2024
  */
-package org.processors;
 
 import com.opencsv.CSVReader;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.*;
 import java.util.*;
 
-public class CSVPTemperatura
+public class CSVPIndicesF
 {
     private Map<String, Map<String, String>> dataMap;
     private Set<String> headers;
@@ -23,7 +20,7 @@ public class CSVPTemperatura
     /**
      * @brief constructor
      */
-    public CSVPTemperatura()
+    public CSVPIndicesF()
     {
         this.dataMap = new HashMap<>();
         this.headers = new LinkedHashSet<>();
@@ -35,16 +32,21 @@ public class CSVPTemperatura
      */
     public void processCSVFiles(String folderPath)
     {
-        File folder = new File(folderPath);
-        File[] listOfFiles = folder.listFiles();
+        File folder1 = new File(folderPath);
+        File[] listOfFolders = folder1.listFiles();
 
-        if (listOfFiles != null)
+        if (listOfFolders != null)
         {
-            for (File file : listOfFiles)
+            for (File folder : listOfFolders)
             {
-                if (file.isFile() && file.getName().endsWith(".csv"))
+                File[] listOfFiles = folder.listFiles();
+                assert listOfFiles != null;
+                for (File file : listOfFiles)
                 {
-                    processCSV(file);
+                    if (file.isFile() && file.getName().endsWith(".csv"))
+                    {
+                        processCSV(file);
+                    }
                 }
             }
         }
@@ -58,7 +60,7 @@ public class CSVPTemperatura
     public void writeExcelFile(String excelFile, String year)
     {
         Workbook workbook = new XSSFWorkbook();
-        Sheet sheet = workbook.createSheet("Temperatura");
+        Sheet sheet = workbook.createSheet("Tabla");
 
         // Añadir encabezados a la hoja Excel
         Row headerRow = sheet.createRow(0);
@@ -146,22 +148,24 @@ public class CSVPTemperatura
         try (CSVReader csvReader = new CSVReader(new FileReader(file)))
         {
             List<String[]> csvData = csvReader.readAll();
-            int indiceProvincia = 10;
-            int indiceMunicipio = 7;
-            int indiceParcela = 8;
-            int indicePoligono = 9;
-            int indiceRecinto = 11;
-            int indiceMax = 4;
-            int indiceMean = 5;
-            int indiceMin = 6;
 
-            String fileName = file.getName();
+            int indiceProvincia = 11;
+            int indiceMunicipio = 5;
+            int indiceParcela = 9;
+            int indicePoligono = 10;
+            int indiceRecinto = 12;
+            int indiceMean = 4;
+
+            String fileName = file.getName().replace(".csv", "");
+
+            // Obtener el nombre de la carpeta contenedora
+            String folderName = file.getParentFile().getName();
 
             // Extraer año y mes del nombre de la carpeta
-            String[] fileNameParts = fileName.split("_");
-            String monthAbbreviation = fileNameParts[2].substring(0, 3);
+            String[] folderNameParts = folderName.split("_");
+            String year = folderNameParts[2].substring(3, 7);
+            String monthAbbreviation = folderNameParts[2].substring(0, 3);
             String month = getMonthName(monthAbbreviation);
-            String year = file.getParentFile().getName();
 
             for (String[] rowData : csvData)
             {
@@ -170,33 +174,54 @@ public class CSVPTemperatura
                 String parcela = rowData[indiceParcela];
                 String poligono = rowData[indicePoligono];
                 String recinto = rowData[indiceRecinto];
-                String max = rowData[indiceMax];
                 String mean = rowData[indiceMean];
-                String min = rowData[indiceMin];
 
-                if (!Objects.equals(municipio, "municipio"))
+                if(!Objects.equals(municipio, "municipio"))
                 {
                     // Ajustar la construcción de la clave para incluir
-                    String key = provincia + "," + municipio + "," + poligono + "," + parcela + "," + recinto + "," + year + "," + month;
+                    String key = provincia+ ","+ municipio + "," + poligono + "," + parcela + "," + recinto + "," + year + "," + month;
 
-                    // Almacenar los valores en un mapa interno, si la clave ya existe, actualizar los valores
-                    dataMap.computeIfAbsent(key, k -> new HashMap<>()).put("max_" + fileName.substring(0,3), max);
-                    dataMap.computeIfAbsent(key, k -> new HashMap<>()).put("mean_" + fileName.substring(0,3), mean);
-                    dataMap.computeIfAbsent(key, k -> new HashMap<>()).put("min_" + fileName.substring(0,3), min);
+                    dataMap.computeIfAbsent(key, k -> new HashMap<>()).put(fileName, mean);
 
                     // Añadir el encabezado a la lista solo si no está presente
-                    headers.add("max_" + fileName.substring(0,3));
-                    headers.add("mean_" + fileName.substring(0,3));
-                    headers.add("min_" + fileName.substring(0,3));
+                    headers.add(fileName);
+                    }
                 }
-            }
-        } catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e)
+        {
             throw new RuntimeException(e);
-        } catch (IOException e) {
+        } catch (IOException e)
+        {
             throw new RuntimeException(e);
-        } catch (Exception e) {
+        } catch (Exception e)
+        {
             throw new RuntimeException(e);
         }
+    }
+
+    /**
+     * @brief Función para obtener el mes a poner en la columna
+     * @param month mes
+     * @return string con el mes
+*/
+    private String getMonthName(String month)
+    {
+    // Mapeo de las tres letras del mes a su nombre completo
+    Map<String, String> monthMap = new HashMap<>();
+    monthMap.put("ene", "Enero");
+    monthMap.put("feb", "Febrero");
+    monthMap.put("mar", "Marzo");
+    monthMap.put("abr", "Abril");
+    monthMap.put("may", "Mayo");
+    monthMap.put("jun", "Junio");
+    monthMap.put("jul", "Julio");
+    monthMap.put("ago", "Agosto");
+    monthMap.put("sep", "Septiembre");
+    monthMap.put("oct", "Octubre");
+    monthMap.put("nov", "Noviembre");
+    monthMap.put("dic", "Diciembre");
+
+    return monthMap.getOrDefault(month, "Desconocido");
     }
 
 
@@ -216,30 +241,4 @@ public class CSVPTemperatura
             cell.setCellValue(value);
         }
     }
-
-    /**
-     * @brief Función para obtener el mes a poner en la columna
-     * @param month mes
-     * @return string con el mes
-     */
-    private String getMonthName(String month)
-    {
-        // Mapeo de las tres letras del mes a su nombre completo
-        Map<String, String> monthMap = new HashMap<>();
-        monthMap.put("Jan", "Enero");
-        monthMap.put("Feb", "Febrero");
-        monthMap.put("Mar", "Marzo");
-        monthMap.put("Apr", "Abril");
-        monthMap.put("May", "Mayo");
-        monthMap.put("Jun", "Junio");
-        monthMap.put("Jul", "Julio");
-        monthMap.put("Aug", "Agosto");
-        monthMap.put("Sep", "Septiembre");
-        monthMap.put("Oct", "Octubre");
-        monthMap.put("Nov", "Noviembre");
-        monthMap.put("Dec", "Diciembre");
-
-        return monthMap.getOrDefault(month, "Desconocido");
-    }
 }
-

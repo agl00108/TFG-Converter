@@ -1,26 +1,30 @@
-package org.processors;
 /**
- * @brief Clase para pasar los datos descargados de Google Earth Engine sobre Índices de Vegetación a .xlsl
+ * @brief Clase para pasar los datos descargados de Google Earth Engine sobre precipitaciones a .xlsl
  * @author Alba Gómez Liébana   agl00108
  * @date 21/02/2024
  */
+package org.processors;
 
 import com.opencsv.CSVReader;
-import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.*;
 import java.util.*;
 
-public class CSVPIndices
+public class CSVPrecipF
 {
+
     private Map<String, Map<String, String>> dataMap;
     private Set<String> headers;
 
     /**
      * @brief constructor
      */
-    public CSVPIndices()
+    public CSVPrecipF()
     {
         this.dataMap = new HashMap<>();
         this.headers = new LinkedHashSet<>();
@@ -32,21 +36,16 @@ public class CSVPIndices
      */
     public void processCSVFiles(String folderPath)
     {
-        File folder1 = new File(folderPath);
-        File[] listOfFolders = folder1.listFiles();
+        File folder = new File(folderPath);
+        File[] listOfFiles = folder.listFiles();
 
-        if (listOfFolders != null)
+        if (listOfFiles != null)
         {
-            for (File folder : listOfFolders)
+            for (File file : listOfFiles)
             {
-                File[] listOfFiles = folder.listFiles();
-                assert listOfFiles != null;
-                for (File file : listOfFiles)
+                if (file.isFile() && file.getName().endsWith(".csv"))
                 {
-                    if (file.isFile() && file.getName().endsWith(".csv"))
-                    {
-                        processCSV(file);
-                    }
+                    processCSV(file);
                 }
             }
         }
@@ -75,8 +74,8 @@ public class CSVPIndices
 
         cellProvincia.setCellValue("Provincia");
         cellMunicipio.setCellValue("Municipio");
-        cellParcela.setCellValue("Parcela");
         cellPoligono.setCellValue("Poligono");
+        cellParcela.setCellValue("Parcela");
         cellRecinto.setCellValue("Recinto");
         cellYear.setCellValue("Año");
         cellMonth.setCellValue("Mes");
@@ -111,8 +110,8 @@ public class CSVPIndices
 
             setCell(cellProvinciaData, provincia);
             setCell(cellMunicipioData, municipio);
-            setCell(cellParcelaData, parcela);
             setCell(cellPoligonoData, poligono);
+            setCell(cellParcelaData, parcela);
             setCell(cellRecintoData, recinto);
             cellYearData.setCellValue(year);
             cellMonthData.setCellValue(month);
@@ -149,23 +148,20 @@ public class CSVPIndices
         {
             List<String[]> csvData = csvReader.readAll();
 
-            int indiceProvincia = 11;
+            int indiceProvincia = 8;
             int indiceMunicipio = 5;
-            int indiceParcela = 9;
-            int indicePoligono = 10;
-            int indiceRecinto = 12;
+            int indiceParcela = 6;
+            int indicePoligono = 7;
+            int indiceRecinto = 9;
             int indiceMean = 4;
 
             String fileName = file.getName().replace(".csv", "");
 
-            // Obtener el nombre de la carpeta contenedora
-            String folderName = file.getParentFile().getName();
-
             // Extraer año y mes del nombre de la carpeta
-            String[] folderNameParts = folderName.split("_");
-            String year = folderNameParts[2].substring(3, 7);
-            String monthAbbreviation = folderNameParts[2].substring(0, 3);
+            String[] fileNameParts = fileName.split("_");
+            String monthAbbreviation = fileNameParts[2].substring(0, 3);
             String month = getMonthName(monthAbbreviation);
+            String year = file.getParentFile().getName();
 
             for (String[] rowData : csvData)
             {
@@ -178,23 +174,17 @@ public class CSVPIndices
 
                 if(!Objects.equals(municipio, "municipio"))
                 {
-                    // Ajustar la construcción de la clave para incluir
-                    String key = provincia+ ","+ municipio + "," + poligono + "," + parcela + "," + recinto + "," + year + "," + month;
-
-                    dataMap.computeIfAbsent(key, k -> new HashMap<>()).put(fileName, mean);
-
+                    String key = provincia + "," + municipio + "," + poligono + "," + parcela + "," + recinto + "," + year + "," + month;
+                    dataMap.computeIfAbsent(key, k -> new HashMap<>()).put("lluvia", mean);
                     // Añadir el encabezado a la lista solo si no está presente
-                    headers.add(fileName);
-                    }
+                    headers.add("lluvia");
                 }
-        } catch (FileNotFoundException e)
-        {
+            }
+        } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
-        } catch (IOException e)
-        {
+        } catch (IOException e) {
             throw new RuntimeException(e);
-        } catch (Exception e)
-        {
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }
@@ -203,25 +193,25 @@ public class CSVPIndices
      * @brief Función para obtener el mes a poner en la columna
      * @param month mes
      * @return string con el mes
-*/
+     */
     private String getMonthName(String month)
     {
-    // Mapeo de las tres letras del mes a su nombre completo
-    Map<String, String> monthMap = new HashMap<>();
-    monthMap.put("ene", "Enero");
-    monthMap.put("feb", "Febrero");
-    monthMap.put("mar", "Marzo");
-    monthMap.put("abr", "Abril");
-    monthMap.put("may", "Mayo");
-    monthMap.put("jun", "Junio");
-    monthMap.put("jul", "Julio");
-    monthMap.put("ago", "Agosto");
-    monthMap.put("sep", "Septiembre");
-    monthMap.put("oct", "Octubre");
-    monthMap.put("nov", "Noviembre");
-    monthMap.put("dic", "Diciembre");
+        // Mapeo de las tres letras del mes a su nombre completo
+        Map<String, String> monthMap = new HashMap<>();
+        monthMap.put("ene", "Enero");
+        monthMap.put("feb", "Febrero");
+        monthMap.put("mar", "Marzo");
+        monthMap.put("abr", "Abril");
+        monthMap.put("may", "Mayo");
+        monthMap.put("jun", "Junio");
+        monthMap.put("jul", "Julio");
+        monthMap.put("ago", "Agosto");
+        monthMap.put("sep", "Septiembre");
+        monthMap.put("oct", "Octubre");
+        monthMap.put("nov", "Noviembre");
+        monthMap.put("dic", "Diciembre");
 
-    return monthMap.getOrDefault(month, "Desconocido");
+        return monthMap.getOrDefault(month, "Desconocido");
     }
 
 
@@ -241,4 +231,5 @@ public class CSVPIndices
             cell.setCellValue(value);
         }
     }
+
 }
