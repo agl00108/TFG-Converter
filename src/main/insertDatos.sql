@@ -1,0 +1,4608 @@
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 76.96023416126607,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Abril"},{"NDMI":"-0,044163230841718706"},{"NDVI":"0,14355848680391503"},{"SAVI":"0,21531209284464325"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Abril"},{"max_dia":"28,87500000000003"},{"mean_dia":"28,42143773487105"},{"min_dia":"28,41500000000002"},{"max_noc":"11,16500000000002"},{"mean_noc":"11,164650123104852"},{"min_noc":"11,140000000000029"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 4.27824386182607,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Agosto"},{"NDMI":"-0,053654330764478175"},{"NDVI":"0,10709844461952713"},{"SAVI":"0,16063127286851386"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Agosto"},{"max_dia":"42,11000000000003"},{"mean_dia":"42,10545160036289"},{"min_dia":"41,785000000000025"},{"max_noc":"24,895000000000024"},{"mean_noc":"24,88716275754828"},{"min_noc":"24,335000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 46.51117289650486,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Diciembre"},{"NDMI":"0,006759358868633492"},{"NDVI":"0,17184862535927492"},{"SAVI":"0,25771766912141947"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Diciembre"},{"max_dia":"14,900000000000034"},{"mean_dia":"14,618988596604913"},{"min_dia":"14,615000000000023"},{"max_noc":"5,045000000000044"},{"mean_noc":"5,040101723467715"},{"min_noc":"4,695000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 56.77417800201923,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Enero"},{"max_dia":"14,555000000000035"},{"mean_dia":"13,50983478035507"},{"min_dia":"13,495000000000019"},{"max_noc":"5,985000000000014"},{"mean_noc":"5,9831806401451475"},{"min_noc":"5,855000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 57.91976311613922,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Febrero"},{"max_dia":"14,74333333333334"},{"mean_dia":"14,000542957107724"},{"min_dia":"13,990000000000046"},{"max_noc":"4,05666666666671"},{"mean_noc":"4,054520755043019"},{"min_noc":"3,9033333333333644"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 7.8539123731111715,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Julio"},{"NDMI":"-0,05214399722650171"},{"NDVI":"0,11542705436492144"},{"SAVI":"0,17312380327118668"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Julio"},{"max_dia":"44,335000000000036"},{"mean_dia":"44,32982182195155"},{"min_dia":"43,96500000000003"},{"max_noc":"25,175000000000026"},{"mean_noc":"25,172340935596758"},{"min_noc":"24,985000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 2.974269167332011,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Junio"},{"NDMI":"-0,05598418253160103"},{"NDVI":"0,10987480902341852"},{"SAVI":"0,16479664210678993"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Junio"},{"max_dia":"42,275000000000034"},{"mean_dia":"42,271431255669356"},{"min_dia":"42,02000000000001"},{"max_noc":"22,000000000000043"},{"mean_noc":"21,996151354153202"},{"min_noc":"21,725000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 29.926471445872238,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Marzo"},{"NDMI":"-0,024290914455224025"},{"NDVI":"0,17257560365843516"},{"SAVI":"0,2588309000065836"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Marzo"},{"max_dia":"22,210000000000022"},{"mean_dia":"21,204274977322832"},{"min_dia":"21,190000000000026"},{"max_noc":"7,310000000000031"},{"mean_noc":"7,308460541661304"},{"min_noc":"7,200000000000031"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 57.03394912808335,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Mayo"},{"NDMI":"-0,031615082024905955"},{"NDVI":"0,14334850005024333"},{"SAVI":"0,21500098521706817"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Mayo"},{"max_dia":"32,863333333333365"},{"mean_dia":"32,86296013131189"},{"min_dia":"32,8366666666667"},{"max_noc":"15,456666666666687"},{"mean_noc":"14,454228327070144"},{"min_noc":"14,440000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 101.58705939528545,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Noviembre"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Noviembre"},{"max_dia":"16,8566666666667"},{"mean_dia":"16,59373202021514"},{"min_dia":"16,590000000000032"},{"max_noc":"6,636666666666694"},{"mean_noc":"6,632188242408563"},{"min_noc":"6,316666666666701"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 47.221168115331835,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Octubre"},{"NDMI":"-0,0044924151827573505"},{"NDVI":"0,0557104120057152"},{"SAVI":"0,08356064517149162"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Octubre"},{"max_dia":"27,050000000000026"},{"mean_dia":"26,980979655306484"},{"min_dia":"26,980000000000032"},{"max_noc":"11,63500000000002"},{"mean_noc":"11,634300246209676"},{"min_noc":"11,585000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 3.9154484697299097,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Septiembre"},{"NDMI":"-0,0515281065897881"},{"NDVI":"0,11768947022835523"},{"SAVI":"0,17651373809740492"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2016"},{"Mes":"Septiembre"},{"max_dia":"37,34500000000004"},{"mean_dia":"37,341361280290286"},{"min_dia":"37,08500000000002"},{"max_noc":"18,15500000000003"},{"mean_noc":"18,150591551120907"},{"min_noc":"17,840000000000046"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 34.3153337568225,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Abril"},{"NDMI":"-0,02989037456698358"},{"NDVI":"0,15494340965013045"},{"SAVI":"0,23238691700231637"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Abril"},{"max_dia":"34,06000000000003"},{"mean_dia":"31,69687486501668"},{"min_dia":"31,663333333333355"},{"max_noc":"14,876666666666702"},{"mean_noc":"14,874520755043006"},{"min_noc":"14,723333333333377"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 12.176206179638882,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Agosto"},{"NDMI":"-0,04333150081832036"},{"NDVI":"0,10498575701180311"},{"SAVI":"0,15746329704016387"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Agosto"},{"max_dia":"42,625000000000014"},{"mean_dia":"42,62199105870157"},{"min_dia":"42,410000000000025"},{"max_noc":"24,000000000000014"},{"mean_noc":"23,994122068161218"},{"min_noc":"23,58000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 50.642336886806305,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Diciembre"},{"NDMI":"0,01466102272612104"},{"NDVI":"0,15405475124776782"},{"SAVI":"0,23103821019733478"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Diciembre"},{"max_dia":"12,945000000000022"},{"mean_dia":"12,8316094337178"},{"min_dia":"12,830000000000027"},{"max_noc":"2,840000000000032"},{"mean_noc":"2,834401969677368"},{"min_noc":"2,440000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 19.024168960186216,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Enero"},{"max_dia":"12,705000000000027"},{"mean_dia":"12,458498768951701"},{"min_dia":"12,455000000000027"},{"max_noc":"2,15000000000002"},{"mean_noc":"2,1460813787741557"},{"min_noc":"1,870000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 52.22157864111665,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Febrero"},{"NDMI":"0,02032116163691848"},{"NDVI":"0,22485724489482936"},{"SAVI":"0,3372287051631091"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Febrero"},{"max_dia":"17,865000000000023"},{"mean_dia":"17,85135480108851"},{"min_dia":"16,89000000000003"},{"max_noc":"6,9150000000000205"},{"mean_noc":"6,908492289749925"},{"min_noc":"6,450000000000017"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 7.569755280616874,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Julio"},{"NDMI":"-0,04685829109022371"},{"NDVI":"0,12221789924306319"},{"SAVI":"0,1833092358890679"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Julio"},{"max_dia":"45,81500000000004"},{"mean_dia":"45,811361280290306"},{"min_dia":"45,555000000000035"},{"max_noc":"25,130000000000038"},{"mean_noc":"25,122372683685416"},{"min_noc":"24,585000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 2.9016440082827444,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Junio"},{"NDMI":"-0,06475611792225958"},{"NDVI":"0,11004613429442557"},{"SAVI":"0,16505321644873389"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Junio"},{"max_dia":"45,60000000000004"},{"mean_dia":"45,594052092782235"},{"min_dia":"45,175000000000026"},{"max_noc":"23,565000000000026"},{"mean_noc":"23,559751846572546"},{"min_noc":"23,19000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 60.91161221839414,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Marzo"},{"NDMI":"-9,572701014879637E-5"},{"NDVI":"0,19846318954157494"},{"SAVI":"0,2976538326755458"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Marzo"},{"max_dia":"25,91000000000004"},{"mean_dia":"25,907410910975827"},{"min_dia":"25,725000000000037"},{"max_noc":"9,55000000000004"},{"mean_noc":"9,545101723467718"},{"min_noc":"9,200000000000031"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 14.613562669964608,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Mayo"},{"NDMI":"-0,05144567629767422"},{"NDVI":"0,12201446323252638"},{"SAVI":"0,18300214590969296"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Mayo"},{"max_dia":"36,95500000000004"},{"mean_dia":"36,95388039393547"},{"min_dia":"36,87500000000003"},{"max_noc":"17,28000000000003"},{"mean_noc":"17,276991058701583"},{"min_noc":"17,065000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 30.709779105528412,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Noviembre"},{"NDMI":"-0,027933088566426813"},{"NDVI":"0,13748120547836365"},{"SAVI":"0,20618663007831423"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Noviembre"},{"max_dia":"17,76000000000002"},{"mean_dia":"17,582519113645237"},{"min_dia":"17,580000000000027"},{"max_noc":"5,230000000000032"},{"mean_noc":"5,223912142024128"},{"min_noc":"4,79500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 31.113875878457264,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Octubre"},{"NDMI":"-0,04833188942646705"},{"NDVI":"0,11997170819940478"},{"SAVI":"0,1799330612393099"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Octubre"},{"max_dia":"30,430000000000025"},{"mean_dia":"30,305106042935513"},{"min_dia":"30,30333333333336"},{"max_noc":"14,170000000000053"},{"mean_noc":"14,167200984838729"},{"min_noc":"13,970000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 0.05161536870446071,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Septiembre"},{"NDMI":"-0,051098624431013505"},{"NDVI":"0,12016261429527512"},{"SAVI":"0,18022284007634776"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2017"},{"Mes":"Septiembre"},{"max_dia":"38,04000000000002"},{"mean_dia":"37,990699753790345"},{"min_dia":"37,99000000000002"},{"max_noc":"18,54000000000002"},{"mean_noc":"18,53440196967734"},{"min_noc":"18,140000000000015"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 52.68018292226273,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Abril"},{"NDMI":"0,022843253296325153"},{"NDVI":"0,2119242449872309"},{"SAVI":"0,31784873801152863"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Abril"},{"max_dia":"27,123333333333374"},{"mean_dia":"25,78894000259169"},{"min_dia":"25,77000000000002"},{"max_noc":"11,190000000000035"},{"mean_noc":"11,186081378774176"},{"min_noc":"10,910000000000045"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 4.513467761910306,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Agosto"},{"NDMI":"-0,04314797540573149"},{"NDVI":"0,12531866631619068"},{"SAVI":"0,18795851195403213"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Agosto"},{"max_dia":"41,47000000000003"},{"mean_dia":"41,38125955682265"},{"min_dia":"41,380000000000024"},{"max_noc":"24,245000000000033"},{"mean_noc":"24,23926201891931"},{"min_noc":"23,835000000000008"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 10.89044690644414,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Diciembre"},{"NDMI":"0,022590247689935783"},{"NDVI":"0,18869652084891328"},{"SAVI":"0,28298861342872933"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Diciembre"},{"max_dia":"13,555000000000035"},{"mean_dia":"13,254268498121048"},{"min_dia":"13,250000000000028"},{"max_noc":"4,935000000000031"},{"mean_noc":"4,927442659064434"},{"min_noc":"4,39500000000001"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 48.15246981289789,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Enero"},{"max_dia":"12,403333333333384"},{"mean_dia":"12,054944926785028"},{"min_dia":"12,050000000000011"},{"max_noc":"4,220000000000027"},{"mean_noc":"4,216571206427394"},{"min_noc":"3,975000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 55.547245170142645,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Febrero"},{"NDMI":"-0,008081224917970802"},{"NDVI":"0,1752076333476362"},{"SAVI":"0,2627643600954279"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Febrero"},{"max_dia":"15,90500000000003"},{"mean_dia":"15,500737981080748"},{"min_dia":"15,495000000000033"},{"max_noc":"3,945000000000036"},{"mean_noc":"3,940101723467708"},{"min_noc":"3,5950000000000273"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 0.03671969676233289,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Julio"},{"NDMI":"-0,04706762845912992"},{"NDVI":"0,1201262047066504"},{"SAVI":"0,18017213483926156"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Julio"},{"max_dia":"43,88500000000003"},{"mean_dia":"43,8803116496048"},{"min_dia":"43,550000000000026"},{"max_noc":"23,57500000000003"},{"mean_noc":"23,569192043540273"},{"min_noc":"23,160000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 6.100159116876114,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Junio"},{"NDMI":"-0,05964002094067498"},{"NDVI":"0,12344499362834355"},{"SAVI":"0,1851493009892475"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Junio"},{"max_dia":"37,86500000000002"},{"mean_dia":"37,57412854736298"},{"min_dia":"37,570000000000036"},{"max_noc":"23,003333333333348"},{"mean_noc":"22,990737765107347"},{"min_noc":"22,10333333333337"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 207.52515524766935,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Marzo"},{"max_dia":"16,910000000000025"},{"mean_dia":"16,638848645846856"},{"min_dia":"16,635000000000034"},{"max_noc":"8,490000000000038"},{"mean_noc":"8,487200984838696"},{"min_noc":"8,290000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 33.29322619841335,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Mayo"},{"NDMI":"-0,036958608864834847"},{"NDVI":"0,1432275974008118"},{"SAVI":"0,21481737614086124"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Mayo"},{"max_dia":"34,63500000000003"},{"mean_dia":"33,15599261370999"},{"min_dia":"33,13500000000002"},{"max_noc":"13,170000000000035"},{"mean_noc":"13,169066994946261"},{"min_noc":"13,103333333333353"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 74.12800834388378,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Noviembre"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Noviembre"},{"max_dia":"18,725000000000023"},{"mean_dia":"18,340458079564634"},{"min_dia":"18,335000000000036"},{"max_noc":"7,070000000000036"},{"mean_noc":"7,067550861733875"},{"min_noc":"6,895000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 67.823760277534,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Octubre"},{"NDMI":"-0,020889419571771355"},{"NDVI":"0,14645521978591833"},{"SAVI":"0,21965043257464473"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Octubre"},{"max_dia":"27,676666666666694"},{"mean_dia":"27,41373202021516"},{"min_dia":"27,410000000000025"},{"max_noc":"12,230000000000038"},{"mean_noc":"12,225708176752649"},{"min_noc":"11,923333333333384"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 32.95793397102997,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Septiembre"},{"NDMI":"-0,04383038271176387"},{"NDVI":"0,12661660779839906"},{"SAVI":"0,18990248459660217"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2018"},{"Mes":"Septiembre"},{"max_dia":"37,550000000000026"},{"mean_dia":"37,54790073862901"},{"min_dia":"37,40000000000002"},{"max_noc":"19,83000000000004"},{"mean_noc":"19,825801477258032"},{"min_noc":"19,53000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 78.16561268748501,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Abril"},{"NDMI":"-0,03764990301900251"},{"NDVI":"0,14760172862629442"},{"SAVI":"0,22137531992817602"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Abril"},{"max_dia":"29,876666666666683"},{"mean_dia":"29,87554706060216"},{"min_dia":"29,7966666666667"},{"max_noc":"12,276666666666719"},{"mean_noc":"12,00715865405385"},{"min_noc":"12,003333333333368"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 3.6873650292292837,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Agosto"},{"NDMI":"-0,04919749688107937"},{"NDVI":"0,11292594312439917"},{"SAVI":"0,16937208218039762"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Agosto"},{"max_dia":"43,085000000000036"},{"mean_dia":"43,083880393935495"},{"min_dia":"43,00500000000004"},{"max_noc":"24,43000000000002"},{"mean_noc":"24,42496177270964"},{"min_noc":"24,07000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 70.46761994955375,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Diciembre"},{"NDMI":"0,03629778408304748"},{"NDVI":"0,18683355022468326"},{"SAVI":"0,2801968639696998"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Diciembre"},{"max_dia":"13,845000000000013"},{"mean_dia":"13,835343397693425"},{"min_dia":"13,155000000000015"},{"max_noc":"6,380000000000024"},{"mean_noc":"6,378530517040319"},{"min_noc":"6,275000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 21.08213807362702,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Enero"},{"NDMI":"0,01894481291847396"},{"NDVI":"0,18594841156525727"},{"SAVI":"0,2788685417555839"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Enero"},{"max_dia":"11,945000000000022"},{"mean_dia":"11,609758325774285"},{"min_dia":"11,605000000000032"},{"max_noc":"2,1950000000000216"},{"mean_noc":"2,187862511338625"},{"min_noc":"1,685000000000045"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 24.658265107255772,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Febrero"},{"NDMI":"0,03488008004898068"},{"NDVI":"0,22746228653110534"},{"SAVI":"0,3411341458584759"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Febrero"},{"max_dia":"18,820000000000036"},{"mean_dia":"18,410807956459767"},{"min_dia":"18,405000000000015"},{"max_noc":"5,585000000000022"},{"mean_noc":"5,575763249967632"},{"min_noc":"4,925000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 1.9234548623430214,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Julio"},{"NDMI":"-0,05581038796691606"},{"NDVI":"0,10886445383525527"},{"SAVI":"0,1632813701880089"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Julio"},{"max_dia":"43,01000000000003"},{"mean_dia":"42,85223921212904"},{"min_dia":"42,85000000000002"},{"max_noc":"24,660000000000025"},{"mean_noc":"24,655871452637086"},{"min_noc":"24,365000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 0.1601491922365028,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Junio"},{"NDMI":"-0,056177014575248874"},{"NDVI":"0,10875146934951878"},{"SAVI":"0,16311211240595655"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Junio"},{"max_dia":"41,24500000000003"},{"mean_dia":"41,12174938447589"},{"min_dia":"41,12000000000003"},{"max_noc":"21,76500000000003"},{"mean_noc":"21,75317416094339"},{"min_noc":"20,920000000000044"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 13.855711826145978,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Marzo"},{"NDMI":"-0,02067920830826839"},{"NDVI":"0,15475163171456907"},{"SAVI":"0,23209941575005916"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Marzo"},{"max_dia":"27,20500000000004"},{"mean_dia":"27,198842166645086"},{"min_dia":"26,76500000000003"},{"max_noc":"9,195000000000022"},{"mean_noc":"8,987938965919419"},{"min_noc":"8,985000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 0.7882045881935085,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Mayo"},{"NDMI":"-0,048831535570136864"},{"NDVI":"0,1278007295381825"},{"SAVI":"0,19168213483502217"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Mayo"},{"max_dia":"40,49500000000002"},{"mean_dia":"40,376679409096795"},{"min_dia":"40,375000000000014"},{"max_noc":"17,260000000000034"},{"mean_noc":"17,258040689387087"},{"min_noc":"17,12000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 80.66542246634256,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Noviembre"},{"max_dia":"15,38500000000002"},{"mean_dia":"15,330769729169404"},{"min_dia":"15,330000000000027"},{"max_noc":"6,335000000000036"},{"mean_noc":"6,327092782169272"},{"min_noc":"5,770000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 23.456409975114667,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Octubre"},{"NDMI":"-0,03979814051170808"},{"NDVI":"0,14801761310919306"},{"SAVI":"0,22199584413369128"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Octubre"},{"max_dia":"27,650000000000034"},{"mean_dia":"27,511959310612927"},{"min_dia":"27,51000000000001"},{"max_noc":"14,616666666666694"},{"mean_noc":"14,59586065396745"},{"min_noc":"13,130000000000015"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 36.739634044518965,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Septiembre"},{"NDMI":"-0,05371142193064324"},{"NDVI":"0,11789657429202793"},{"SAVI":"0,17682523403236552"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2019"},{"Mes":"Septiembre"},{"max_dia":"34,73000000000005"},{"mean_dia":"34,56237916288714"},{"min_dia":"34,56000000000003"},{"max_noc":"18,56500000000004"},{"mean_noc":"18,56024167422578"},{"min_noc":"18,225000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 64.75958718384689,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Abril"},{"NDMI":"0,033691282053746135"},{"NDVI":"0,1843075951785775"},{"SAVI":"0,2764191428525893"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Abril"},{"max_dia":"28,800000000000026"},{"mean_dia":"28,79715433458599"},{"min_dia":"28,596666666666692"},{"max_noc":"13,210000000000022"},{"mean_noc":"13,20622132953223"},{"min_noc":"12,94000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 19.689026719802882,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Agosto"},{"NDMI":"-0,041378151315935904"},{"NDVI":"0,1410397230963161"},{"SAVI":"0,21153740986704903"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Agosto"},{"max_dia":"42,45500000000003"},{"mean_dia":"42,45136128029026"},{"min_dia":"42,195000000000036"},{"max_noc":"22,800000000000026"},{"mean_noc":"22,7942620189193"},{"min_noc":"22,390000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 48.235890773298706,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Diciembre"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Diciembre"},{"max_dia":"12,280000000000015"},{"mean_dia":"12,215909679927467"},{"min_dia":"12,215000000000032"},{"max_noc":"4,535000000000025"},{"mean_noc":"4,4955598030322985"},{"min_noc":"4,495000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 30.95713882303741,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Enero"},{"NDMI":"0,043833665624226664"},{"NDVI":"0,16596134615461167"},{"SAVI":"0,24890060205814724"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Enero"},{"max_dia":"11,41500000000002"},{"mean_dia":"11,153708695088781"},{"min_dia":"11,15000000000002"},{"max_noc":"4,010000000000029"},{"mean_noc":"4,007294285344072"},{"min_noc":"3,8166666666667006"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 4.126686239793287,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Febrero"},{"NDMI":"0,02528753359484834"},{"NDVI":"0,2200375681384816"},{"SAVI":"0,33000375883775296"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Febrero"},{"max_dia":"19,885000000000034"},{"mean_dia":"19,209586626927603"},{"min_dia":"19,200000000000017"},{"max_noc":"8,230000000000018"},{"mean_noc":"8,223352338991853"},{"min_noc":"7,755000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 5.271451819336193,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Julio"},{"NDMI":"-0,04585261591114742"},{"NDVI":"0,12602839985147885"},{"SAVI":"0,18902424965317477"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Julio"},{"max_dia":"44,315000000000026"},{"mean_dia":"44,30660295451603"},{"min_dia":"43,71500000000002"},{"max_noc":"26,54500000000003"},{"mean_noc":"26,53954192043545"},{"min_noc":"26,155000000000044"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 7.515009675540085,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Junio"},{"NDMI":"-0,045403536135929054"},{"NDVI":"0,12378655396130059"},{"SAVI":"0,1856625966431047"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Junio"},{"max_dia":"40,935000000000045"},{"mean_dia":"40,644128547362996"},{"min_dia":"40,64000000000003"},{"max_noc":"22,51666666666669"},{"mean_noc":"22,436142931190894"},{"min_noc":"22,435000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 56.86601836394445,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Marzo"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Marzo"},{"max_dia":"22,810000000000016"},{"mean_dia":"22,395877931838815"},{"min_dia":"22,39000000000003"},{"max_noc":"9,990000000000023"},{"mean_noc":"9,988320590903212"},{"min_noc":"9,870000000000047"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 30.53403866173099,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Mayo"},{"NDMI":"-0,033140167934084606"},{"NDVI":"0,15668744487360597"},{"SAVI":"0,23500647432291819"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Mayo"},{"max_dia":"36,28333333333336"},{"mean_dia":"36,13871927778503"},{"min_dia":"36,13666666666669"},{"max_noc":"16,850000000000023"},{"mean_noc":"16,848600492419354"},{"min_noc":"16,75000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 62.531029687590944,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Noviembre"},{"NDMI":"-0,023927450415178755"},{"NDVI":"0,15292001591641863"},{"SAVI":"0,22933668527584522"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Noviembre"},{"max_dia":"18,81000000000002"},{"mean_dia":"18,809720098483893"},{"min_dia":"18,79000000000002"},{"max_noc":"8,390000000000024"},{"mean_noc":"8,387854088376338"},{"min_noc":"8,236666666666698"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 25.057662820476168,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Octubre"},{"NDMI":"-0,045712793799493966"},{"NDVI":"0,14671340536672162"},{"SAVI":"0,22003729615949152"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Octubre"},{"max_dia":"27,370000000000033"},{"mean_dia":"27,118568744330705"},{"min_dia":"27,115000000000023"},{"max_noc":"10,850000000000037"},{"mean_noc":"10,84412206816123"},{"min_noc":"10,430000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 42.3992349986797,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Septiembre"},{"NDMI":"-0,04359873814186845"},{"NDVI":"0,13462614153184585"},{"SAVI":"0,20191567006130445"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2020"},{"Mes":"Septiembre"},{"max_dia":"35,46000000000002"},{"mean_dia":"35,45867046779839"},{"min_dia":"35,36500000000004"},{"max_noc":"16,70500000000004"},{"mean_noc":"16,701151354153208"},{"min_noc":"16,43000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 52.57220479963465,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Abril"},{"NDMI":"-0,035153650027926024"},{"NDVI":"0,1580049047202201"},{"SAVI":"0,2369786751008421"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Abril"},{"max_dia":"23,61000000000003"},{"mean_dia":"22,978956848516294"},{"min_dia":"22,970000000000027"},{"max_noc":"7,650000000000034"},{"mean_noc":"7,413358818193624"},{"min_noc":"7,410000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 6.854369054913434,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Agosto"},{"NDMI":"-0,05979020006031699"},{"NDVI":"0,11656846586151381"},{"SAVI":"0,1748350270427759"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Agosto"},{"max_dia":"42,61500000000004"},{"mean_dia":"42,613670467798414"},{"min_dia":"42,52000000000004"},{"max_noc":"24,200000000000045"},{"mean_noc":"24,193212388233814"},{"min_noc":"23,715000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 55.32190045191143,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Diciembre"},{"NDMI":"-0,002563443562755571"},{"NDVI":"0,16707716760939328"},{"SAVI":"0,25056253713224963"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Diciembre"},{"max_dia":"15,316666666666682"},{"mean_dia":"15,313867651505356"},{"min_dia":"15,116666666666712"},{"max_noc":"5,220000000000013"},{"mean_noc":"5,2132823636128185"},{"min_noc":"4,740000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 97.53560858501942,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Enero"},{"NDMI":"0,01779323503255381"},{"NDVI":"0,12448641415164496"},{"SAVI":"0,18670701569839937"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Enero"},{"max_dia":"11,505000000000038"},{"mean_dia":"11,332449138266204"},{"min_dia":"11,330000000000041"},{"max_noc":"2,640000000000029"},{"mean_noc":"2,63832059090323"},{"min_noc":"2,5200000000000244"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 44.30224820807638,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Febrero"},{"NDMI":"0,08195908684199357"},{"NDVI":"0,2356032115725732"},{"SAVI":"0,3533412307223874"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Febrero"},{"max_dia":"17,390000000000015"},{"mean_dia":"17,06954839963721"},{"min_dia":"17,06500000000004"},{"max_noc":"5,955000000000041"},{"mean_noc":"5,950871452637076"},{"min_noc":"5,660000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 0.05819590677447195,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Julio"},{"NDMI":"-0,06294611190875635"},{"NDVI":"0,114412579247281"},{"SAVI":"0,17160231755468247"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Julio"},{"max_dia":"44,36000000000004"},{"mean_dia":"44,352162757548335"},{"min_dia":"43,800000000000026"},{"max_noc":"24,50000000000003"},{"mean_noc":"24,495451600362838"},{"min_noc":"24,175000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 22.786835705101538,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Junio"},{"NDMI":"-0,07087758308449256"},{"NDVI":"0,11774401809509577"},{"SAVI":"0,1765981775863163"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Junio"},{"max_dia":"43,805000000000035"},{"mean_dia":"43,671889335233935"},{"min_dia":"43,67000000000003"},{"max_noc":"21,91000000000004"},{"mean_noc":"21,905801477258052"},{"min_noc":"21,610000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 16.057469032926264,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Marzo"},{"NDMI":"0,0070952976750395455"},{"NDVI":"0,19201178725953336"},{"SAVI":"0,2879811005634909"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Marzo"},{"max_dia":"25,275000000000034"},{"mean_dia":"25,06793896591943"},{"min_dia":"25,065000000000026"},{"max_noc":"9,085000000000022"},{"mean_noc":"9,07639302837893"},{"min_noc":"8,470000000000041"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 11.784403103227703,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Mayo"},{"NDMI":"-0,0689316743863888"},{"NDVI":"0,11794897721451605"},{"SAVI":"0,17690480854788831"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Mayo"},{"max_dia":"37,49500000000002"},{"mean_dia":"37,11045807956463"},{"min_dia":"37,10500000000003"},{"max_noc":"16,03500000000004"},{"mean_noc":"16,031501231048384"},{"min_noc":"15,785000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 49.78746595654826,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Noviembre"},{"NDMI":"-0,02971438193826211"},{"NDVI":"0,15466250631315565"},{"SAVI":"0,23195220163206265"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Noviembre"},{"max_dia":"17,480000000000032"},{"mean_dia":"17,317309187508137"},{"min_dia":"17,315000000000026"},{"max_noc":"5,215000000000032"},{"mean_noc":"5,2113612802902995"},{"min_noc":"4,955000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 50.97016295533763,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Octubre"},{"NDMI":"-0,047262527722077334"},{"NDVI":"0,1340089199691753"},{"SAVI":"0,2009828799774096"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Octubre"},{"max_dia":"30,916666666666686"},{"mean_dia":"30,798346075763483"},{"min_dia":"30,7966666666667"},{"max_noc":"13,216666666666697"},{"mean_noc":"13,211815040387052"},{"min_noc":"12,870000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 20.648106342264327,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Septiembre"},{"NDMI":"-0,059976055231481674"},{"NDVI":"0,12045485150793128"},{"SAVI":"0,18066106339478624"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2021"},{"Mes":"Septiembre"},{"max_dia":"35,445000000000036"},{"mean_dia":"35,44241091097577"},{"min_dia":"35,26000000000003"},{"max_noc":"17,68500000000003"},{"mean_noc":"17,68283076325001"},{"min_noc":"17,53000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 67.00561753252998,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Abril"},{"max_dia":"27,52333333333335"},{"mean_dia":"27,52193382575266"},{"min_dia":"27,423333333333364"},{"max_noc":"11,910000000000025"},{"mean_noc":"11,90664118180644"},{"min_noc":"11,670000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 3.810207560814405,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Agosto"},{"NDMI":"-0,03283080240084815"},{"NDVI":"0,08456942939318161"},{"SAVI":"0,12684510722229037"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Agosto"},{"max_dia":"41,780000000000044"},{"mean_dia":"41,77979007386293"},{"min_dia":"41,76500000000003"},{"max_noc":"24,585000000000036"},{"mean_noc":"24,580661526499963"},{"min_noc":"24,275000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 100.61046026851272,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Diciembre"},{"NDMI":"0,04930362722820945"},{"NDVI":"0,1143352153314118"},{"SAVI":"0,1714844914824833"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Diciembre"},{"max_dia":"13,203333333333356"},{"mean_dia":"13,078439376268873"},{"min_dia":"13,076666666666691"},{"max_noc":"7,470000000000027"},{"mean_noc":"7,4564714267202525"},{"min_noc":"6,5033333333333685"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 10.466352152924685,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Enero"},{"NDMI":"7,800093669206193E-4"},{"NDVI":"0,15535931369219652"},{"SAVI":"0,23299957501856028"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Enero"},{"max_dia":"13,200000000000031"},{"mean_dia":"13,198390566282274"},{"min_dia":"13,085000000000022"},{"max_noc":"3,2700000000000244"},{"mean_noc":"3,2651017234676947"},{"min_noc":"2,920000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 16.577220023652472,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Febrero"},{"NDMI":"-0,010296756299985887"},{"NDVI":"0,10504093171233568"},{"SAVI":"0,1575462323291804"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Febrero"},{"max_dia":"20,635000000000034"},{"mean_dia":"20,47230918750812"},{"min_dia":"20,47000000000004"},{"max_noc":"7,040000000000006"},{"mean_noc":"7,031672929895047"},{"min_noc":"6,445000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 1.5010336193164164,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Julio"},{"NDMI":"-0,027064806255069362"},{"NDVI":"0,09362757672814165"},{"SAVI":"0,14043192203780563"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Julio"},{"max_dia":"47,22500000000002"},{"mean_dia":"47,21996177270955"},{"min_dia":"46,86500000000004"},{"max_noc":"27,035000000000025"},{"mean_noc":"27,02926201891932"},{"min_noc":"26,62500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 3.010001870045187,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Junio"},{"NDMI":"-0,02512364264652512"},{"NDVI":"0,10279866279698695"},{"SAVI":"0,1541875185448595"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Junio"},{"max_dia":"42,315000000000026"},{"mean_dia":"42,3111513541532"},{"min_dia":"42,04000000000002"},{"max_noc":"23,025000000000034"},{"mean_noc":"23,019751846572557"},{"min_noc":"22,65000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 95.52976031470095,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Marzo"},{"NDMI":"-0,018685238756909268"},{"NDVI":"0,10604552461222604"},{"SAVI":"0,15905348609908698"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Marzo"},{"max_dia":"17,03000000000003"},{"mean_dia":"16,753918621225896"},{"min_dia":"16,750000000000043"},{"max_noc":"7,4900000000000375"},{"mean_noc":"7,483842166645099"},{"min_noc":"7,05000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 9.154701085005712,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Mayo"},{"NDMI":"-0,014407063169380651"},{"NDVI":"0,12082988820457287"},{"SAVI":"0,18123171843536043"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Mayo"},{"max_dia":"37,88500000000002"},{"mean_dia":"37,58426849812101"},{"min_dia":"37,58000000000003"},{"max_noc":"18,045000000000016"},{"mean_noc":"18,041361280290303"},{"min_noc":"17,785000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 31.817976283264215,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Noviembre"},{"NDMI":"-6,058836369277097E-4"},{"NDVI":"0,10244191024196915"},{"SAVI":"0,1536458038822175"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Noviembre"},{"max_dia":"19,660000000000025"},{"mean_dia":"19,201507710250123"},{"min_dia":"19,19500000000002"},{"max_noc":"8,745000000000019"},{"mean_noc":"8,739331994298311"},{"min_noc":"8,340000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 15.521276930844152,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Octubre"},{"NDMI":"-0,021155535008214328"},{"NDVI":"0,09606188110362393"},{"SAVI":"0,14408089146266692"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Octubre"},{"max_dia":"30,640000000000015"},{"mean_dia":"28,460929117532743"},{"min_dia":"28,430000000000007"},{"max_noc":"12,830000000000041"},{"mean_noc":"12,82132305299991"},{"min_noc":"12,210000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 29.117778058822097,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Septiembre"},{"NDMI":"-0,03206562960079587"},{"NDVI":"0,0879643339182916"},{"SAVI":"0,13193616573942654"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2022"},{"Mes":"Septiembre"},{"max_dia":"34,94500000000002"},{"mean_dia":"34,693568744330754"},{"min_dia":"34,69000000000004"},{"max_noc":"18,740000000000023"},{"mean_noc":"18,73965012310485"},{"min_noc":"18,715000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 1.2065861739678496,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Abril"},{"NDMI":"0,04085068199792357"},{"NDVI":"0,19661472391863208"},{"SAVI":"0,29490036523083857"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Abril"},{"max_dia":"34,22333333333336"},{"mean_dia":"34,085292643946346"},{"min_dia":"34,08333333333337"},{"max_noc":"14,970000000000027"},{"mean_noc":"14,965055073215007"},{"min_noc":"14,616666666666712"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 0.04660532239952886,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Agosto"},{"NDMI":"-0,04650537415969739"},{"NDVI":"0,08662318176387218"},{"SAVI":"0,12992566076950535"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Agosto"},{"max_dia":"44,960000000000036"},{"mean_dia":"44,959930024621"},{"min_dia":"44,95500000000004"},{"max_noc":"24,775000000000034"},{"mean_noc":"24,429898276532356"},{"min_noc":"24,425000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 30.71606114676939,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Diciembre"},{"NDMI":"0,09254630283316416"},{"NDVI":"0,19974868625873207"},{"SAVI":"0,2995909673884975"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Diciembre"},{"max_dia":"11,355000000000032"},{"mean_dia":"11,221889335233929"},{"min_dia":"11,220000000000027"},{"max_noc":"4,500000000000028"},{"mean_noc":"4,495801477258031"},{"min_noc":"4,200000000000031"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 33.146190956660604,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Enero"},{"NDMI":"0,048491149031452206"},{"NDVI":"0,16988123096619984"},{"SAVI":"0,2547966845535938"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Enero"},{"max_dia":"11,29000000000002"},{"mean_dia":"11,053358818193626"},{"min_dia":"11,050000000000026"},{"max_noc":"4,020000000000024"},{"mean_noc":"3,9411196060645772"},{"min_noc":"3,9400000000000404"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 12.596191735060103,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Febrero"},{"NDMI":"0,054486315096321396"},{"NDVI":"0,18292251723683534"},{"SAVI":"0,27435968983959147"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Febrero"},{"max_dia":"14,51000000000002"},{"mean_dia":"14,159968251911378"},{"min_dia":"14,15500000000003"},{"max_noc":"4,17000000000003"},{"mean_noc":"4,16671115718546"},{"min_noc":"3,9350000000000165"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 1.606088191579147,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Julio"},{"NDMI":"-0,05020279219918461"},{"NDVI":"0,0955747399928895"},{"SAVI":"0,14335228491088767"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Julio"},{"max_dia":"45,550000000000026"},{"mean_dia":"45,54902034469355"},{"min_dia":"45,48000000000003"},{"max_noc":"26,045000000000016"},{"mean_noc":"26,04045160036287"},{"min_noc":"25,720000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 22.497318325733318,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Junio"},{"NDMI":"-0,048074839463976386"},{"NDVI":"0,11987715358824987"},{"SAVI":"0,1798032656263112"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Junio"},{"max_dia":"43,35500000000003"},{"mean_dia":"43,26625955682262"},{"min_dia":"43,26500000000003"},{"max_noc":"23,240000000000023"},{"mean_noc":"23,23720098483868"},{"min_noc":"23,04000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 14.294510423418672,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Marzo"},{"NDMI":"0,029017482523342738"},{"NDVI":"0,17979210172680707"},{"SAVI":"0,26966616857892517"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Marzo"},{"max_dia":"24,815000000000026"},{"mean_dia":"24,65723921212906"},{"min_dia":"24,65500000000003"},{"max_noc":"10,740000000000038"},{"mean_noc":"10,73559155112093"},{"min_noc":"10,42500000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 54.311284293767415,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Mayo"},{"NDMI":"-0,0150153851730633"},{"NDVI":"0,12941058366437788"},{"SAVI":"0,19410292046621141"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Mayo"},{"max_dia":"34,645000000000024"},{"mean_dia":"34,53653945833879"},{"min_dia":"34,535000000000025"},{"max_noc":"19,29000000000005"},{"mean_noc":"19,284122068161263"},{"min_noc":"18,870000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 21.812927757004275,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Noviembre"},{"NDMI":"0,0026964582362862025"},{"NDVI":"0,13102833941704903"},{"SAVI":"0,19652287721280623"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Noviembre"},{"max_dia":"17,720000000000027"},{"mean_dia":"17,715171698846714"},{"min_dia":"17,37500000000003"},{"max_noc":"8,145000000000024"},{"mean_noc":"8,141781132564498"},{"min_noc":"7,915000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 66.71211542676758,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Octubre"},{"NDMI":"-0,04566653133853917"},{"NDVI":"0,08869206202387403"},{"SAVI":"0,1330268194680093"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Octubre"},{"max_dia":"25,78333333333336"},{"mean_dia":"25,78156062373116"},{"min_dia":"25,656666666666695"},{"max_noc":"13,050000000000031"},{"mean_noc":"13,04412206816124"},{"min_noc":"12,630000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 7, 325, 2, 40.77197989334991,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Septiembre"},{"NDMI":"-0,05324972109393013"},{"NDVI":"0,08943381267810376"},{"SAVI":"0,134140115812642"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:7:325:2"},{"Año":"2023"},{"Mes":"Septiembre"},{"max_dia":"34,65500000000003"},{"mean_dia":"34,52188933523391"},{"min_dia":"34,52000000000004"},{"max_noc":"18,80000000000004"},{"mean_noc":"18,796291304911286"},{"min_noc":"18,53500000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 76.96023416126607,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Abril"},{"NDMI":"-0,07239061661552268"},{"NDVI":"0,15157265462214736"},{"SAVI":"0,22733133782666268"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Abril"},{"max_dia":"29,055000000000035"},{"mean_dia":"29,047302989855908"},{"min_dia":"29,040000000000035"},{"max_noc":"10,28000000000003"},{"mean_noc":"10,156847837693567"},{"min_noc":"10,040000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 4.27824386182607,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Agosto"},{"NDMI":"-0,09111451493721999"},{"NDVI":"0,10333546755492029"},{"SAVI":"0,15498715708932104"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Agosto"},{"max_dia":"43,84500000000003"},{"mean_dia":"43,818222370528595"},{"min_dia":"43,790000000000035"},{"max_noc":"25,230000000000047"},{"mean_noc":"25,230000000000043"},{"min_noc":"25,230000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 46.51117289650486,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Diciembre"},{"NDMI":"-0,046274542876636786"},{"NDVI":"0,1714221111407127"},{"SAVI":"0,2570872439920932"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Diciembre"},{"max_dia":"14,495000000000033"},{"mean_dia":"14,480394020288337"},{"min_dia":"14,465000000000018"},{"max_noc":"5,255000000000024"},{"mean_noc":"5,0754030966364345"},{"min_noc":"4,905000000000015"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 56.77417800201923,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Enero"},{"max_dia":"12,605000000000018"},{"mean_dia":"12,507626801922093"},{"min_dia":"12,405000000000044"},{"max_noc":"6,485000000000028"},{"mean_noc":"6,130399270332835"},{"min_noc":"5,756666666666699"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 57.91976311613922,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Febrero"},{"max_dia":"14,843333333333362"},{"mean_dia":"14,757810998398329"},{"min_dia":"14,676666666666696"},{"max_noc":"4,216666666666697"},{"mean_noc":"4,210175120128155"},{"min_noc":"4,203333333333338"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 7.8539123731111715,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Julio"},{"NDMI":"-0,07625606793735235"},{"NDVI":"0,12907124604793302"},{"SAVI":"0,19358753303950202"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Julio"},{"max_dia":"46,060000000000045"},{"mean_dia":"46,01374773091306"},{"min_dia":"45,96500000000003"},{"max_noc":"25,79000000000002"},{"mean_noc":"25,756646289375343"},{"min_noc":"25,725000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 2.974269167332011,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Junio"},{"NDMI":"-0,07383836593119184"},{"NDVI":"0,13027739552849688"},{"SAVI":"0,19539741517799805"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Junio"},{"max_dia":"42,805000000000035"},{"mean_dia":"42,79769701014421"},{"min_dia":"42,79000000000002"},{"max_noc":"22,255000000000024"},{"mean_noc":"22,211383609183184"},{"min_noc":"22,17000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 29.926471445872238,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Marzo"},{"NDMI":"0,06564222466087345"},{"NDVI":"0,13989304074733472"},{"SAVI":"0,20980162645437428"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Marzo"},{"max_dia":"22,43500000000003"},{"mean_dia":"22,232312066203995"},{"min_dia":"22,04000000000005"},{"max_noc":"7,380000000000038"},{"mean_noc":"7,204728243459734"},{"min_noc":"7,020000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 57.03394912808335,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Mayo"},{"NDMI":"-0,06975715515127283"},{"NDVI":"0,1324221552143872"},{"SAVI":"0,19861264886058042"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Mayo"},{"max_dia":"33,963333333333345"},{"mean_dia":"33,30768713294188"},{"min_dia":"32,61666666666671"},{"max_noc":"16,203333333333376"},{"mean_noc":"16,200087560064127"},{"min_noc":"16,196666666666715"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 101.58705939528545,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Noviembre"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Noviembre"},{"max_dia":"16,870000000000022"},{"mean_dia":"16,740169069229438"},{"min_dia":"16,603333333333353"},{"max_noc":"6,143333333333355"},{"mean_noc":"6,0509692116035145"},{"min_noc":"5,963333333333348"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 47.221168115331835,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Octubre"},{"NDMI":"-0,05635404173017432"},{"NDVI":"0,09813231362154802"},{"SAVI":"0,14718445288166052"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Octubre"},{"max_dia":"27,12500000000003"},{"mean_dia":"27,098222370528582"},{"min_dia":"27,070000000000036"},{"max_noc":"12,465000000000032"},{"mean_noc":"12,311637213027254"},{"min_noc":"12,15000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 3.9154484697299097,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Septiembre"},{"NDMI":"-0,09169526674351546"},{"NDVI":"0,11218779375787918"},{"SAVI":"0,16826257209906711"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2016"},{"Mes":"Septiembre"},{"max_dia":"38,87500000000003"},{"mean_dia":"38,82368659903903"},{"min_dia":"38,775000000000034"},{"max_noc":"18,945000000000036"},{"mean_noc":"18,690998665242965"},{"min_noc":"18,450000000000045"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 34.3153337568225,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Abril"},{"NDMI":"-0,026721160622819505"},{"NDVI":"0,20768716742423518"},{"SAVI":"0,31149375259365925"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Abril"},{"max_dia":"32,84333333333336"},{"mean_dia":"32,83684178679482"},{"min_dia":"32,83000000000002"},{"max_noc":"14,736666666666716"},{"mean_noc":"14,729824879871908"},{"min_noc":"14,723333333333377"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 12.176206179638882,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Agosto"},{"NDMI":"-0,05354413979889266"},{"NDVI":"0,09258320832718382"},{"SAVI":"0,13886235987821605"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Agosto"},{"max_dia":"43,98000000000003"},{"mean_dia":"43,96973731980785"},{"min_dia":"43,96000000000002"},{"max_noc":"24,505000000000024"},{"mean_noc":"24,341899893219484"},{"min_noc":"24,17000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 50.642336886806305,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Diciembre"},{"NDMI":"-0,037407549194971274"},{"NDVI":"0,16304738611011882"},{"SAVI":"0,24452988280222104"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Diciembre"},{"max_dia":"12,935000000000016"},{"mean_dia":"12,925262680192247"},{"min_dia":"12,915000000000035"},{"max_noc":"2,90000000000002"},{"mean_noc":"2,8871716497597655"},{"min_noc":"2,875000000000014"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 19.024168960186216,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Enero"},{"max_dia":"12,555000000000021"},{"mean_dia":"12,508747730913006"},{"min_dia":"12,460000000000022"},{"max_noc":"2,54500000000003"},{"mean_noc":"2,529605979711714"},{"min_noc":"2,515000000000015"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 52.22157864111665,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Febrero"},{"NDMI":"-0,030560574720865277"},{"NDVI":"0,2138195801263454"},{"SAVI":"0,3206808908576095"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Febrero"},{"max_dia":"16,470000000000013"},{"mean_dia":"16,409141751201318"},{"min_dia":"16,345000000000027"},{"max_noc":"6,90000000000002"},{"mean_noc":"6,876908969567566"},{"min_noc":"6,855000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 7.569755280616874,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Julio"},{"NDMI":"-0,08502974080894317"},{"NDVI":"0,1104711240816919"},{"SAVI":"0,16569068856475322"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Julio"},{"max_dia":"47,540000000000035"},{"mean_dia":"47,423152162306536"},{"min_dia":"47,300000000000026"},{"max_noc":"25,590000000000032"},{"mean_noc":"25,554080619327333"},{"min_noc":"25,52000000000001"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 2.9016440082827444,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Junio"},{"NDMI":"-0,09237770862590924"},{"NDVI":"0,11450125138962"},{"SAVI":"0,17173539318828726"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Junio"},{"max_dia":"45,92500000000004"},{"mean_dia":"45,822758142018245"},{"min_dia":"45,71500000000003"},{"max_noc":"23,65000000000002"},{"mean_noc":"23,573029898558506"},{"min_noc":"23,500000000000014"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 60.91161221839414,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Marzo"},{"NDMI":"0,016671716059130703"},{"NDVI":"0,25362676584237565"},{"SAVI":"0,38039456516333947"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Marzo"},{"max_dia":"26,540000000000035"},{"mean_dia":"26,486444741057184"},{"min_dia":"26,430000000000035"},{"max_noc":"9,695000000000022"},{"mean_noc":"9,607364121729876"},{"min_noc":"9,515000000000029"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 14.613562669964608,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Mayo"},{"NDMI":"-0,08826767661028559"},{"NDVI":"0,11443040902563052"},{"SAVI":"0,1716279596287525"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Mayo"},{"max_dia":"37,80500000000002"},{"mean_dia":"37,64592845702088"},{"min_dia":"37,49500000000003"},{"max_noc":"17,150000000000034"},{"mean_noc":"17,150000000000034"},{"min_noc":"17,150000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 30.709779105528412,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Noviembre"},{"NDMI":"-0,06487744436039698"},{"NDVI":"0,1424306196377105"},{"SAVI":"0,21361841193565972"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Noviembre"},{"max_dia":"17,730000000000032"},{"mean_dia":"17,683747730912994"},{"min_dia":"17,63500000000002"},{"max_noc":"4,810000000000045"},{"mean_noc":"4,698020822210401"},{"min_noc":"4,580000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 31.113875878457264,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Octubre"},{"NDMI":"-0,08306666367245275"},{"NDVI":"0,11403552779101608"},{"SAVI":"0,17103380418157701"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Octubre"},{"max_dia":"30,896666666666704"},{"mean_dia":"30,809030788396576"},{"min_dia":"30,716666666666697"},{"max_noc":"14,203333333333356"},{"mean_noc":"14,196491546538576"},{"min_noc":"14,190000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 0.05161536870446071,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Septiembre"},{"NDMI":"-0,0945041736601268"},{"NDVI":"0,11128715228133776"},{"SAVI":"0,16691310269845538"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2017"},{"Mes":"Septiembre"},{"max_dia":"39,520000000000024"},{"mean_dia":"39,36420288307529"},{"min_dia":"39,20000000000003"},{"max_noc":"18,985000000000028"},{"mean_noc":"18,931120928990982"},{"min_noc":"18,880000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 52.68018292226273,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Abril"},{"NDMI":"0,051640804761081974"},{"NDVI":"0,2601110253492688"},{"SAVI":"0,39012306165675975"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Abril"},{"max_dia":"27,51000000000003"},{"mean_dia":"27,499737319807835"},{"min_dia":"27,490000000000048"},{"max_noc":"11,07000000000005"},{"mean_noc":"11,011844812244226"},{"min_noc":"10,956666666666706"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 4.513467761910306,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Agosto"},{"NDMI":"-0,077889644070425"},{"NDVI":"0,11292630648507947"},{"SAVI":"0,1693721914933967"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Agosto"},{"max_dia":"43,06000000000002"},{"mean_dia":"43,03322237052861"},{"min_dia":"43,005000000000024"},{"max_noc":"24,77000000000004"},{"mean_noc":"24,731514949279255"},{"min_noc":"24,69500000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 10.89044690644414,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Diciembre"},{"NDMI":"-0,021347294199312902"},{"NDVI":"0,1981161428446297"},{"SAVI":"0,29711981922069297"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Diciembre"},{"max_dia":"13,775000000000034"},{"mean_dia":"13,764737319807837"},{"min_dia":"13,755000000000024"},{"max_noc":"4,390000000000029"},{"mean_noc":"4,385131340096128"},{"min_noc":"4,380000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 48.15246981289789,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Enero"},{"max_dia":"12,636666666666713"},{"mean_dia":"12,234190781277855"},{"min_dia":"11,810000000000022"},{"max_noc":"4,400000000000034"},{"mean_noc":"4,346120928990966"},{"min_noc":"4,295000000000044"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 55.547245170142645,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Febrero"},{"NDMI":"-0,025578551281851332"},{"NDVI":"0,19371387625122727"},{"SAVI":"0,2905273849348545"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Febrero"},{"max_dia":"14,995000000000033"},{"mean_dia":"14,96091938067276"},{"min_dia":"14,92500000000004"},{"max_noc":"2,7433333333333585"},{"mean_noc":"2,7228079729489507"},{"min_noc":"2,7033333333333567"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 0.03671969676233289,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Julio"},{"NDMI":"-0,07956073288608427"},{"NDVI":"0,11740478058447781"},{"SAVI":"0,17609019746984791"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Julio"},{"max_dia":"44,76000000000003"},{"mean_dia":"44,72105072076883"},{"min_dia":"44,68000000000002"},{"max_noc":"24,12500000000003"},{"mean_noc":"24,001847837693568"},{"min_noc":"23,885000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 6.100159116876114,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Junio"},{"NDMI":"-0,06697572656778207"},{"NDVI":"0,14178527820704917"},{"SAVI":"0,21265671471432882"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Junio"},{"max_dia":"38,26000000000003"},{"mean_dia":"38,14711051788582"},{"min_dia":"38,040000000000035"},{"max_noc":"23,443333333333367"},{"mean_noc":"23,405703505961956"},{"min_noc":"23,370000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 207.52515524766935,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Marzo"},{"max_dia":"19,31000000000003"},{"mean_dia":"18,535883075280346"},{"min_dia":"17,720000000000027"},{"max_noc":"7,92500000000004"},{"mean_noc":"7,920131340096142"},{"min_noc":"7,915000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 33.29322619841335,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Mayo"},{"NDMI":"-0,07545383234897295"},{"NDVI":"0,13789619961915406"},{"SAVI":"0,20682155745449826"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Mayo"},{"max_dia":"35,24500000000003"},{"mean_dia":"35,08849412706893"},{"min_dia":"34,940000000000026"},{"max_noc":"12,450000000000026"},{"mean_noc":"11,947128670581991"},{"min_noc":"11,470000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 74.12800834388378,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Noviembre"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Noviembre"},{"max_dia":"17,625000000000043"},{"mean_dia":"17,415647624132443"},{"min_dia":"17,19500000000002"},{"max_noc":"6,720000000000027"},{"mean_noc":"6,717565670048085"},{"min_noc":"6,715000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 67.823760277534,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Octubre"},{"NDMI":"-0,05072458535323146"},{"NDVI":"0,14026619810623822"},{"SAVI":"0,21036947436859216"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Octubre"},{"max_dia":"28,06333333333337"},{"mean_dia":"27,97245168179398"},{"min_dia":"27,876666666666704"},{"max_noc":"12,170000000000035"},{"mean_noc":"12,12894927923122"},{"min_noc":"12,090000000000012"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 32.95793397102997,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Septiembre"},{"NDMI":"-0,08442781392312705"},{"NDVI":"0,11310102534878545"},{"SAVI":"0,16963219595033763"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2018"},{"Mes":"Septiembre"},{"max_dia":"38,33000000000003"},{"mean_dia":"38,28618206086498"},{"min_dia":"38,24000000000004"},{"max_noc":"20,215000000000018"},{"mean_noc":"20,173616390816914"},{"min_noc":"20,130000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 78.16561268748501,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Abril"},{"NDMI":"-0,0975114063350984"},{"NDVI":"0,12391793980268184"},{"SAVI":"0,18585389394246746"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Abril"},{"max_dia":"31,163333333333355"},{"mean_dia":"30,92639188467706"},{"min_dia":"30,676666666666716"},{"max_noc":"12,396666666666684"},{"mean_noc":"12,188937177433731"},{"min_noc":"11,970000000000008"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 3.6873650292292837,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Agosto"},{"NDMI":"-0,08219635790188809"},{"NDVI":"0,11283647149979373"},{"SAVI":"0,16923753785357024"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Agosto"},{"max_dia":"44,800000000000026"},{"mean_dia":"44,743555258942955"},{"min_dia":"44,69000000000004"},{"max_noc":"25,00000000000003"},{"mean_noc":"24,969211959423426"},{"min_noc":"24,940000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 70.46761994955375,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Diciembre"},{"NDMI":"-0,0016558305391407905"},{"NDVI":"0,1963786475889284"},{"SAVI":"0,2945202477149978"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Diciembre"},{"max_dia":"13,15000000000002"},{"mean_dia":"13,119211959423412"},{"min_dia":"13,090000000000046"},{"max_noc":"6,185000000000031"},{"mean_noc":"6,180131340096149"},{"min_noc":"6,17500000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 21.08213807362702,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Enero"},{"NDMI":"-0,003856579693196903"},{"NDVI":"0,21260061266625113"},{"SAVI":"0,31884522061609727"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Enero"},{"max_dia":"12,770000000000039"},{"mean_dia":"12,727804947499603"},{"min_dia":"12,683333333333374"},{"max_noc":"2,4700000000000415"},{"mean_noc":"2,4469089695675716"},{"min_noc":"2,4250000000000256"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 24.658265107255772,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Febrero"},{"NDMI":"0,02790779808351572"},{"NDVI":"0,2643598820232672"},{"SAVI":"0,3964760716335429"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Febrero"},{"max_dia":"20,19500000000002"},{"mean_dia":"20,16677762947146"},{"min_dia":"20,14000000000003"},{"max_noc":"5,945000000000022"},{"mean_noc":"5,80132247730916"},{"min_noc":"5,6650000000000205"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 1.9234548623430214,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Julio"},{"NDMI":"-0,0861523850161547"},{"NDVI":"0,1081867837774837"},{"SAVI":"0,16226443065446092"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Julio"},{"max_dia":"44,83500000000002"},{"mean_dia":"44,81065670048053"},{"min_dia":"44,785000000000025"},{"max_noc":"25,11500000000005"},{"mean_noc":"25,05598958889486"},{"min_noc":"25,00000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 0.1601491922365028,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Junio"},{"NDMI":"-0,07866193997341633"},{"NDVI":"0,10953228907073913"},{"SAVI":"0,16428227086192082"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Junio"},{"max_dia":"42,880000000000024"},{"mean_dia":"42,831252269087116"},{"min_dia":"42,78500000000004"},{"max_noc":"22,350000000000023"},{"mean_noc":"22,337828350240294"},{"min_noc":"22,32500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 13.855711826145978,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Marzo"},{"NDMI":"-0,08008033951440366"},{"NDVI":"0,13788446125336762"},{"SAVI":"0,2067967352257863"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Marzo"},{"max_dia":"27,55000000000004"},{"mean_dia":"27,267776294714377"},{"min_dia":"27,000000000000014"},{"max_noc":"9,355000000000032"},{"mean_noc":"9,329343299519515"},{"min_noc":"9,305000000000021"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 0.7882045881935085,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Mayo"},{"NDMI":"-0,08782053385661914"},{"NDVI":"0,1197175921780944"},{"SAVI":"0,17955807493971554"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Mayo"},{"max_dia":"41,46500000000003"},{"mean_dia":"41,434211959423465"},{"min_dia":"41,40500000000003"},{"max_noc":"17,43500000000003"},{"mean_noc":"17,327889482114312"},{"min_noc":"17,215000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 80.66542246634256,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Noviembre"},{"max_dia":"15,995000000000047"},{"mean_dia":"15,990131340096157"},{"min_dia":"15,985000000000028"},{"max_noc":"6,080000000000027"},{"mean_noc":"5,8824434063000846"},{"min_noc":"5,695000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 23.456409975114667,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Octubre"},{"NDMI":"-0,06737364804050541"},{"NDVI":"0,15448704282219844"},{"SAVI":"0,23169973948849626"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Octubre"},{"max_dia":"29,483333333333366"},{"mean_dia":"29,298605089873686"},{"min_dia":"29,123333333333374"},{"max_noc":"15,170000000000035"},{"mean_noc":"14,537134721480749"},{"min_noc":"13,936666666666705"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 36.739634044518965,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Septiembre"},{"NDMI":"-0,08969077964594321"},{"NDVI":"0,1157971015396829"},{"SAVI":"0,17367627060342256"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2019"},{"Mes":"Septiembre"},{"max_dia":"36,440000000000026"},{"mean_dia":"36,357898558462416"},{"min_dia":"36,28000000000003"},{"max_noc":"18,81500000000004"},{"mean_noc":"18,79190896956759"},{"min_noc":"18,77000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 64.75958718384689,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Abril"},{"NDMI":"-0,015035557548279307"},{"NDVI":"0,17299795994347836"},{"SAVI":"0,25945554009493377"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Abril"},{"max_dia":"28,085000000000036"},{"mean_dia":"26,809861986118566"},{"min_dia":"25,600000000000023"},{"max_noc":"13,050000000000026"},{"mean_noc":"12,9331521623065"},{"min_noc":"12,810000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 19.689026719802882,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Agosto"},{"NDMI":"-0,0711679232577784"},{"NDVI":"0,13168129864370196"},{"SAVI":"0,19750100517391417"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Agosto"},{"max_dia":"44,51500000000003"},{"mean_dia":"44,414938868126015"},{"min_dia":"44,32000000000002"},{"max_noc":"23,64500000000004"},{"mean_noc":"23,593879071009106"},{"min_noc":"23,54000000000005"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 48.235890773298706,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Diciembre"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Diciembre"},{"max_dia":"12,345000000000027"},{"mean_dia":"12,3328283502403"},{"min_dia":"12,320000000000036"},{"max_noc":"4,585000000000022"},{"mean_noc":"4,579868659903932"},{"min_noc":"4,575000000000031"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 30.95713882303741,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Enero"},{"NDMI":"0,012456689557256463"},{"NDVI":"0,16238678683755503"},{"SAVI":"0,2435433873732894"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Enero"},{"max_dia":"11,880000000000024"},{"mean_dia":"11,125693005872957"},{"min_dia":"10,410000000000025"},{"max_noc":"4,730000000000032"},{"mean_noc":"4,326334579106634"},{"min_noc":"3,9433333333333658"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 4.126686239793287,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Febrero"},{"NDMI":"-0,035985801307466064"},{"NDVI":"0,18864909368589589"},{"SAVI":"0,2829304012968423"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Febrero"},{"max_dia":"20,535000000000025"},{"mean_dia":"20,440070208222156"},{"min_dia":"20,350000000000037"},{"max_noc":"7,9350000000000165"},{"mean_noc":"7,92769701014418"},{"min_noc":"7,92000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 5.271451819336193,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Julio"},{"NDMI":"-0,0659389690230368"},{"NDVI":"0,12450143896449559"},{"SAVI":"0,18673386567967185"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Julio"},{"max_dia":"46,27500000000002"},{"mean_dia":"46,20059556860659"},{"min_dia":"46,130000000000024"},{"max_noc":"27,130000000000024"},{"mean_noc":"27,08638360918319"},{"min_noc":"27,04500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 7.515009675540085,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Junio"},{"NDMI":"-0,07629792149508755"},{"NDVI":"0,126952703628609"},{"SAVI":"0,19041070389351233"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Junio"},{"max_dia":"42,005000000000024"},{"mean_dia":"41,935726908702705"},{"min_dia":"41,87000000000002"},{"max_noc":"23,130000000000035"},{"mean_noc":"22,740018152696273"},{"min_noc":"22,370000000000047"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 56.86601836394445,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Marzo"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Marzo"},{"max_dia":"23,615000000000038"},{"mean_dia":"23,56368659903901"},{"min_dia":"23,51500000000003"},{"max_noc":"10,070000000000022"},{"mean_noc":"10,067565670048094"},{"min_noc":"10,06500000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 30.53403866173099,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Mayo"},{"NDMI":"-0,07471919649948147"},{"NDVI":"0,1467004042576729"},{"SAVI":"0,2200260519224364"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Mayo"},{"max_dia":"37,656666666666695"},{"mean_dia":"37,489042890194064"},{"min_dia":"37,33000000000004"},{"max_noc":"17,616666666666692"},{"mean_noc":"17,558511478910873"},{"min_noc":"17,503333333333348"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 62.531029687590944,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Noviembre"},{"NDMI":"-0,05600695494384725"},{"NDVI":"0,1651849397482986"},{"SAVI":"0,24774131744607372"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Noviembre"},{"max_dia":"18,896666666666704"},{"mean_dia":"18,87394625378188"},{"min_dia":"18,85000000000004"},{"max_noc":"8,156666666666695"},{"mean_noc":"8,140437800320367"},{"min_noc":"8,123333333333354"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 25.057662820476168,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Octubre"},{"NDMI":"-0,07627323800671197"},{"NDVI":"0,16021170079650848"},{"SAVI":"0,24028548301206362"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Octubre"},{"max_dia":"27,40500000000003"},{"mean_dia":"27,338292578750686"},{"min_dia":"27,27500000000002"},{"max_noc":"10,740000000000023"},{"mean_noc":"10,706646289375358"},{"min_noc":"10,675000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 42.3992349986797,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Septiembre"},{"NDMI":"-0,07741339462140755"},{"NDVI":"0,1323970607174313"},{"SAVI":"0,1985728352762922"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2020"},{"Mes":"Septiembre"},{"max_dia":"36,73500000000004"},{"mean_dia":"36,59645381740532"},{"min_dia":"36,465000000000046"},{"max_noc":"17,985000000000042"},{"mean_noc":"17,758607314468787"},{"min_noc":"17,520000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 52.57220479963465,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Abril"},{"NDMI":"-0,08266133511709291"},{"NDVI":"0,15599890791862767"},{"SAVI":"0,23397001242345286"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Abril"},{"max_dia":"25,936666666666707"},{"mean_dia":"23,908076882007528"},{"min_dia":"21,983333333333366"},{"max_noc":"7,850000000000023"},{"mean_noc":"7,806182060864958"},{"min_noc":"7,760000000000048"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 6.854369054913434,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Agosto"},{"NDMI":"-0,08062848989774403"},{"NDVI":"0,12710689412864154"},{"SAVI":"0,19063990671388484"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Agosto"},{"max_dia":"43,71000000000002"},{"mean_dia":"43,60532381206624"},{"min_dia":"43,49500000000003"},{"max_noc":"24,625000000000043"},{"mean_noc":"24,583949279231224"},{"min_noc":"24,54500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 55.32190045191143,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Diciembre"},{"NDMI":"-0,038623435865936626"},{"NDVI":"0,18640495792663556"},{"SAVI":"0,27955862331672554"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Diciembre"},{"max_dia":"15,03000000000003"},{"mean_dia":"14,978686599039"},{"min_dia":"14,930000000000026"},{"max_noc":"5,160000000000025"},{"mean_noc":"4,770018152696242"},{"min_noc":"4,400000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 97.53560858501942,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Enero"},{"NDMI":"0,0042929839710898745"},{"NDVI":"0,17615165241612032"},{"SAVI":"0,26418385408938716"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Enero"},{"max_dia":"11,965000000000032"},{"mean_dia":"11,957697010144193"},{"min_dia":"11,950000000000031"},{"max_noc":"2,365000000000009"},{"mean_noc":"2,3213836091831492"},{"min_noc":"2,2800000000000296"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 44.30224820807638,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Febrero"},{"NDMI":"0,04912175817534292"},{"NDVI":"0,22571211885460774"},{"SAVI":"0,3385153906519052"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Febrero"},{"max_dia":"17,980000000000032"},{"mean_dia":"17,87224185798189"},{"min_dia":"17,77000000000004"},{"max_noc":"5,735000000000028"},{"mean_noc":"5,732565670048083"},{"min_noc":"5,730000000000047"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 0.05819590677447195,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Julio"},{"NDMI":"-0,07489796125141417"},{"NDVI":"0,13641940249201306"},{"SAVI":"0,2046083570607425"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Julio"},{"max_dia":"45,62000000000003"},{"mean_dia":"45,5430298985585"},{"min_dia":"45,47000000000004"},{"max_noc":"24,68000000000002"},{"mean_noc":"24,638949279231227"},{"min_noc":"24,600000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 22.786835705101538,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Junio"},{"NDMI":"-0,08147875154298383"},{"NDVI":"0,13345761416665977"},{"SAVI":"0,20016602262092256"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Junio"},{"max_dia":"44,73500000000004"},{"mean_dia":"44,68368659903906"},{"min_dia":"44,63500000000003"},{"max_noc":"22,105000000000032"},{"mean_noc":"22,087040309663692"},{"min_noc":"22,070000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 16.057469032926264,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Marzo"},{"NDMI":"-0,036171780997987416"},{"NDVI":"0,18456233052758927"},{"SAVI":"0,2768092171236656"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Marzo"},{"max_dia":"26,20000000000003"},{"mean_dia":"26,169211959423425"},{"min_dia":"26,140000000000015"},{"max_noc":"8,910000000000025"},{"mean_noc":"8,822364121729873"},{"min_noc":"8,730000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 11.784403103227703,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Mayo"},{"NDMI":"-0,09183226073010962"},{"NDVI":"0,12542106370311895"},{"SAVI":"0,1881118234646951"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Mayo"},{"max_dia":"38,305000000000035"},{"mean_dia":"38,00994794447412"},{"min_dia":"37,73000000000002"},{"max_noc":"15,325000000000031"},{"mean_noc":"15,197603399181396"},{"min_noc":"15,06333333333337"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 49.78746595654826,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Noviembre"},{"NDMI":"-0,05522234783217982"},{"NDVI":"0,1660420140959016"},{"SAVI":"0,24902627868595303"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Noviembre"},{"max_dia":"17,950000000000017"},{"mean_dia":"17,84993886812604"},{"min_dia":"17,755000000000024"},{"max_noc":"4,78000000000003"},{"mean_noc":"4,762959690336388"},{"min_noc":"4,745000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 50.97016295533763,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Octubre"},{"NDMI":"-0,07706879111253323"},{"NDVI":"0,1421185447879383"},{"SAVI":"0,21314967054090636"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Octubre"},{"max_dia":"31,623333333333353"},{"mean_dia":"31,50018117102695"},{"min_dia":"31,383333333333365"},{"max_noc":"13,330000000000021"},{"mean_noc":"13,306053746218227"},{"min_noc":"13,28333333333336"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 20.648106342264327,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Septiembre"},{"NDMI":"-0,08504076995793322"},{"NDVI":"0,12787741489396184"},{"SAVI":"0,1917943686838494"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2021"},{"Mes":"Septiembre"},{"max_dia":"36,57000000000002"},{"mean_dia":"36,390403096636454"},{"min_dia":"36,22000000000003"},{"max_noc":"18,315000000000026"},{"mean_noc":"18,302828350240283"},{"min_noc":"18,29000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 67.00561753252998,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Abril"},{"max_dia":"28,536666666666708"},{"mean_dia":"28,35878021000182"},{"min_dia":"28,190000000000037"},{"max_noc":"10,550000000000031"},{"mean_noc":"10,505528385833822"},{"min_noc":"10,463333333333367"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 3.810207560814405,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Agosto"},{"NDMI":"-0,04652355001532558"},{"NDVI":"0,08978380921622785"},{"SAVI":"0,1346661339306126"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Agosto"},{"max_dia":"42,89500000000004"},{"mean_dia":"42,723100106780606"},{"min_dia":"42,56000000000003"},{"max_noc":"25,07500000000003"},{"mean_noc":"25,0570403096637"},{"min_noc":"25,040000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 100.61046026851272,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Diciembre"},{"NDMI":"0,023898146681570868"},{"NDVI":"0,11822803375012061"},{"SAVI":"0,17732307254031845"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Diciembre"},{"max_dia":"13,270000000000039"},{"mean_dia":"13,266579106602626"},{"min_dia":"13,263333333333359"},{"max_noc":"7,060000000000031"},{"mean_noc":"7,047828350240291"},{"min_noc":"7,035000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 10.466352152924685,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Enero"},{"NDMI":"-0,03365942042393159"},{"NDVI":"0,158830002522271"},{"SAVI":"0,23820922291841767"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Enero"},{"max_dia":"13,415000000000035"},{"mean_dia":"13,380919380672758"},{"min_dia":"13,345000000000041"},{"max_noc":"3,1050000000000324"},{"mean_noc":"3,1050000000000324"},{"min_noc":"3,1050000000000324"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 16.577220023652472,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Febrero"},{"NDMI":"-0,034165265893132714"},{"NDVI":"0,10402859247765196"},{"SAVI":"0,15602869131424693"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Febrero"},{"max_dia":"22,170000000000044"},{"mean_dia":"22,08723278163379"},{"min_dia":"22,000000000000014"},{"max_noc":"7,085000000000036"},{"mean_noc":"6,3820064068339875"},{"min_noc":"5,715000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 1.5010336193164164,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Julio"},{"NDMI":"-0,045243294750160784"},{"NDVI":"0,09578271821553683"},{"SAVI":"0,14366424261514296"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Julio"},{"max_dia":"48,065000000000026"},{"mean_dia":"48,000858248798785"},{"min_dia":"47,94000000000004"},{"max_noc":"27,285000000000025"},{"mean_noc":"27,26704030966368"},{"min_noc":"27,25000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 3.010001870045187,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Junio"},{"NDMI":"-0,04428127687444302"},{"NDVI":"0,09735841880294101"},{"SAVI":"0,14602775665004197"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Junio"},{"max_dia":"43,145000000000024"},{"mean_dia":"42,957706086492294"},{"min_dia":"42,780000000000044"},{"max_noc":"23,07000000000002"},{"mean_noc":"23,006707421249384"},{"min_noc":"22,940000000000012"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 95.52976031470095,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Marzo"},{"NDMI":"-0,03350828349332828"},{"NDVI":"0,11461207515116797"},{"SAVI":"0,1719033500518533"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Marzo"},{"max_dia":"20,683333333333355"},{"mean_dia":"20,368493326214672"},{"min_dia":"20,036666666666708"},{"max_noc":"7,650000000000034"},{"mean_noc":"7,6451313400961425"},{"min_noc":"7,640000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 9.154701085005712,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Mayo"},{"NDMI":"-0,051261561619871956"},{"NDVI":"0,10475249372321442"},{"SAVI":"0,15711700248719113"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Mayo"},{"max_dia":"39,10500000000003"},{"mean_dia":"38,93310010678062"},{"min_dia":"38,77000000000004"},{"max_noc":"18,14000000000003"},{"mean_noc":"17,960403096636455"},{"min_noc":"17,790000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 31.817976283264215,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Noviembre"},{"NDMI":"-0,006339843041342357"},{"NDVI":"0,11979802131968795"},{"SAVI":"0,1796781043119496"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Noviembre"},{"max_dia":"19,785000000000025"},{"mean_dia":"19,651111852642856"},{"min_dia":"19,510000000000034"},{"max_noc":"7,970000000000027"},{"mean_noc":"7,945656700480548"},{"min_noc":"7,92000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 15.521276930844152,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Octubre"},{"NDMI":"-0,031591268008052634"},{"NDVI":"0,09940034080376012"},{"SAVI":"0,14908808952346891"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Octubre"},{"max_dia":"31,55000000000004"},{"mean_dia":"31,483292578750717"},{"min_dia":"31,420000000000016"},{"max_noc":"12,990000000000009"},{"mean_noc":"12,882889482114274"},{"min_noc":"12,770000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 29.117778058822097,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Septiembre"},{"NDMI":"-0,04589127412355912"},{"NDVI":"0,09351644101866659"},{"SAVI":"0,14026379463761024"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2022"},{"Mes":"Septiembre"},{"max_dia":"36,10000000000004"},{"mean_dia":"36,02816123865462"},{"min_dia":"35,96000000000002"},{"max_noc":"18,490000000000023"},{"mean_noc":"18,43612092899096"},{"min_noc":"18,385000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-04-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 1.2065861739678496,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Abril"},{"NDMI":"-0,04169686826434265"},{"NDVI":"0,1165574525579458"},{"SAVI":"0,17482376018336263"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Abril"},{"max_dia":"35,54333333333337"},{"mean_dia":"35,37570955686071"},{"min_dia":"35,2166666666667"},{"max_noc":"15,350000000000023"},{"mean_noc":"15,34026268019223"},{"min_noc":"15,330000000000021"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-08-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 0.04660532239952886,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Agosto"},{"NDMI":"-0,05193412720235447"},{"NDVI":"0,10161548924222608"},{"SAVI":"0,15241279946286937"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Agosto"},{"max_dia":"45,73500000000003"},{"mean_dia":"45,70934329951956"},{"min_dia":"45,68500000000003"},{"max_noc":"25,39000000000003"},{"mean_noc":"25,100079284570267"},{"min_noc":"24,82500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-12-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 30.71606114676939,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Diciembre"},{"NDMI":"0,037348493937014456"},{"NDVI":"0,16844641621063405"},{"SAVI":"0,25264510687611974"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Diciembre"},{"max_dia":"11,130000000000033"},{"mean_dia":"11,065003025449391"},{"min_dia":"11,00333333333335"},{"max_noc":"4,430000000000035"},{"mean_noc":"4,40078804057664"},{"min_noc":"4,370000000000019"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-01-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 33.146190956660604,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Enero"},{"NDMI":"-0,006379461411118275"},{"NDVI":"0,12987363676373367"},{"SAVI":"0,19479134666930464"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Enero"},{"max_dia":"11,940000000000026"},{"mean_dia":"11,852767218366305"},{"min_dia":"11,770000000000039"},{"max_noc":"4,135000000000019"},{"mean_noc":"4,020586492258438"},{"min_noc":"3,900000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-02-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 12.596191735060103,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Febrero"},{"NDMI":"-0,0076367784837686505"},{"NDVI":"0,12880178298783077"},{"SAVI":"0,19318547591556798"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Febrero"},{"max_dia":"15,360000000000042"},{"mean_dia":"14,816077949813165"},{"min_dia":"14,300000000000026"},{"max_noc":"4,245000000000019"},{"mean_noc":"4,209080619327303"},{"min_noc":"4,175000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-07-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 1.606088191579147,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Julio"},{"NDMI":"-0,05041310340190934"},{"NDVI":"0,10796300382711316"},{"SAVI":"0,16193359268965432"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Julio"},{"max_dia":"46,16500000000005"},{"mean_dia":"46,154737319807815"},{"min_dia":"46,145000000000024"},{"max_noc":"26,26500000000003"},{"mean_noc":"26,257302989855905"},{"min_noc":"26,250000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-06-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 22.497318325733318,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Junio"},{"NDMI":"-0,06351607291960623"},{"NDVI":"0,11580520420167428"},{"SAVI":"0,17369586521106212"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Junio"},{"max_dia":"43,54500000000003"},{"mean_dia":"43,50361639081692"},{"min_dia":"43,460000000000036"},{"max_noc":"22,785000000000025"},{"mean_noc":"22,669544847837763"},{"min_noc":"22,560000000000045"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-03-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 14.294510423418672,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Marzo"},{"NDMI":"-0,03759794756292853"},{"NDVI":"0,1212151332416678"},{"SAVI":"0,18180817627776472"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Marzo"},{"max_dia":"26,365000000000038"},{"mean_dia":"26,252110517885765"},{"min_dia":"26,145000000000024"},{"max_noc":"11,145000000000039"},{"mean_noc":"11,111646289375372"},{"min_noc":"11,080000000000041"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-05-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 54.311284293767415,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Mayo"},{"NDMI":"-0,03720640505590905"},{"NDVI":"0,11690622149895691"},{"SAVI":"0,1753478043373859"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Mayo"},{"max_dia":"35,83000000000001"},{"mean_dia":"35,62218072610785"},{"min_dia":"35,425000000000026"},{"max_noc":"19,190000000000026"},{"mean_noc":"19,107232781633773"},{"min_noc":"19,02000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-11-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 21.812927757004275,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Noviembre"},{"NDMI":"-0,02692498551232622"},{"NDVI":"0,12526690826727194"},{"SAVI":"0,1878834783801546"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Noviembre"},{"max_dia":"17,620000000000033"},{"mean_dia":"17,4739402028831"},{"min_dia":"17,320000000000036"},{"max_noc":"7,940000000000026"},{"mean_noc":"7,930262680192241"},{"min_noc":"7,92000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-10-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 66.71211542676758,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Octubre"},{"NDMI":"-0,05273435042393397"},{"NDVI":"0,10091075852131273"},{"SAVI":"0,15135366198037636"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Octubre"},{"max_dia":"26,383333333333365"},{"mean_dia":"26,376491546538592"},{"min_dia":"26,370000000000044"},{"max_noc":"13,263333333333359"},{"mean_noc":"12,996503648336027"},{"min_noc":"12,743333333333359"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-09-01', 'YYYY-MM-DD'), 23, 5, 'J2', 8, 101, 2, 40.77197989334991,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Septiembre"},{"NDMI":"-0,06618682826456732"},{"NDVI":"0,09637385403020297"},{"SAVI":"0,14454949044804963"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:5:8:101:2"},{"Año":"2023"},{"Mes":"Septiembre"},{"max_dia":"35,51000000000003"},{"mean_dia":"35,38684783769359"},{"min_dia":"35,270000000000024"},{"max_noc":"18,700000000000017"},{"mean_noc":"18,551191137213067"},{"min_noc":"18,41000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-04-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 79.55697011555074,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Abril"},{"NDMI":"-0,06697764165063906"},{"NDVI":"0,13015133968216053"},{"SAVI":"0,19520310197278035"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Abril"},{"max_dia":"30,080000000000027"},{"mean_dia":"29,660136439493094"},{"min_dia":"29,550000000000026"},{"max_noc":"10,295000000000044"},{"mean_noc":"9,444455369627006"},{"min_noc":"9,320000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-08-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 5.061150870950826,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Agosto"},{"NDMI":"-0,09202520020991847"},{"NDVI":"0,08853852945632845"},{"SAVI":"0,1327935397163028"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Agosto"},{"max_dia":"43,60000000000002"},{"mean_dia":"42,45200239051008"},{"min_dia":"41,75000000000003"},{"max_noc":"25,065000000000026"},{"mean_noc":"24,528963398132767"},{"min_noc":"24,360000000000014"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-12-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 45.16769910442875,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Diciembre"},{"NDMI":"-0,029152979343793076"},{"NDVI":"0,16923621299145294"},{"SAVI":"0,25381265415308046"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Diciembre"},{"max_dia":"14,79500000000003"},{"mean_dia":"14,69623178927432"},{"min_dia":"14,250000000000043"},{"max_noc":"5,345000000000027"},{"mean_noc":"5,128026814306991"},{"min_noc":"4,92000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-01-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 58.965781185765564,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Enero"},{"max_dia":"14,495000000000019"},{"mean_dia":"13,876893238915734"},{"min_dia":"12,865000000000038"},{"max_noc":"5,890000000000029"},{"mean_noc":"5,868274660592692"},{"min_noc":"5,855000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-02-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 64.14557257105713,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Febrero"},{"max_dia":"15,356666666666703"},{"mean_dia":"15,125955076451252"},{"min_dia":"15,010000000000028"},{"max_noc":"4,396666666666704"},{"mean_noc":"4,0400454046577545"},{"min_noc":"3,6633333333333553"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-07-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 8.466066976115627,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Julio"},{"NDMI":"-0,08327803382753046"},{"NDVI":"0,09389400601680646"},{"SAVI":"0,14082677206487232"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Julio"},{"max_dia":"45,76500000000004"},{"mean_dia":"44,58907187316758"},{"min_dia":"43,87000000000002"},{"max_noc":"25,860000000000042"},{"mean_noc":"25,473057936042643"},{"min_noc":"25,380000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-06-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 3.2543662942927654,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Junio"},{"NDMI":"-0,07541202932147069"},{"NDVI":"0,10652326397416254"},{"SAVI":"0,15976921933864352"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Junio"},{"max_dia":"43,70500000000003"},{"mean_dia":"43,25801429795669"},{"min_dia":"42,98500000000003"},{"max_noc":"21,780000000000044"},{"mean_noc":"21,502166907221202"},{"min_noc":"21,485000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-03-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 31.67233619482701,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Marzo"},{"NDMI":"-0,04092009099979468"},{"NDVI":"0,16406428656944397"},{"SAVI":"0,24606360521645024"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Marzo"},{"max_dia":"22,750000000000043"},{"mean_dia":"22,6949444093636"},{"min_dia":"22,52000000000004"},{"max_noc":"7,3100000000000165"},{"mean_noc":"7,079897614000299"},{"min_noc":"6,985000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-05-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 54.78622817128098,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Mayo"},{"NDMI":"-0,06885190688557305"},{"NDVI":"0,12357146827913798"},{"SAVI":"0,1853382752141224"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Mayo"},{"max_dia":"32,87000000000004"},{"mean_dia":"32,706158044292174"},{"min_dia":"32,62333333333337"},{"max_noc":"15,950000000000026"},{"mean_noc":"14,566736953678229"},{"min_noc":"14,200000000000017"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-11-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 103.09687484976848,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Noviembre"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Noviembre"},{"max_dia":"17,143333333333356"},{"mean_dia":"17,034567678498995"},{"min_dia":"16,8566666666667"},{"max_noc":"5,630000000000034"},{"mean_noc":"5,459720806458915"},{"min_noc":"5,410000000000044"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-10-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 45.73903901834697,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Octubre"},{"NDMI":"-0,07247175163747477"},{"NDVI":"0,09897637071384922"},{"SAVI":"0,14844799971179462"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Octubre"},{"max_dia":"27,240000000000023"},{"mean_dia":"27,04137116052503"},{"min_dia":"26,92000000000003"},{"max_noc":"12,205000000000027"},{"mean_noc":"11,9325207478238"},{"min_noc":"11,830000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-09-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 3.762547654719839,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Septiembre"},{"NDMI":"-0,08761390800867423"},{"NDVI":"0,09311360329748462"},{"SAVI":"0,13965513602097943"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2016"},{"Mes":"Septiembre"},{"max_dia":"38,47500000000002"},{"mean_dia":"37,590088629290506"},{"min_dia":"37,165000000000035"},{"max_noc":"18,775000000000006"},{"mean_noc":"18,72188872851927"},{"min_noc":"18,63500000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-04-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 35.90446809234038,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Abril"},{"NDMI":"-0,0665522970500073"},{"NDVI":"0,12094976324711089"},{"SAVI":"0,18140324897206184"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Abril"},{"max_dia":"33,85000000000005"},{"mean_dia":"33,71764805376391"},{"min_dia":"33,55000000000004"},{"max_noc":"14,203333333333356"},{"mean_noc":"13,639655856749807"},{"min_noc":"13,316666666666682"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-08-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 11.703511544247647,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Agosto"},{"NDMI":"-0,042602267618074986"},{"NDVI":"0,08491943603024733"},{"SAVI":"0,12736820352311903"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Agosto"},{"max_dia":"43,17500000000004"},{"mean_dia":"42,013284696224744"},{"min_dia":"41,535000000000025"},{"max_noc":"24,225000000000023"},{"mean_noc":"23,883026588787118"},{"min_noc":"23,680000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-12-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 53.30571083394986,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Diciembre"},{"NDMI":"-0,01726352833188321"},{"NDVI":"0,16846084012789259"},{"SAVI":"0,2526510315799609"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Diciembre"},{"max_dia":"11,960000000000036"},{"mean_dia":"11,954233796400736"},{"min_dia":"11,740000000000023"},{"max_noc":"2,8300000000000125"},{"mean_noc":"2,708878151639541"},{"min_noc":"2,4950000000000188"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-01-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 19.471010080906126,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Enero"},{"max_dia":"13,080000000000041"},{"mean_dia":"12,226307451174984"},{"min_dia":"11,970000000000027"},{"max_noc":"2,6900000000000404"},{"mean_noc":"2,454194217671752"},{"min_noc":"2,3100000000000165"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-02-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 50.783705992877515,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Febrero"},{"NDMI":"-0,018226749719235227"},{"NDVI":"0,1969614322768335"},{"SAVI":"0,2953997639645509"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Febrero"},{"max_dia":"16,405000000000015"},{"mean_dia":"16,310100581841173"},{"min_dia":"16,07500000000003"},{"max_noc":"6,955000000000041"},{"mean_noc":"6,8524518515177855"},{"min_noc":"6,840000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-07-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 7.029051745536918,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Julio"},{"NDMI":"-0,07065056053715266"},{"NDVI":"0,10095503915919694"},{"SAVI":"0,15141794805925302"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Julio"},{"max_dia":"45,530000000000044"},{"mean_dia":"44,4640941996303"},{"min_dia":"43,85500000000003"},{"max_noc":"25,40000000000002"},{"mean_noc":"25,122166907221175"},{"min_noc":"25,105000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-06-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 3.8887714315691824,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Junio"},{"NDMI":"-0,07958807578798384"},{"NDVI":"0,09705471897826767"},{"SAVI":"0,14556815768587433"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Junio"},{"max_dia":"45,10500000000002"},{"mean_dia":"44,478251770330694"},{"min_dia":"44,09500000000003"},{"max_noc":"23,820000000000036"},{"mean_noc":"23,53976049794782"},{"min_noc":"23,490000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-03-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 62.60289401389585,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Marzo"},{"NDMI":"-0,0419963764014281"},{"NDVI":"0,1594691579176503"},{"SAVI":"0,2391736197402676"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Marzo"},{"max_dia":"24,125000000000043"},{"mean_dia":"23,485942221821276"},{"min_dia":"23,22500000000001"},{"max_noc":"9,215000000000018"},{"mean_noc":"9,173226286590594"},{"min_noc":"9,020000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-05-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 14.571451988430795,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Mayo"},{"NDMI":"-0,05882486023843849"},{"NDVI":"0,11977719714190924"},{"SAVI":"0,17964667012310162"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Mayo"},{"max_dia":"37,33000000000003"},{"mean_dia":"36,95128208019486"},{"min_dia":"36,72000000000001"},{"max_noc":"17,875000000000014"},{"mean_noc":"17,416039984664692"},{"min_noc":"17,27000000000001"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-11-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 31.386977277144013,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Noviembre"},{"NDMI":"-0,03488052547216973"},{"NDVI":"0,14180612959910904"},{"SAVI":"0,21267964385621124"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Noviembre"},{"max_dia":"18,165000000000035"},{"mean_dia":"18,151577398403315"},{"min_dia":"17,740000000000038"},{"max_noc":"5,17000000000003"},{"mean_noc":"4,917676243741872"},{"min_noc":"4,910000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-10-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 32.191021216515736,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Octubre"},{"NDMI":"-0,06581608181122256"},{"NDVI":"0,10845597468523928"},{"SAVI":"0,1626635662710348"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Octubre"},{"max_dia":"31,423333333333364"},{"mean_dia":"30,827292258656172"},{"min_dia":"30,463333333333367"},{"max_noc":"14,32333333333336"},{"mean_noc":"14,059527460797193"},{"min_noc":"13,976666666666688"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-09-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 0.09007526574578151,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Septiembre"},{"NDMI":"-0,07213783394468584"},{"NDVI":"0,10421725217258448"},{"SAVI":"0,15630772682791622"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2017"},{"Mes":"Septiembre"},{"max_dia":"38,540000000000035"},{"mean_dia":"37,990805669568324"},{"min_dia":"37,65500000000003"},{"max_noc":"19,005000000000024"},{"mean_noc":"18,426230887195004"},{"min_noc":"18,335000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-04-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 54.732355940718236,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Abril"},{"NDMI":"0,07370062143636254"},{"NDVI":"0,2781902825495848"},{"SAVI":"0,4172399933174976"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Abril"},{"max_dia":"27,396666666666704"},{"mean_dia":"27,371665539067553"},{"min_dia":"26,896666666666704"},{"max_noc":"11,116666666666694"},{"mean_noc":"9,907393441883553"},{"min_noc":"9,510000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-08-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 4.627282831108914,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Agosto"},{"NDMI":"-0,06593443260216712"},{"NDVI":"0,10832042397042335"},{"SAVI":"0,16246353459347698"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Agosto"},{"max_dia":"42,520000000000024"},{"mean_dia":"41,541670425330466"},{"min_dia":"41,09000000000003"},{"max_noc":"24,835000000000036"},{"mean_noc":"24,387561228631967"},{"min_noc":"24,285000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-12-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 11.547990446445056,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Diciembre"},{"NDMI":"-0,02545374850695508"},{"NDVI":"0,1768017409683974"},{"SAVI":"0,26516264564287995"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Diciembre"},{"max_dia":"13,91500000000002"},{"mean_dia":"13,812247530557931"},{"min_dia":"12,835000000000022"},{"max_noc":"4,745000000000033"},{"mean_noc":"4,636076406116117"},{"min_noc":"4,605000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-01-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 47.03853350785181,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Enero"},{"max_dia":"11,743333333333377"},{"mean_dia":"11,718481349510656"},{"min_dia":"11,656666666666695"},{"max_noc":"4,140000000000029"},{"mean_noc":"4,057962992197046"},{"min_noc":"4,030000000000015"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-02-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 55.83893540051221,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Febrero"},{"NDMI":"-0,005335599124070375"},{"NDVI":"0,1925380570518689"},{"SAVI":"0,28876170377521243"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Febrero"},{"max_dia":"14,215000000000032"},{"mean_dia":"13,879653376031758"},{"min_dia":"13,475000000000023"},{"max_noc":"2,896666666666704"},{"mean_noc":"2,6849061085803148"},{"min_noc":"2,660000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-07-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 0.06725217604852674,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Julio"},{"NDMI":"-0,061423328997996886"},{"NDVI":"0,10694366969067295"},{"SAVI":"0,16040021964151957"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Julio"},{"max_dia":"44,12000000000003"},{"mean_dia":"43,33189910243119"},{"min_dia":"42,85000000000004"},{"max_noc":"23,64500000000004"},{"mean_noc":"23,501422015245133"},{"min_noc":"23,43500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-06-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 6.714593597543228,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Junio"},{"NDMI":"-0,07093978937196464"},{"NDVI":"0,10913077783597377"},{"SAVI":"0,1636803417674448"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Junio"},{"max_dia":"39,36000000000003"},{"mean_dia":"38,59370585449457"},{"min_dia":"38,45500000000003"},{"max_noc":"20,710000000000022"},{"mean_noc":"20,21086904063865"},{"min_noc":"20,205000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-03-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 205.4548922195245,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Marzo"},{"max_dia":"19,7766666666667"},{"mean_dia":"18,568501646294678"},{"min_dia":"17,830000000000027"},{"max_noc":"8,075000000000031"},{"mean_noc":"7,982626065581162"},{"min_noc":"7,905000000000015"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-05-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 33.06128962443111,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Mayo"},{"NDMI":"-0,05088741859203474"},{"NDVI":"0,1387407697425297"},{"SAVI":"0,2080885305901092"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Mayo"},{"max_dia":"35,395000000000024"},{"mean_dia":"34,825776915791"},{"min_dia":"34,180000000000035"},{"max_noc":"12,7966666666667"},{"mean_noc":"12,730639574218575"},{"min_noc":"11,930000000000044"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-11-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 75.04580066413524,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Noviembre"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Noviembre"},{"max_dia":"18,85000000000001"},{"mean_dia":"18,834584366965828"},{"min_dia":"18,15500000000003"},{"max_noc":"6,965000000000018"},{"mean_noc":"6,760220332867276"},{"min_noc":"6,425000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-10-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 67.36137724568891,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Octubre"},{"NDMI":"-0,04041696904936664"},{"NDVI":"0,12273069002003013"},{"SAVI":"0,18406776485365997"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Octubre"},{"max_dia":"27,77666666666668"},{"mean_dia":"27,726054605866533"},{"min_dia":"27,60333333333337"},{"max_noc":"12,023333333333369"},{"mean_noc":"11,927156946762295"},{"min_noc":"11,656666666666695"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-09-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 32.984502741438604,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Septiembre"},{"NDMI":"-0,07285797592985167"},{"NDVI":"0,10624478404323988"},{"SAVI":"0,15934888294603197"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2018"},{"Mes":"Septiembre"},{"max_dia":"37,64000000000003"},{"mean_dia":"36,839499571512405"},{"min_dia":"36,35000000000001"},{"max_noc":"20,110000000000028"},{"mean_noc":"19,91084581209695"},{"min_noc":"19,585000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-04-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 81.7303876775668,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Abril"},{"NDMI":"-0,06917543389172554"},{"NDVI":"0,1259192024406594"},{"SAVI":"0,18885598409516458"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Abril"},{"max_dia":"30,430000000000046"},{"mean_dia":"29,351731691549034"},{"min_dia":"29,08333333333337"},{"max_noc":"11,570000000000022"},{"mean_noc":"11,240056154435974"},{"min_noc":"10,700000000000017"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-08-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 3.8584750632182363,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Agosto"},{"NDMI":"-0,0693015052888609"},{"NDVI":"0,10758907811494473"},{"SAVI":"0,161366720281438"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Agosto"},{"max_dia":"43,530000000000044"},{"mean_dia":"42,20107787199487"},{"min_dia":"41,535000000000025"},{"max_noc":"24,64000000000003"},{"mean_noc":"24,200143656127448"},{"min_noc":"24,090000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-12-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 70.86171095964744,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Diciembre"},{"NDMI":"0,03463829492848983"},{"NDVI":"0,20562181697271745"},{"SAVI":"0,30838085765388373"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Diciembre"},{"max_dia":"14,31000000000003"},{"mean_dia":"14,243599634657874"},{"min_dia":"14,135000000000034"},{"max_noc":"5,930000000000035"},{"mean_noc":"5,848474471156052"},{"min_noc":"5,715000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-01-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 22.13967348355439,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Enero"},{"NDMI":"-0,02631913383483951"},{"NDVI":"0,17552493549535006"},{"SAVI":"0,2632463226612174"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Enero"},{"max_dia":"12,716666666666697"},{"mean_dia":"12,423535060815208"},{"min_dia":"12,285000000000025"},{"max_noc":"2,495000000000033"},{"mean_noc":"2,3181675386766787"},{"min_noc":"2,315000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-02-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 25.336744778734044,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Febrero"},{"NDMI":"-0,007892155734752644"},{"NDVI":"0,1981932198285444"},{"SAVI":"0,297246214459869"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Febrero"},{"max_dia":"20,245000000000033"},{"mean_dia":"20,06502458166072"},{"min_dia":"19,955000000000027"},{"max_noc":"5,710000000000022"},{"mean_noc":"5,535411235397628"},{"min_noc":"5,495000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-07-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 2.0021776969301186,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Julio"},{"NDMI":"-0,06695683419413724"},{"NDVI":"0,10080563617831768"},{"SAVI":"0,15119367805541586"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Julio"},{"max_dia":"43,070000000000036"},{"mean_dia":"42,08011896170682"},{"min_dia":"41,60000000000002"},{"max_noc":"24,68500000000003"},{"mean_noc":"24,434564295701566"},{"min_noc":"24,37000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-06-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 0.2270256036744911,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Junio"},{"NDMI":"-0,06199083839794285"},{"NDVI":"0,10368493354908337"},{"SAVI":"0,15551255290504476"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Junio"},{"max_dia":"41,775000000000034"},{"mean_dia":"41,28787368634702"},{"min_dia":"40,99000000000002"},{"max_noc":"21,945000000000036"},{"mean_noc":"21,35898899463263"},{"min_noc":"21,24500000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-03-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 14.039145120442242,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Marzo"},{"NDMI":"-0,048088211596466104"},{"NDVI":"0,14987226208860116"},{"SAVI":"0,22478042013620814"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Marzo"},{"max_dia":"27,66500000000002"},{"mean_dia":"27,25583656578414"},{"min_dia":"27,25000000000003"},{"max_noc":"9,640000000000029"},{"mean_noc":"9,217234337648284"},{"min_noc":"9,065000000000012"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-05-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 1.071609772939297,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Mayo"},{"NDMI":"-0,05831221187939942"},{"NDVI":"0,11544351869827399"},{"SAVI":"0,17314786612602193"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Mayo"},{"max_dia":"40,195000000000036"},{"mean_dia":"39,99332991294931"},{"min_dia":"39,87000000000003"},{"max_noc":"18,120000000000033"},{"mean_noc":"17,789593162238983"},{"min_noc":"17,72500000000005"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-11-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 86.97809078985941,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Noviembre"},{"max_dia":"15,460000000000036"},{"mean_dia":"14,835964661043691"},{"min_dia":"14,310000000000016"},{"max_noc":"5,65500000000003"},{"mean_noc":"5,5885960263407295"},{"min_noc":"5,480000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-10-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 23.895457788530194,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Octubre"},{"NDMI":"-0,03548466041799546"},{"NDVI":"0,1543726219453901"},{"SAVI":"0,23152949131307074"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Octubre"},{"max_dia":"29,83000000000004"},{"mean_dia":"29,477268353554948"},{"min_dia":"29,30333333333336"},{"max_noc":"14,390000000000043"},{"mean_noc":"13,830761505269685"},{"min_noc":"12,54333333333337"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-09-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 40.45334614073326,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Septiembre"},{"NDMI":"-0,07181687842362926"},{"NDVI":"0,11005733174934162"},{"SAVI":"0,1650674795882017"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2019"},{"Mes":"Septiembre"},{"max_dia":"35,01500000000003"},{"mean_dia":"34,4006422804564"},{"min_dia":"34,02500000000005"},{"max_noc":"18,415000000000035"},{"mean_noc":"18,145553200126294"},{"min_noc":"17,665000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-04-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 63.669418230904995,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Abril"},{"NDMI":"-0,04240848202462969"},{"NDVI":"0,14173176152855455"},{"SAVI":"0,21256324568894774"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Abril"},{"max_dia":"28,630000000000024"},{"mean_dia":"27,98925781426192"},{"min_dia":"26,940000000000012"},{"max_noc":"13,56000000000003"},{"mean_noc":"13,118240494339442"},{"min_noc":"12,955000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-08-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 19.644263631576564,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Agosto"},{"NDMI":"-0,06449026254934978"},{"NDVI":"0,10863390411983459"},{"SAVI":"0,16293379410793823"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Agosto"},{"max_dia":"43,25000000000004"},{"mean_dia":"41,99950904334487"},{"min_dia":"41,415000000000035"},{"max_noc":"23,585000000000022"},{"mean_noc":"23,068793468945998"},{"min_noc":"22,970000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-12-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 55.77777078485724,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Diciembre"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Diciembre"},{"max_dia":"12,400000000000034"},{"mean_dia":"12,227442041405498"},{"min_dia":"11,945000000000022"},{"max_noc":"4,735000000000028"},{"mean_noc":"4,531629042442869"},{"min_noc":"4,485000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-01-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 32.14161722517517,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Enero"},{"NDMI":"0,02171529211031386"},{"NDVI":"0,19631048920411498"},{"SAVI":"0,29442444216540375"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Enero"},{"max_dia":"11,360000000000028"},{"mean_dia":"11,261078435794557"},{"min_dia":"10,390000000000024"},{"max_noc":"4,17500000000004"},{"mean_noc":"4,022292070723035"},{"min_noc":"3,9900000000000375"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-02-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 4.282135153367506,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Febrero"},{"NDMI":"0,05961602760426755"},{"NDVI":"0,2766299168097484"},{"SAVI":"0,4148911687339758"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Febrero"},{"max_dia":"20,710000000000036"},{"mean_dia":"20,44451761309821"},{"min_dia":"20,010000000000034"},{"max_noc":"8,240000000000023"},{"mean_noc":"8,052652789680259"},{"min_noc":"8,045000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-07-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 4.717575657760875,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Julio"},{"NDMI":"-0,07020558920931688"},{"NDVI":"0,1035169629718778"},{"SAVI":"0,15526001614316"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Julio"},{"max_dia":"44,910000000000025"},{"mean_dia":"43,73740674755309"},{"min_dia":"43,11500000000002"},{"max_noc":"26,825000000000017"},{"mean_noc":"26,318101235848633"},{"min_noc":"26,225000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-06-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 7.584493790186997,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Junio"},{"NDMI":"-0,07309118822316417"},{"NDVI":"0,10274152000775798"},{"SAVI":"0,15409682010095688"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Junio"},{"max_dia":"41,51000000000003"},{"mean_dia":"41,07184633079258"},{"min_dia":"40,810000000000045"},{"max_noc":"22,28333333333336"},{"mean_noc":"22,166030212138956"},{"min_noc":"22,03666666666669"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-03-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 56.73393447112218,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Marzo"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Marzo"},{"max_dia":"24,875000000000043"},{"mean_dia":"24,317491317486798"},{"min_dia":"23,40500000000003"},{"max_noc":"9,810000000000045"},{"mean_noc":"9,64936910829461"},{"min_noc":"9,640000000000015"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-05-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 32.796079634440645,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Mayo"},{"NDMI":"-0,06191426047852232"},{"NDVI":"0,11592382666628213"},{"SAVI":"0,17386681168695556"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Mayo"},{"max_dia":"38,18333333333336"},{"mean_dia":"36,5111748079323"},{"min_dia":"35,49000000000003"},{"max_noc":"19,960000000000008"},{"mean_noc":"18,08706185257014"},{"min_noc":"16,943333333333346"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-11-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 61.75435136384522,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Noviembre"},{"NDMI":"-0,04982884641073308"},{"NDVI":"0,1384311182359252"},{"SAVI":"0,2076153066503074"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Noviembre"},{"max_dia":"19,423333333333364"},{"mean_dia":"19,261500308210415"},{"min_dia":"18,99666666666671"},{"max_noc":"8,730000000000038"},{"mean_noc":"8,49721498053013"},{"min_noc":"8,443333333333365"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-10-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 24.25235936607706,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Octubre"},{"NDMI":"-0,06063708495623759"},{"NDVI":"0,13111910496286827"},{"SAVI":"0,19665343975002053"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Octubre"},{"max_dia":"26,995000000000033"},{"mean_dia":"26,53140498849852"},{"min_dia":"26,16500000000002"},{"max_noc":"11,26000000000002"},{"mean_noc":"11,104537571602567"},{"min_noc":"11,095000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-09-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 36.21568523690755,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Septiembre"},{"NDMI":"-0,06726975517038239"},{"NDVI":"0,10988257936659492"},{"SAVI":"0,16480576321107027"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2020"},{"Mes":"Septiembre"},{"max_dia":"35,26500000000003"},{"mean_dia":"34,65862545667775"},{"min_dia":"34,35500000000003"},{"max_noc":"17,555000000000035"},{"mean_noc":"16,62712744125208"},{"min_noc":"16,060000000000045"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-04-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 53.430675597173405,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Abril"},{"NDMI":"-0,05298529801579024"},{"NDVI":"0,15040771753837298"},{"SAVI":"0,22558390651666882"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Abril"},{"max_dia":"22,60333333333337"},{"mean_dia":"22,557606633289797"},{"min_dia":"21,960000000000036"},{"max_noc":"9,160000000000025"},{"mean_noc":"8,16016410325803"},{"min_noc":"6,936666666666706"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-08-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 7.552071224331769,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Agosto"},{"NDMI":"-0,06050912760473557"},{"NDVI":"0,10897083460191989"},{"SAVI":"0,1634396868617746"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Agosto"},{"max_dia":"42,69500000000005"},{"mean_dia":"41,15702764873027"},{"min_dia":"40,58000000000003"},{"max_noc":"24,42000000000003"},{"mean_noc":"24,028407830048284"},{"min_noc":"23,960000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-12-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 59.94976898504589,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Diciembre"},{"NDMI":"-0,03005172762961759"},{"NDVI":"0,16962618451472639"},{"SAVI":"0,25439769834303605"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Diciembre"},{"max_dia":"14,79000000000004"},{"mean_dia":"14,784872881992994"},{"min_dia":"14,590000000000032"},{"max_noc":"5,620000000000019"},{"mean_noc":"5,443871273284958"},{"min_noc":"5,270000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-01-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 103.03771334423573,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Enero"},{"NDMI":"-5,400361752816585E-4"},{"NDVI":"0,12343764453815705"},{"SAVI":"0,1851345165362012"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Enero"},{"max_dia":"11,840000000000032"},{"mean_dia":"11,482944274051734"},{"min_dia":"11,125000000000028"},{"max_noc":"2,8850000000000335"},{"mean_noc":"2,339019890848417"},{"min_noc":"1,9850000000000136"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-02-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 46.159707753211876,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Febrero"},{"NDMI":"0,05908619471725409"},{"NDVI":"0,22214677380282807"},{"SAVI":"0,33316637696660123"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Febrero"},{"max_dia":"18,443333333333367"},{"mean_dia":"18,195774923699172"},{"min_dia":"17,37500000000003"},{"max_noc":"7,370000000000033"},{"mean_noc":"7,2148856614496575"},{"min_noc":"7,190000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-07-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 0.09181292642779226,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Julio"},{"NDMI":"-0,0619021142168576"},{"NDVI":"0,1138150553883789"},{"SAVI":"0,1707059213309886"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Julio"},{"max_dia":"44,04000000000002"},{"mean_dia":"42,939965720987004"},{"min_dia":"42,31000000000002"},{"max_noc":"24,770000000000024"},{"mean_noc":"24,489752943033753"},{"min_noc":"24,465000000000046"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-06-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 21.574372922241736,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Junio"},{"NDMI":"-0,06442445201900304"},{"NDVI":"0,11618790040702479"},{"SAVI":"0,17426387549834704"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Junio"},{"max_dia":"43,84000000000003"},{"mean_dia":"43,026107640611656"},{"min_dia":"42,67500000000004"},{"max_noc":"22,115000000000023"},{"mean_noc":"21,835101032880807"},{"min_noc":"21,835000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-03-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 15.47471442095727,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Marzo"},{"NDMI":"-0,01774838658906528"},{"NDVI":"0,17575391554762732"},{"SAVI":"0,2635963087912095"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Marzo"},{"max_dia":"26,365000000000023"},{"mean_dia":"26,358668530963893"},{"min_dia":"26,01500000000003"},{"max_noc":"9,940000000000026"},{"mean_noc":"9,580833634026446"},{"min_noc":"9,41000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-05-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 12.409521716470806,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Mayo"},{"NDMI":"-0,06487061110640502"},{"NDVI":"0,120447401608328"},{"SAVI":"0,18065215607836826"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Mayo"},{"max_dia":"37,06000000000003"},{"mean_dia":"36,982961188038416"},{"min_dia":"36,95500000000003"},{"max_noc":"15,860000000000042"},{"mean_noc":"15,598368476839138"},{"min_noc":"15,585000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-11-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 55.13556721482615,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Noviembre"},{"NDMI":"-0,048296076330125684"},{"NDVI":"0,15014536896454656"},{"SAVI":"0,22518588873255835"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Noviembre"},{"max_dia":"17,690000000000026"},{"mean_dia":"17,140504375084564"},{"min_dia":"16,755000000000024"},{"max_noc":"5,205000000000027"},{"mean_noc":"5,109515921699539"},{"min_noc":"5,100000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-10-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 50.9840359364091,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Octubre"},{"NDMI":"-0,07175799284223905"},{"NDVI":"0,12930453002702855"},{"SAVI":"0,19393150948764118"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Octubre"},{"max_dia":"31,330000000000023"},{"mean_dia":"31,061005517718282"},{"min_dia":"30,896666666666686"},{"max_noc":"12,916666666666686"},{"mean_noc":"12,795306932479408"},{"min_noc":"12,596666666666692"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-09-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 22.211670285173568,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Septiembre"},{"NDMI":"-0,06579428562029414"},{"NDVI":"0,11341967500249132"},{"SAVI":"0,17011081621050983"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2021"},{"Mes":"Septiembre"},{"max_dia":"35,400000000000034"},{"mean_dia":"34,64952155969517"},{"min_dia":"34,21500000000003"},{"max_noc":"17,745000000000033"},{"mean_noc":"17,689135356997923"},{"min_noc":"17,65500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-04-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 67.67311504820839,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Abril"},{"max_dia":"28,176666666666694"},{"mean_dia":"28,048354156330426"},{"min_dia":"27,970000000000027"},{"max_noc":"10,730000000000038"},{"mean_noc":"10,006587133342382"},{"min_noc":"9,956666666666706"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-08-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 3.965522363937879,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Agosto"},{"NDMI":"-0,0551170030488154"},{"NDVI":"0,06845632256053068"},{"SAVI":"0,10267707220123093"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Agosto"},{"max_dia":"42,85000000000004"},{"mean_dia":"42,17348044743142"},{"min_dia":"41,76000000000002"},{"max_noc":"24,715000000000032"},{"mean_noc":"24,295832619187266"},{"min_noc":"24,235000000000014"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-12-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 101.25436924602127,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Diciembre"},{"NDMI":"0,01975722257373511"},{"NDVI":"0,125272769491809"},{"SAVI":"0,18789199104028412"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Diciembre"},{"max_dia":"13,200000000000031"},{"mean_dia":"13,061349134755625"},{"min_dia":"12,976666666666688"},{"max_noc":"7,056666666666691"},{"mean_noc":"6,557598664922657"},{"min_noc":"5,816666666666701"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-01-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 12.141697156529574,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Enero"},{"NDMI":"-0,028217487439317474"},{"NDVI":"0,1541057222415365"},{"SAVI":"0,23112587875026633"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Enero"},{"max_dia":"13,955000000000027"},{"mean_dia":"13,761500157863862"},{"min_dia":"13,445000000000036"},{"max_noc":"3,545000000000016"},{"mean_noc":"3,4557286545487536"},{"min_noc":"3,3750000000000284"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-02-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 17.754083932420173,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Febrero"},{"NDMI":"-0,028660400954188477"},{"NDVI":"0,10356920587041307"},{"SAVI":"0,15534018081253909"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Febrero"},{"max_dia":"21,44500000000002"},{"mean_dia":"21,358028280185792"},{"min_dia":"21,17000000000003"},{"max_noc":"7,27500000000002"},{"mean_noc":"7,159878783095052"},{"min_noc":"7,04500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-07-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 2.7019629034121806,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Julio"},{"NDMI":"-0,05050062897088382"},{"NDVI":"0,07549877456250811"},{"SAVI":"0,11324029997760753"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Julio"},{"max_dia":"47,905000000000044"},{"mean_dia":"47,04856456632526"},{"min_dia":"46,52500000000002"},{"max_noc":"27,590000000000032"},{"mean_noc":"27,113801700419433"},{"min_noc":"27,005000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-06-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 3.3489883860440273,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Junio"},{"NDMI":"-0,04762367324565758"},{"NDVI":"0,08099621983508372"},{"SAVI":"0,1214858307034622"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Junio"},{"max_dia":"43,315000000000026"},{"mean_dia":"42,722327928374845"},{"min_dia":"42,36000000000003"},{"max_noc":"22,70000000000003"},{"mean_noc":"22,4768140814578"},{"min_noc":"22,365000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-03-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 98.5889240043143,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Marzo"},{"NDMI":"-0,05181081682388466"},{"NDVI":"0,08673864449876054"},{"SAVI":"0,13009640155937424"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Marzo"},{"max_dia":"20,936666666666707"},{"mean_dia":"19,2136138048201"},{"min_dia":"18,160000000000025"},{"max_noc":"6,55000000000004"},{"mean_noc":"6,4400396914889155"},{"min_noc":"6,440000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-05-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 10.594585390006017,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Mayo"},{"NDMI":"-0,052041713026065264"},{"NDVI":"0,08457982846329287"},{"SAVI":"0,12686038273722922"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Mayo"},{"max_dia":"39,20000000000003"},{"mean_dia":"38,613406815209096"},{"min_dia":"38,25500000000004"},{"max_noc":"18,520000000000024"},{"mean_noc":"18,030524897388464"},{"min_noc":"17,990000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-11-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 33.14639990253454,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Noviembre"},{"NDMI":"-0,023720467122883022"},{"NDVI":"0,09877066828219987"},{"SAVI":"0,14814098748265467"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Noviembre"},{"max_dia":"19,985000000000028"},{"mean_dia":"19,876652722024332"},{"min_dia":"19,16000000000004"},{"max_noc":"8,205000000000027"},{"mean_noc":"8,056008975689005"},{"min_noc":"7,965000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-10-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 14.072332719837988,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Octubre"},{"NDMI":"-0,04168044003302512"},{"NDVI":"0,0828076197772385"},{"SAVI":"0,12420149606860817"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Octubre"},{"max_dia":"32,35000000000002"},{"mean_dia":"32,03334468449782"},{"min_dia":"31,82000000000002"},{"max_noc":"16,02000000000004"},{"mean_noc":"15,725617247756073"},{"min_noc":"15,680000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-09-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 30.916750546271743,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Septiembre"},{"NDMI":"-0,0516883693605967"},{"NDVI":"0,07417296983598323"},{"SAVI":"0,11125082740264437"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2022"},{"Mes":"Septiembre"},{"max_dia":"37,25500000000004"},{"mean_dia":"36,95713883000311"},{"min_dia":"36,77500000000002"},{"max_noc":"19,475000000000023"},{"mean_noc":"19,117914618194984"},{"min_noc":"18,79500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-04-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 1.2855474271340483,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Abril"},{"NDMI":"-0,025143968138207993"},{"NDVI":"0,12830535973208204"},{"SAVI":"0,19244441044828456"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Abril"},{"max_dia":"35,79000000000002"},{"mean_dia":"35,243754303669895"},{"min_dia":"34,910000000000025"},{"max_noc":"15,576666666666691"},{"mean_noc":"15,382230541397936"},{"min_noc":"15,263333333333378"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-08-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 0.0774805283931812,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Agosto"},{"NDMI":"-0,05356700515612696"},{"NDVI":"0,08033062593419746"},{"SAVI":"0,12048766317774727"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Agosto"},{"max_dia":"45,660000000000025"},{"mean_dia":"44,40905225294314"},{"min_dia":"43,64500000000004"},{"max_noc":"25,89000000000003"},{"mean_noc":"25,463265301520003"},{"min_noc":"25,370000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-12-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 31.71774700454222,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Diciembre"},{"NDMI":"0,05774233706380967"},{"NDVI":"0,19188702417864434"},{"SAVI":"0,28780463804648854"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Diciembre"},{"max_dia":"11,140000000000029"},{"mean_dia":"11,109367191376172"},{"min_dia":"10,300000000000026"},{"max_noc":"4,695000000000022"},{"mean_noc":"4,608312886202712"},{"min_noc":"4,540000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-01-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 34.48200555188308,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Enero"},{"NDMI":"0,07508450240198473"},{"NDVI":"0,21604481488439375"},{"SAVI":"0,3240402610317527"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Enero"},{"max_dia":"11,40000000000002"},{"mean_dia":"11,382852938523337"},{"min_dia":"11,16000000000004"},{"max_noc":"3,995000000000033"},{"mean_noc":"3,780565490956673"},{"min_noc":"3,355000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-02-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 12.232096762449629,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Febrero"},{"NDMI":"0,07706369470280668"},{"NDVI":"0,20709199997053485"},{"SAVI":"0,3106132203614915"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Febrero"},{"max_dia":"16,57500000000003"},{"mean_dia":"16,248751860538576"},{"min_dia":"15,255000000000038"},{"max_noc":"3,9900000000000233"},{"mean_noc":"3,9524283974561705"},{"min_noc":"3,9400000000000404"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-07-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 1.5431605878575283,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Julio"},{"NDMI":"-0,059158397583060345"},{"NDVI":"0,08280851323871705"},{"SAVI":"0,12420428145583919"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Julio"},{"max_dia":"45,650000000000034"},{"mean_dia":"45,14408314915884"},{"min_dia":"44,83500000000002"},{"max_noc":"26,095000000000027"},{"mean_noc":"25,791998105633528"},{"min_noc":"25,735000000000014"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-06-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 23.71845358440794,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Junio"},{"NDMI":"-0,07025786735023068"},{"NDVI":"0,09739292301401493"},{"SAVI":"0,14607912717652557"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Junio"},{"max_dia":"42,665000000000035"},{"mean_dia":"42,02549682017056"},{"min_dia":"41,63500000000003"},{"max_noc":"23,840000000000032"},{"mean_noc":"23,687299625637124"},{"min_noc":"23,650000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-03-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 14.46037524866739,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Marzo"},{"NDMI":"0,04057662274684017"},{"NDVI":"0,19333188433925613"},{"SAVI":"0,2899754151426969"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Marzo"},{"max_dia":"26,115000000000023"},{"mean_dia":"25,789089238194105"},{"min_dia":"25,590000000000046"},{"max_noc":"11,085000000000036"},{"mean_noc":"10,762538789409618"},{"min_noc":"10,660000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-05-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 53.66564678156038,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Mayo"},{"NDMI":"-0,02462815020535736"},{"NDVI":"0,11970900389462118"},{"SAVI":"0,17955187667224803"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Mayo"},{"max_dia":"36,20000000000003"},{"mean_dia":"35,12001939470482"},{"min_dia":"34,46000000000002"},{"max_noc":"18,930000000000007"},{"mean_noc":"18,73799512877179"},{"min_noc":"18,700000000000045"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-11-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 23.453560505608095,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Noviembre"},{"NDMI":"-0,020532542489799865"},{"NDVI":"0,12227105891176267"},{"SAVI":"0,18339118469864293"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Noviembre"},{"max_dia":"17,600000000000023"},{"mean_dia":"17,550633034143683"},{"min_dia":"17,37500000000003"},{"max_noc":"7,935000000000031"},{"mean_noc":"7,829527084930779"},{"min_noc":"7,755000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-10-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 66.05077209066224,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Octubre"},{"NDMI":"-0,05512485853571887"},{"NDVI":"0,08414281983924199"},{"SAVI":"0,12620449808180884"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Octubre"},{"max_dia":"25,970000000000027"},{"mean_dia":"25,959791469336885"},{"min_dia":"25,696666666666697"},{"max_noc":"15,056666666666692"},{"mean_noc":"11,950777742696932"},{"min_noc":"10,56333333333337"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-09-01', 'YYYY-MM-DD'), 23, 32, 'J4', 3, 101, 3, 38.07673236241271,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Septiembre"},{"NDMI":"-0,061826048216472036"},{"NDVI":"0,08230519755153178"},{"SAVI":"0,12344857213460061"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:32:3:101:3"},{"Año":"2023"},{"Mes":"Septiembre"},{"max_dia":"35,51500000000003"},{"mean_dia":"35,34744035000672"},{"min_dia":"35,24500000000003"},{"max_noc":"19,335000000000022"},{"mean_noc":"18,92188263948408"},{"min_noc":"18,810000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-04-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 92.01443028057454,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Abril"},{"NDMI":"-0,03709275390370324"},{"NDVI":"0,17810473279760344"},{"SAVI":"0,26713637611509794"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Abril"},{"max_dia":"28,245000000000033"},{"mean_dia":"28,245000000000033"},{"min_dia":"28,245000000000033"},{"max_noc":"10,520000000000053"},{"mean_noc":"10,520000000000053"},{"min_noc":"10,520000000000053"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-08-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 8.291528902681478,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Agosto"},{"NDMI":"-0,07354692675343637"},{"NDVI":"0,1295440742672075"},{"SAVI":"0,19430163380593102"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Agosto"},{"max_dia":"44,42000000000003"},{"mean_dia":"44,42000000000003"},{"min_dia":"44,42000000000003"},{"max_noc":"24,240000000000038"},{"mean_noc":"24,240000000000038"},{"min_noc":"24,240000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-12-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 67.32368434059666,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Diciembre"},{"NDMI":"0,007548771725706732"},{"NDVI":"0,21267134212685398"},{"SAVI":"0,31897162074428775"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Diciembre"},{"max_dia":"13,705000000000027"},{"mean_dia":"13,705000000000027"},{"min_dia":"13,705000000000027"},{"max_noc":"4,7900000000000205"},{"mean_noc":"4,7900000000000205"},{"min_noc":"4,7900000000000205"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-01-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 63.31338867916614,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Enero"},{"max_dia":"11,336666666666702"},{"mean_dia":"11,336666666666702"},{"min_dia":"11,336666666666702"},{"max_noc":"6,6850000000000165"},{"mean_noc":"6,6850000000000165"},{"min_noc":"6,6850000000000165"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-02-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 70.40765145232086,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Febrero"},{"max_dia":"14,396666666666684"},{"mean_dia":"14,396666666666684"},{"min_dia":"14,396666666666684"},{"max_noc":"3,683333333333375"},{"mean_noc":"3,683333333333375"},{"min_noc":"3,683333333333375"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-07-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 14.893518944308681,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Julio"},{"NDMI":"-0,06930007180574256"},{"NDVI":"0,13340793974831916"},{"SAVI":"0,20009744374305127"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Julio"},{"max_dia":"45,270000000000024"},{"mean_dia":"45,270000000000024"},{"min_dia":"45,270000000000024"},{"max_noc":"24,795000000000044"},{"mean_noc":"24,795000000000044"},{"min_noc":"24,795000000000044"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-06-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 2.6059571661036784,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Junio"},{"NDMI":"-0,06465483192931545"},{"NDVI":"0,1342405493322033"},{"SAVI":"0,20134634946230545"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Junio"},{"max_dia":"42,60000000000002"},{"mean_dia":"42,60000000000002"},{"min_dia":"42,60000000000002"},{"max_noc":"21,165000000000035"},{"mean_noc":"21,165000000000035"},{"min_noc":"21,165000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-03-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 32.52098712713902,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Marzo"},{"NDMI":"-0,030024891508987343"},{"NDVI":"0,16295844939928328"},{"SAVI":"0,24441879852933807"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Marzo"},{"max_dia":"22,705000000000027"},{"mean_dia":"22,705000000000027"},{"min_dia":"22,705000000000027"},{"max_noc":"7,3300000000000125"},{"mean_noc":"7,3300000000000125"},{"min_noc":"7,3300000000000125"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-05-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 82.8073849591533,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Mayo"},{"NDMI":"-0,0429472049954"},{"NDVI":"0,14201682287915235"},{"SAVI":"0,21301006512659362"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Mayo"},{"max_dia":"31,730000000000036"},{"mean_dia":"31,730000000000036"},{"min_dia":"31,730000000000036"},{"max_noc":"14,803333333333342"},{"mean_noc":"14,803333333333342"},{"min_noc":"14,803333333333342"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-11-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 130.23196388957103,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Noviembre"},{"NDMI":"0,007553866039583886"},{"NDVI":"0,06883154581400344"},{"SAVI":"0,10323896161218654"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Noviembre"},{"max_dia":"16,95666666666669"},{"mean_dia":"16,95666666666669"},{"min_dia":"16,95666666666669"},{"max_noc":"5,723333333333376"},{"mean_noc":"5,723333333333376"},{"min_noc":"5,723333333333376"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-10-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 70.27137203474254,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Octubre"},{"NDMI":"-0,05223387338282608"},{"NDVI":"0,15576652618684916"},{"SAVI":"0,23363028078412773"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Octubre"},{"max_dia":"25,935000000000016"},{"mean_dia":"25,935000000000016"},{"min_dia":"25,935000000000016"},{"max_noc":"12,340000000000032"},{"mean_noc":"12,340000000000032"},{"min_noc":"12,340000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-09-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 8.007620257945547,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Septiembre"},{"NDMI":"-0,04314083828357039"},{"NDVI":"0,13831344961753833"},{"SAVI":"0,2074543617832369"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2016"},{"Mes":"Septiembre"},{"max_dia":"39,06000000000003"},{"mean_dia":"39,06000000000003"},{"min_dia":"39,06000000000003"},{"max_noc":"18,54000000000002"},{"mean_noc":"18,54000000000002"},{"min_noc":"18,54000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-04-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 49.48343435229674,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Abril"},{"NDMI":"-0,045441876129851545"},{"NDVI":"0,17198598876371854"},{"SAVI":"0,25795930635190056"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Abril"},{"max_dia":"33,79000000000002"},{"mean_dia":"33,79000000000002"},{"min_dia":"33,79000000000002"},{"max_noc":"13,54333333333337"},{"mean_noc":"13,54333333333337"},{"min_noc":"13,54333333333337"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-08-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 33.61486441709616,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Agosto"},{"NDMI":"-0,06730923260953114"},{"NDVI":"0,13142708763532718"},{"SAVI":"0,19712542377353776"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Agosto"},{"max_dia":"44,08500000000002"},{"mean_dia":"44,08500000000002"},{"min_dia":"44,08500000000002"},{"max_noc":"23,55000000000004"},{"mean_noc":"23,55000000000004"},{"min_noc":"23,55000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-12-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 49.205179494304474,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Diciembre"},{"NDMI":"0,012715880372748845"},{"NDVI":"0,181383487903179"},{"SAVI":"0,2720508913477277"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Diciembre"},{"max_dia":"12,575000000000031"},{"mean_dia":"12,575000000000031"},{"min_dia":"12,575000000000031"},{"max_noc":"2,615000000000009"},{"mean_noc":"2,615000000000009"},{"min_noc":"2,615000000000009"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-01-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 18.817936889263365,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Enero"},{"max_dia":"13,03000000000003"},{"mean_dia":"13,03000000000003"},{"min_dia":"13,03000000000003"},{"max_noc":"2,610000000000028"},{"mean_noc":"2,610000000000028"},{"min_noc":"2,610000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-02-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 67.64428047674897,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Febrero"},{"NDMI":"-0,022707265093103227"},{"NDVI":"0,2124660314048739"},{"SAVI":"0,31866635712190833"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Febrero"},{"max_dia":"14,38500000000002"},{"mean_dia":"14,38500000000002"},{"min_dia":"14,38500000000002"},{"max_noc":"6,9150000000000205"},{"mean_noc":"6,9150000000000205"},{"min_noc":"6,9150000000000205"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-07-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 9.066085184219475,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Julio"},{"NDMI":"-0,06217148182140688"},{"NDVI":"0,13944577172831585"},{"SAVI":"0,209152928451459"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Julio"},{"max_dia":"46,92000000000003"},{"mean_dia":"46,92000000000003"},{"min_dia":"46,92000000000003"},{"max_noc":"24,67000000000003"},{"mean_noc":"24,67000000000003"},{"min_noc":"24,67000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-06-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 6.010473268155181,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Junio"},{"NDMI":"-0,04952980645826699"},{"NDVI":"0,12056442363376035"},{"SAVI":"0,18083072833170524"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Junio"},{"max_dia":"44,945000000000036"},{"mean_dia":"44,945000000000036"},{"min_dia":"44,945000000000036"},{"max_noc":"22,475000000000037"},{"mean_noc":"22,475000000000037"},{"min_noc":"22,475000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-03-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 68.71318966723905,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Marzo"},{"NDMI":"-0,0510803733292969"},{"NDVI":"0,1764767951831839"},{"SAVI":"0,26469282257670074"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Marzo"},{"max_dia":"23,105000000000032"},{"mean_dia":"23,105000000000032"},{"min_dia":"23,105000000000032"},{"max_noc":"8,750000000000028"},{"mean_noc":"8,750000000000028"},{"min_noc":"8,750000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-05-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 25.20991250536042,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Mayo"},{"NDMI":"-0,05104364570434559"},{"NDVI":"0,16336060200868907"},{"SAVI":"0,24502317403014637"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Mayo"},{"max_dia":"36,420000000000016"},{"mean_dia":"36,420000000000016"},{"min_dia":"36,420000000000016"},{"max_noc":"16,385000000000034"},{"mean_noc":"16,385000000000034"},{"min_noc":"16,385000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-11-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 39.963236294134674,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Noviembre"},{"NDMI":"-0,02055544447948499"},{"NDVI":"0,186595233188046"},{"SAVI":"0,27986778493626907"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Noviembre"},{"max_dia":"17,935000000000045"},{"mean_dia":"17,935000000000045"},{"min_dia":"17,935000000000045"},{"max_noc":"4,975000000000023"},{"mean_noc":"4,975000000000023"},{"min_noc":"4,975000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-10-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 47.99671269715233,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Octubre"},{"NDMI":"-0,04668636404994136"},{"NDVI":"0,1634122868924792"},{"SAVI":"0,24509693047828743"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Octubre"},{"max_dia":"31,430000000000025"},{"mean_dia":"31,430000000000025"},{"min_dia":"31,430000000000025"},{"max_noc":"13,703333333333356"},{"mean_noc":"13,703333333333356"},{"min_noc":"13,703333333333356"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-09-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 0.11846197782006129,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Septiembre"},{"NDMI":"-0,07163235839057822"},{"NDVI":"0,14884320257597813"},{"SAVI":"0,22324652242902768"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2017"},{"Mes":"Septiembre"},{"max_dia":"39,08500000000002"},{"mean_dia":"39,08500000000002"},{"min_dia":"39,08500000000002"},{"max_noc":"18,335000000000022"},{"mean_noc":"18,335000000000022"},{"min_noc":"18,335000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-04-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 71.16990135945755,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Abril"},{"NDMI":"-0,023985256209099907"},{"NDVI":"0,18706782604736552"},{"SAVI":"0,2805775123911758"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Abril"},{"max_dia":"27,2966666666667"},{"mean_dia":"27,2966666666667"},{"min_dia":"27,2966666666667"},{"max_noc":"11,130000000000015"},{"mean_noc":"11,130000000000015"},{"min_noc":"11,130000000000015"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-08-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 8.698831412232266,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Agosto"},{"NDMI":"-0,06342768942221312"},{"NDVI":"0,133120901569706"},{"SAVI":"0,1996657525164455"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Agosto"},{"max_dia":"42,86500000000004"},{"mean_dia":"42,86500000000004"},{"min_dia":"42,86500000000004"},{"max_noc":"23,860000000000028"},{"mean_noc":"23,860000000000028"},{"min_noc":"23,860000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-12-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 13.503365521785327,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Diciembre"},{"NDMI":"0,015059168759362982"},{"NDVI":"0,20536873970701566"},{"SAVI":"0,3080200576152137"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Diciembre"},{"max_dia":"13,29000000000002"},{"mean_dia":"13,29000000000002"},{"min_dia":"13,29000000000002"},{"max_noc":"4,28000000000003"},{"mean_noc":"4,28000000000003"},{"min_noc":"4,28000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-01-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 56.53221231606409,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Enero"},{"max_dia":"12,820000000000036"},{"mean_dia":"12,820000000000036"},{"min_dia":"12,820000000000036"},{"max_noc":"3,485000000000042"},{"mean_noc":"3,485000000000042"},{"min_noc":"3,485000000000042"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-02-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 48.408530975844855,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Febrero"},{"NDMI":"-0,0033949888242570253"},{"NDVI":"0,19880821617728428"},{"SAVI":"0,2981820455557193"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Febrero"},{"max_dia":"13,710000000000036"},{"mean_dia":"13,710000000000036"},{"min_dia":"13,710000000000036"},{"max_noc":"2,8750000000000284"},{"mean_noc":"2,8750000000000284"},{"min_noc":"2,8750000000000284"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-07-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 0.04552628302789685,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Julio"},{"NDMI":"-0,05080089994535858"},{"NDVI":"0,1370007795526358"},{"SAVI":"0,20548664006208703"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Julio"},{"max_dia":"44,800000000000026"},{"mean_dia":"44,800000000000026"},{"min_dia":"44,800000000000026"},{"max_noc":"22,865000000000038"},{"mean_noc":"22,865000000000038"},{"min_noc":"22,865000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-06-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 9.028699227464188,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Junio"},{"NDMI":"0,03781706484027833"},{"NDVI":"0,11721829004344841"},{"SAVI":"0,17581565393919935"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Junio"},{"max_dia":"38,89500000000004"},{"mean_dia":"38,89500000000004"},{"min_dia":"38,89500000000004"},{"max_noc":"20,82500000000003"},{"mean_noc":"20,82500000000003"},{"min_noc":"20,82500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-03-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 244.04459327600492,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Marzo"},{"max_dia":"15,950000000000026"},{"mean_dia":"15,950000000000026"},{"min_dia":"15,950000000000026"},{"max_noc":"7,270000000000039"},{"mean_noc":"7,270000000000039"},{"min_noc":"7,270000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-05-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 38.41679675982235,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Mayo"},{"NDMI":"-0,042483850426182135"},{"NDVI":"0,16524741379093863"},{"SAVI":"0,2478531623371005"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Mayo"},{"max_dia":"33,47500000000002"},{"mean_dia":"33,47500000000002"},{"min_dia":"33,47500000000002"},{"max_noc":"12,130000000000033"},{"mean_noc":"12,130000000000033"},{"min_noc":"12,130000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-11-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 103.3562932989085,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Noviembre"},{"NDMI":"0,02802004592291307"},{"NDVI":"0,1853929570602893"},{"SAVI":"0,27806492433691876"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Noviembre"},{"max_dia":"15,380000000000038"},{"mean_dia":"15,380000000000038"},{"min_dia":"15,380000000000038"},{"max_noc":"7,2050000000000125"},{"mean_noc":"7,2050000000000125"},{"min_noc":"7,2050000000000125"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-10-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 105.2593813007121,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Octubre"},{"NDMI":"-0,06621029106838182"},{"NDVI":"0,1554247058281115"},{"SAVI":"0,23311777048092108"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Octubre"},{"max_dia":"26,170000000000034"},{"mean_dia":"26,170000000000034"},{"min_dia":"26,170000000000034"},{"max_noc":"11,396666666666704"},{"mean_noc":"11,396666666666704"},{"min_noc":"11,396666666666704"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-09-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 65.11110825215027,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Septiembre"},{"NDMI":"-0,06463640912433702"},{"NDVI":"0,1352593430273285"},{"SAVI":"0,2028724313120745"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2018"},{"Mes":"Septiembre"},{"max_dia":"37,70000000000002"},{"mean_dia":"37,70000000000002"},{"min_dia":"37,70000000000002"},{"max_noc":"19,665000000000035"},{"mean_noc":"19,665000000000035"},{"min_noc":"19,665000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-04-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 91.91293226660946,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Abril"},{"NDMI":"-0,04553612066298877"},{"NDVI":"0,15071213524357094"},{"SAVI":"0,22605168288213406"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Abril"},{"max_dia":"30,04333333333335"},{"mean_dia":"30,04333333333335"},{"min_dia":"30,04333333333335"},{"max_noc":"10,563333333333352"},{"mean_noc":"10,563333333333352"},{"min_noc":"10,563333333333352"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-08-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 8.461846087350011,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Agosto"},{"NDMI":"-0,06532174378905918"},{"NDVI":"0,12571713836480147"},{"SAVI":"0,18856177212164632"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Agosto"},{"max_dia":"44,88500000000003"},{"mean_dia":"44,88500000000003"},{"min_dia":"44,88500000000003"},{"max_noc":"23,895000000000024"},{"mean_noc":"23,895000000000024"},{"min_noc":"23,895000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-12-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 82.7532548248513,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Diciembre"},{"NDMI":"0,025163201300973666"},{"NDVI":"0,22050352370828724"},{"SAVI":"0,33071908276861306"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Diciembre"},{"max_dia":"14,475000000000009"},{"mean_dia":"14,475000000000009"},{"min_dia":"14,475000000000009"},{"max_noc":"5,870000000000019"},{"mean_noc":"5,870000000000019"},{"min_noc":"5,870000000000019"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-01-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 23.396348011676338,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Enero"},{"NDMI":"-0,006723389550233655"},{"NDVI":"0,19259750076902063"},{"SAVI":"0,2888675962062965"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Enero"},{"max_dia":"13,27000000000002"},{"mean_dia":"13,27000000000002"},{"min_dia":"13,27000000000002"},{"max_noc":"2,0950000000000273"},{"mean_noc":"2,0950000000000273"},{"min_noc":"2,0950000000000273"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-02-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 27.303981178384618,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Febrero"},{"NDMI":"-0,0060471457995872864"},{"NDVI":"0,21900895903019063"},{"SAVI":"0,3284790932214357"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Febrero"},{"max_dia":"19,840000000000018"},{"mean_dia":"19,840000000000018"},{"min_dia":"19,840000000000018"},{"max_noc":"5,390000000000043"},{"mean_noc":"5,390000000000043"},{"min_noc":"5,390000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-07-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 3.5107265527116738,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Julio"},{"NDMI":"-0,06679848147645116"},{"NDVI":"0,12269041920699912"},{"SAVI":"0,1840225973141759"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Julio"},{"max_dia":"44,23500000000004"},{"mean_dia":"44,23500000000004"},{"min_dia":"44,23500000000004"},{"max_noc":"23,935000000000016"},{"mean_noc":"23,935000000000016"},{"min_noc":"23,935000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-06-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 0.36681339683397596,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Junio"},{"NDMI":"0,042129182902753026"},{"NDVI":"0,0983224297355107"},{"SAVI":"0,14747434874732376"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Junio"},{"max_dia":"41,98000000000002"},{"mean_dia":"41,98000000000002"},{"min_dia":"41,98000000000002"},{"max_noc":"20,850000000000037"},{"mean_noc":"20,850000000000037"},{"min_noc":"20,850000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-03-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 16.652346857846112,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Marzo"},{"NDMI":"-0,04684026612303391"},{"NDVI":"0,16641216564943784"},{"SAVI":"0,24959839440883694"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Marzo"},{"max_dia":"27,455000000000027"},{"mean_dia":"27,455000000000027"},{"min_dia":"27,455000000000027"},{"max_noc":"8,360000000000028"},{"mean_noc":"8,360000000000028"},{"min_noc":"8,360000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-05-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 0.586949505109402,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Mayo"},{"NDMI":"-0,04195540607297129"},{"NDVI":"0,14664708657807832"},{"SAVI":"0,2199560813087966"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Mayo"},{"max_dia":"39,97000000000003"},{"mean_dia":"39,97000000000003"},{"min_dia":"39,97000000000003"},{"max_noc":"17,120000000000033"},{"mean_noc":"17,120000000000033"},{"min_noc":"17,120000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-11-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 81.59737088972818,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Noviembre"},{"max_dia":"14,400000000000034"},{"mean_dia":"14,400000000000034"},{"min_dia":"14,400000000000034"},{"max_noc":"5,440000000000026"},{"mean_noc":"5,440000000000026"},{"min_noc":"5,440000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-10-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 24.24530725103935,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Octubre"},{"NDMI":"-0,03384725925461622"},{"NDVI":"0,16443627488673312"},{"SAVI":"0,2466347807099762"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Octubre"},{"max_dia":"30,503333333333348"},{"mean_dia":"30,503333333333348"},{"min_dia":"30,503333333333348"},{"max_noc":"11,916666666666705"},{"mean_noc":"11,916666666666705"},{"min_noc":"11,916666666666705"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-09-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 42.239652641168135,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Septiembre"},{"NDMI":"-0,05497248540064887"},{"NDVI":"0,13460267073753246"},{"SAVI":"0,20188861549813164"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2019"},{"Mes":"Septiembre"},{"max_dia":"35,48000000000003"},{"mean_dia":"35,48000000000003"},{"min_dia":"35,48000000000003"},{"max_noc":"16,78333333333336"},{"mean_noc":"16,78333333333336"},{"min_noc":"16,78333333333336"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-04-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 93.57987089480346,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Abril"},{"NDMI":"0,058296956730639525"},{"NDVI":"0,15609916102773022"},{"SAVI":"0,2341246628570223"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Abril"},{"max_dia":"31,463333333333367"},{"mean_dia":"31,463333333333367"},{"min_dia":"31,463333333333367"},{"max_noc":"12,035000000000025"},{"mean_noc":"12,035000000000025"},{"min_noc":"12,035000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-08-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 41.21645117449191,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Agosto"},{"NDMI":"-0,06477482589209373"},{"NDVI":"0,1300090068779018"},{"SAVI":"0,19499786992690177"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Agosto"},{"max_dia":"43,99000000000002"},{"mean_dia":"43,99000000000002"},{"min_dia":"43,99000000000002"},{"max_noc":"22,57000000000002"},{"mean_noc":"22,57000000000002"},{"min_noc":"22,57000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-12-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 51.611644533636536,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Diciembre"},{"NDMI":"0,034000626565722725"},{"NDVI":"0,21284446278384353"},{"SAVI":"0,31923298666660427"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Diciembre"},{"max_dia":"12,555000000000035"},{"mean_dia":"12,555000000000035"},{"min_dia":"12,555000000000035"},{"max_noc":"4,585000000000036"},{"mean_noc":"4,585000000000036"},{"min_noc":"4,585000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-01-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 45.85396377897766,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Enero"},{"NDMI":"0,038197628716677055"},{"NDVI":"0,18881166496597027"},{"SAVI":"0,2831828916211981"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Enero"},{"max_dia":"13,04000000000002"},{"mean_dia":"13,04000000000002"},{"min_dia":"13,04000000000002"},{"max_noc":"3,496666666666689"},{"mean_noc":"3,496666666666689"},{"min_noc":"3,496666666666689"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-02-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 1.7094049697661262,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Febrero"},{"NDMI":"-0,025918136248152684"},{"NDVI":"0,19040456885962737"},{"SAVI":"0,28558108662529014"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Febrero"},{"max_dia":"19,87500000000003"},{"mean_dia":"19,87500000000003"},{"min_dia":"19,87500000000003"},{"max_noc":"7,625000000000028"},{"mean_noc":"7,625000000000028"},{"min_noc":"7,625000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-07-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 5.677061427032726,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Julio"},{"NDMI":"-0,07376501661024408"},{"NDVI":"0,12153741141547067"},{"SAVI":"0,18229282583807205"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Julio"},{"max_dia":"46,16000000000004"},{"mean_dia":"46,16000000000004"},{"min_dia":"46,16000000000004"},{"max_noc":"25,825000000000017"},{"mean_noc":"25,825000000000017"},{"min_noc":"25,825000000000017"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-06-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 8.102040920771714,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Junio"},{"NDMI":"-0,06623600528775853"},{"NDVI":"0,12875956808998099"},{"SAVI":"0,1931262037489416"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Junio"},{"max_dia":"41,960000000000036"},{"mean_dia":"41,960000000000036"},{"min_dia":"41,960000000000036"},{"max_noc":"21,27000000000004"},{"mean_noc":"21,27000000000004"},{"min_noc":"21,27000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-03-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 79.22355670642034,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Marzo"},{"NDMI":"2,1570982963927114E-6"},{"NDVI":"0,13496070754609998"},{"SAVI":"0,20242066022479943"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Marzo"},{"max_dia":"24,230000000000018"},{"mean_dia":"24,230000000000018"},{"min_dia":"24,230000000000018"},{"max_noc":"9,425000000000026"},{"mean_noc":"9,425000000000026"},{"min_noc":"9,425000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-05-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 42.02220809341739,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Mayo"},{"NDMI":"-0,05319115756781984"},{"NDVI":"0,14747945485316888"},{"SAVI":"0,22120299693204518"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Mayo"},{"max_dia":"37,18333333333336"},{"mean_dia":"37,18333333333336"},{"min_dia":"37,18333333333336"},{"max_noc":"19,420000000000016"},{"mean_noc":"19,420000000000016"},{"min_noc":"19,420000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-11-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 91.24294470376526,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Noviembre"},{"NDMI":"-0,0015486116699182215"},{"NDVI":"0,1366056672685406"},{"SAVI":"0,20488993333326905"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Noviembre"},{"max_dia":"19,236666666666697"},{"mean_dia":"19,236666666666697"},{"min_dia":"19,236666666666697"},{"max_noc":"8,836666666666682"},{"mean_noc":"8,836666666666682"},{"min_noc":"8,836666666666682"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-10-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 34.042481875079744,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Octubre"},{"NDMI":"-0,053818886573409525"},{"NDVI":"0,14748659708212955"},{"SAVI":"0,22121081715464688"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Octubre"},{"max_dia":"27,435000000000045"},{"mean_dia":"27,435000000000045"},{"min_dia":"27,435000000000045"},{"max_noc":"10,65500000000003"},{"mean_noc":"10,65500000000003"},{"min_noc":"10,65500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-09-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 45.32084606931264,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Septiembre"},{"NDMI":"-0,07217258613361127"},{"NDVI":"0,14008597382471877"},{"SAVI":"0,2101122641280792"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2020"},{"Mes":"Septiembre"},{"max_dia":"35,96500000000003"},{"mean_dia":"35,96500000000003"},{"min_dia":"35,96500000000003"},{"max_noc":"15,105000000000032"},{"mean_noc":"15,105000000000032"},{"min_noc":"15,105000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-04-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 80.40074917791529,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Abril"},{"NDMI":"-0,05696770642346745"},{"NDVI":"0,16141234429689738"},{"SAVI":"0,24210034234007988"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Abril"},{"max_dia":"26,440000000000026"},{"mean_dia":"26,440000000000026"},{"min_dia":"26,440000000000026"},{"max_noc":"10,190000000000017"},{"mean_noc":"10,190000000000017"},{"min_noc":"10,190000000000017"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-08-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 13.97575319874278,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Agosto"},{"NDMI":"-0,07323106068310661"},{"NDVI":"0,12279663659935389"},{"SAVI":"0,18418179110509064"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Agosto"},{"max_dia":"43,49000000000004"},{"mean_dia":"43,49000000000004"},{"min_dia":"43,49000000000004"},{"max_noc":"23,82500000000003"},{"mean_noc":"23,82500000000003"},{"min_noc":"23,82500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-12-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 62.07372089697216,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Diciembre"},{"NDMI":"0,009574996592250942"},{"NDVI":"0,20473322299279795"},{"SAVI":"0,3070667880200039"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Diciembre"},{"max_dia":"14,683333333333357"},{"mean_dia":"14,683333333333357"},{"min_dia":"14,683333333333357"},{"max_noc":"5,195000000000022"},{"mean_noc":"5,195000000000022"},{"min_noc":"5,195000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-01-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 102.82417970432789,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Enero"},{"NDMI":"0,034114912326034044"},{"NDVI":"0,21140145403456823"},{"SAVI":"0,31706718359094493"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Enero"},{"max_dia":"10,930000000000035"},{"mean_dia":"10,930000000000035"},{"min_dia":"10,930000000000035"},{"max_noc":"3,065000000000026"},{"mean_noc":"3,065000000000026"},{"min_noc":"3,065000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-02-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 50.30646249488058,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Febrero"},{"NDMI":"0,05215477168581932"},{"NDVI":"0,10411174118212639"},{"SAVI":"0,15615259165748785"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Febrero"},{"max_dia":"19,02333333333335"},{"mean_dia":"19,02333333333335"},{"min_dia":"19,02333333333335"},{"max_noc":"5,340000000000018"},{"mean_noc":"5,340000000000018"},{"min_noc":"5,340000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-07-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 0.09383948435015554,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Julio"},{"NDMI":"-0,06585056779907653"},{"NDVI":"0,12502547093039698"},{"SAVI":"0,1875256170968222"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Julio"},{"max_dia":"44,81000000000003"},{"mean_dia":"44,81000000000003"},{"min_dia":"44,81000000000003"},{"max_noc":"23,500000000000043"},{"mean_noc":"23,500000000000043"},{"min_noc":"23,500000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-06-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 31.13568810111289,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Junio"},{"NDMI":"-0,06245962061720773"},{"NDVI":"0,1290064171561858"},{"SAVI":"0,19349706648210302"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Junio"},{"max_dia":"41,22500000000002"},{"mean_dia":"41,22500000000002"},{"min_dia":"41,22500000000002"},{"max_noc":"20,865000000000023"},{"mean_noc":"20,865000000000023"},{"min_noc":"20,865000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-03-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 21.457620047254267,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Marzo"},{"NDMI":"-0,04227229061638717"},{"NDVI":"0,16685023231771046"},{"SAVI":"0,2502525694477676"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Marzo"},{"max_dia":"25,800000000000026"},{"mean_dia":"25,800000000000026"},{"min_dia":"25,800000000000026"},{"max_noc":"9,31500000000004"},{"mean_noc":"9,31500000000004"},{"min_noc":"9,31500000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-05-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 18.146200555200664,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Mayo"},{"NDMI":"-0,06494052651343718"},{"NDVI":"0,13769065727698132"},{"SAVI":"0,2065216258279288"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Mayo"},{"max_dia":"36,84500000000004"},{"mean_dia":"36,84500000000004"},{"min_dia":"36,84500000000004"},{"max_noc":"15,345000000000041"},{"mean_noc":"15,345000000000041"},{"min_noc":"15,345000000000041"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-11-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 55.24263205800395,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Noviembre"},{"NDMI":"-0,034026204798021764"},{"NDVI":"0,18175944267178515"},{"SAVI":"0,2726139625764054"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Noviembre"},{"max_dia":"16,12000000000002"},{"mean_dia":"16,12000000000002"},{"min_dia":"16,12000000000002"},{"max_noc":"4,510000000000019"},{"mean_noc":"4,510000000000019"},{"min_noc":"4,510000000000019"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-10-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 38.79339596372233,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Octubre"},{"NDMI":"-0,0584312917363618"},{"NDVI":"0,1510951603940289"},{"SAVI":"0,22662470062652795"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Octubre"},{"max_dia":"31,143333333333374"},{"mean_dia":"31,143333333333374"},{"min_dia":"31,143333333333374"},{"max_noc":"12,616666666666712"},{"mean_noc":"12,616666666666712"},{"min_noc":"12,616666666666712"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-09-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 39.44283664793602,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Septiembre"},{"NDMI":"-0,06530128638515223"},{"NDVI":"0,13943274548193949"},{"SAVI":"0,20913286820184623"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2021"},{"Mes":"Septiembre"},{"max_dia":"35,07500000000003"},{"mean_dia":"35,07500000000003"},{"min_dia":"35,07500000000003"},{"max_noc":"17,520000000000024"},{"mean_noc":"17,520000000000024"},{"min_noc":"17,520000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-04-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 75.04756561259285,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Abril"},{"max_dia":"28,590000000000032"},{"mean_dia":"28,590000000000032"},{"min_dia":"28,590000000000032"},{"max_noc":"11,116666666666694"},{"mean_noc":"11,116666666666694"},{"min_noc":"11,116666666666694"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-08-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 7.499392345703626,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Agosto"},{"NDMI":"-0,05746229016756763"},{"NDVI":"0,09528255031018618"},{"SAVI":"0,1429158112697984"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Agosto"},{"max_dia":"43,45500000000003"},{"mean_dia":"43,45500000000003"},{"min_dia":"43,45500000000003"},{"max_noc":"23,815000000000026"},{"mean_noc":"23,815000000000026"},{"min_noc":"23,815000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-12-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 138.1198047866974,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Diciembre"},{"NDMI":"0,012804111607050079"},{"NDVI":"0,14577660308366575"},{"SAVI":"0,2186480188377555"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Diciembre"},{"max_dia":"13,565000000000026"},{"mean_dia":"13,565000000000026"},{"min_dia":"13,565000000000026"},{"max_noc":"6,525000000000034"},{"mean_noc":"6,525000000000034"},{"min_noc":"6,525000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-01-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 11.321306276421694,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Enero"},{"NDMI":"0,0024613310779895564"},{"NDVI":"0,18529480155955133"},{"SAVI":"0,2779163675567345"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Enero"},{"max_dia":"14,105000000000032"},{"mean_dia":"14,105000000000032"},{"min_dia":"14,105000000000032"},{"max_noc":"2,6550000000000296"},{"mean_noc":"2,6550000000000296"},{"min_noc":"2,6550000000000296"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-02-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 29.17442327835218,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Febrero"},{"NDMI":"-0,007854516484645375"},{"NDVI":"0,11717265293731575"},{"SAVI":"0,17574840034849748"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Febrero"},{"max_dia":"20,285000000000025"},{"mean_dia":"20,285000000000025"},{"min_dia":"20,285000000000025"},{"max_noc":"6,115000000000023"},{"mean_noc":"6,115000000000023"},{"min_noc":"6,115000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-07-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 2.604688123138743,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Julio"},{"NDMI":"-0,05286351843635001"},{"NDVI":"0,09893496411006013"},{"SAVI":"0,14839435774194318"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Julio"},{"max_dia":"48,38000000000004"},{"mean_dia":"48,38000000000004"},{"min_dia":"48,38000000000004"},{"max_noc":"26,425000000000026"},{"mean_noc":"26,425000000000026"},{"min_noc":"26,425000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-06-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 6.567832919010641,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Junio"},{"NDMI":"-0,045848382014139"},{"NDVI":"0,10260468780188417"},{"SAVI":"0,15389861185463868"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Junio"},{"max_dia":"43,01000000000003"},{"mean_dia":"43,01000000000003"},{"min_dia":"43,01000000000003"},{"max_noc":"22,115000000000038"},{"mean_noc":"22,115000000000038"},{"min_noc":"22,115000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-03-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 118.77162296938693,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Marzo"},{"NDMI":"-0,029835075947783108"},{"NDVI":"0,12891089181002222"},{"SAVI":"0,19335422148038"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Marzo"},{"max_dia":"18,79000000000005"},{"mean_dia":"18,79000000000005"},{"min_dia":"18,79000000000005"},{"max_noc":"6,160000000000025"},{"mean_noc":"6,160000000000025"},{"min_noc":"6,160000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-05-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 14.152431340132665,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Mayo"},{"NDMI":"-0,05002132550901249"},{"NDVI":"0,1122871556003727"},{"SAVI":"0,16842140907295627"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Mayo"},{"max_dia":"38,53000000000003"},{"mean_dia":"38,53000000000003"},{"min_dia":"38,53000000000003"},{"max_noc":"17,03000000000003"},{"mean_noc":"17,03000000000003"},{"min_noc":"17,03000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-11-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 29.752541231346186,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Noviembre"},{"NDMI":"-0,02984616134671868"},{"NDVI":"0,13608084262951334"},{"SAVI":"0,20410705126760453"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Noviembre"},{"max_dia":"20,430000000000035"},{"mean_dia":"20,430000000000035"},{"min_dia":"20,430000000000035"},{"max_noc":"8,585000000000022"},{"mean_noc":"8,585000000000022"},{"min_noc":"8,585000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-10-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 18.76132581618961,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Octubre"},{"NDMI":"-0,04929597119218293"},{"NDVI":"0,1086612376425712"},{"SAVI":"0,162981638807194"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Octubre"},{"max_dia":"31,08000000000004"},{"mean_dia":"31,08000000000004"},{"min_dia":"31,08000000000004"},{"max_noc":"12,470000000000027"},{"mean_noc":"12,470000000000027"},{"min_noc":"12,470000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-09-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 40.699273463065566,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Septiembre"},{"NDMI":"-0,056786604422256394"},{"NDVI":"0,09955521094489699"},{"SAVI":"0,14932395481147273"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2022"},{"Mes":"Septiembre"},{"max_dia":"36,32500000000003"},{"mean_dia":"36,32500000000003"},{"min_dia":"36,32500000000003"},{"max_noc":"18,590000000000032"},{"mean_noc":"18,590000000000032"},{"min_noc":"18,590000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-04-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 2.514014057116043,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Abril"},{"NDMI":"-0,04092596144931661"},{"NDVI":"0,12040320206354733"},{"SAVI":"0,1805945985506256"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Abril"},{"max_dia":"35,7166666666667"},{"mean_dia":"35,7166666666667"},{"min_dia":"35,7166666666667"},{"max_noc":"14,8166666666667"},{"mean_noc":"14,8166666666667"},{"min_noc":"14,8166666666667"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-08-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 0.11327311758080327,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Agosto"},{"NDMI":"-0,06418222005940198"},{"NDVI":"0,09151234705223246"},{"SAVI":"0,13726109840271514"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Agosto"},{"max_dia":"45,130000000000024"},{"mean_dia":"45,130000000000024"},{"min_dia":"45,130000000000024"},{"max_noc":"24,415000000000035"},{"mean_noc":"24,415000000000035"},{"min_noc":"24,415000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-12-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 40.27947738936888,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Diciembre"},{"NDMI":"-0,004879982139940482"},{"NDVI":"0,15290036790562966"},{"SAVI":"0,22933340780354436"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Diciembre"},{"max_dia":"11,78000000000003"},{"mean_dia":"11,78000000000003"},{"min_dia":"11,78000000000003"},{"max_noc":"3,600000000000037"},{"mean_noc":"3,600000000000037"},{"min_noc":"3,600000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-01-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 29.86057432038436,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Enero"},{"NDMI":"0,00220752816266023"},{"NDVI":"0,1531126210237136"},{"SAVI":"0,22965210896678787"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Enero"},{"max_dia":"12,300000000000026"},{"mean_dia":"12,300000000000026"},{"min_dia":"12,300000000000026"},{"max_noc":"3,545000000000016"},{"mean_noc":"3,545000000000016"},{"min_noc":"3,545000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-02-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 18.20530173280943,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Febrero"},{"NDMI":"-0,025352912542944684"},{"NDVI":"0,1356028765319913"},{"SAVI":"0,2033909583546065"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Febrero"},{"max_dia":"15,995000000000033"},{"mean_dia":"15,995000000000033"},{"min_dia":"15,995000000000033"},{"max_noc":"3,6150000000000233"},{"mean_noc":"3,6150000000000233"},{"min_noc":"3,6150000000000233"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-07-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 1.7568432393773037,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Julio"},{"NDMI":"-0,07013711826994001"},{"NDVI":"0,09147479130956282"},{"SAVI":"0,13720473743289238"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Julio"},{"max_dia":"47,050000000000026"},{"mean_dia":"47,050000000000026"},{"min_dia":"47,050000000000026"},{"max_noc":"25,180000000000035"},{"mean_noc":"25,180000000000035"},{"min_noc":"25,180000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-06-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 42.400844035839214,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Junio"},{"NDMI":"-0,07792586639338142"},{"NDVI":"0,09853695590862525"},{"SAVI":"0,1477972195828205"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Junio"},{"max_dia":"44,065000000000026"},{"mean_dia":"44,065000000000026"},{"min_dia":"44,065000000000026"},{"max_noc":"24,7566666666667"},{"mean_noc":"24,7566666666667"},{"min_noc":"24,7566666666667"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-03-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 15.908827721354157,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Marzo"},{"NDMI":"-0,0371831989397773"},{"NDVI":"0,12602658106421633"},{"SAVI":"0,1890283111493365"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Marzo"},{"max_dia":"27,615000000000023"},{"mean_dia":"27,615000000000023"},{"min_dia":"27,615000000000023"},{"max_noc":"10,030000000000049"},{"mean_noc":"10,030000000000049"},{"min_noc":"10,030000000000049"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-05-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 70.05226003133913,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Mayo"},{"NDMI":"-0,04064421343322958"},{"NDVI":"0,11126883639327394"},{"SAVI":"0,16689440946782855"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Mayo"},{"max_dia":"35,89000000000003"},{"mean_dia":"35,89000000000003"},{"min_dia":"35,89000000000003"},{"max_noc":"18,440000000000026"},{"mean_noc":"18,440000000000026"},{"min_noc":"18,440000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-11-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 20.094332133034243,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Noviembre"},{"NDMI":"-0,04181285114816627"},{"NDVI":"0,1313177202644365"},{"SAVI":"0,1969632312530121"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Noviembre"},{"max_dia":"18,71000000000005"},{"mean_dia":"18,71000000000005"},{"min_dia":"18,71000000000005"},{"max_noc":"7,075000000000031"},{"mean_noc":"7,075000000000031"},{"min_noc":"7,075000000000031"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-10-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 66.72652484964203,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Octubre"},{"NDMI":"-0,058280259506637316"},{"NDVI":"0,10460266928915697"},{"SAVI":"0,1568944971482393"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Octubre"},{"max_dia":"28,06333333333335"},{"mean_dia":"28,06333333333335"},{"min_dia":"28,06333333333335"},{"max_noc":"11,256666666666698"},{"mean_noc":"11,256666666666698"},{"min_noc":"11,256666666666698"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-09-01', 'YYYY-MM-DD'), 23, 41, 'H4', 2, 36, 1, 63.071761335038445,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Septiembre"},{"NDMI":"-0,06680206812998485"},{"NDVI":"0,09161444013040754"},{"SAVI":"0,13741355983553175"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:41:2:36:1"},{"Año":"2023"},{"Mes":"Septiembre"},{"max_dia":"37,40500000000003"},{"mean_dia":"37,40500000000003"},{"min_dia":"37,40500000000003"},{"max_noc":"19,660000000000025"},{"mean_noc":"19,660000000000025"},{"min_noc":"19,660000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-04-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 70.23218106830953,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Abril"},{"NDMI":"0,06739812834304619"},{"NDVI":"0,3930718475432783"},{"SAVI":"0,5895193778162711"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Abril"},{"max_dia":"27,50000000000003"},{"mean_dia":"27,23753918495302"},{"min_dia":"27,16000000000004"},{"max_noc":"12,390000000000015"},{"mean_noc":"12,152821316614444"},{"min_noc":"11,350000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-08-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 1.2563181740361529,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Agosto"},{"NDMI":"-0,03807234415253548"},{"NDVI":"0,21633305599994174"},{"SAVI":"0,3244619971239945"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Agosto"},{"max_dia":"42,185000000000045"},{"mean_dia":"41,10813871473359"},{"min_dia":"40,790000000000035"},{"max_noc":"25,350000000000023"},{"mean_noc":"25,26105799373043"},{"min_noc":"24,960000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-12-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 40.47353530514286,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Diciembre"},{"NDMI":"0,02803673148670785"},{"NDVI":"0,2669900980465403"},{"SAVI":"0,4004096429641451"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Diciembre"},{"max_dia":"13,205000000000027"},{"mean_dia":"13,081489028213198"},{"min_dia":"13,04500000000003"},{"max_noc":"6,40500000000003"},{"mean_noc":"6,27044670846398"},{"min_noc":"5,815000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-01-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 56.431540701527894,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Enero"},{"max_dia":"12,715000000000032"},{"mean_dia":"12,367625391849572"},{"min_dia":"12,265000000000043"},{"max_noc":"5,9900000000000375"},{"mean_noc":"5,943683385579964"},{"min_noc":"5,930000000000021"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-02-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 50.29194810797577,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Febrero"},{"max_dia":"14,76000000000002"},{"mean_dia":"14,677899686520403"},{"min_dia":"14,400000000000034"},{"max_noc":"3,996666666666689"},{"mean_noc":"3,9194723092999304"},{"min_noc":"3,896666666666704"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-07-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 4.677580853030605,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Julio"},{"NDMI":"-0,03452578242604914"},{"NDVI":"0,22598532809841895"},{"SAVI":"0,3389398474329632"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Julio"},{"max_dia":"43,190000000000055"},{"mean_dia":"42,55700626959251"},{"min_dia":"42,37000000000002"},{"max_noc":"25,82000000000002"},{"mean_noc":"25,750442789968684"},{"min_noc":"25,515000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-06-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 2.4965230382960613,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Junio"},{"NDMI":"-0,005955272128982264"},{"NDVI":"0,24621792675223036"},{"SAVI":"0,3692863159768011"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Junio"},{"max_dia":"40,69000000000004"},{"mean_dia":"39,809984326018856"},{"min_dia":"39,55000000000004"},{"max_noc":"22,090000000000018"},{"mean_noc":"21,99079545454548"},{"min_noc":"21,65500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-03-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 24.095200035883835,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Marzo"},{"NDMI":"0,02744997520403837"},{"NDVI":"0,17842410368092348"},{"SAVI":"0,26761320357433627"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Marzo"},{"max_dia":"19,480000000000032"},{"mean_dia":"19,43096786833859"},{"min_dia":"19,26500000000003"},{"max_noc":"7,585000000000022"},{"mean_noc":"7,377468652037642"},{"min_noc":"6,675000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-05-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 59.00039576619065,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Mayo"},{"NDMI":"0,16517197857440852"},{"NDVI":"0,35044546342324306"},{"SAVI":"0,5255733644407685"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Mayo"},{"max_dia":"29,410000000000025"},{"mean_dia":"28,69466562173462"},{"min_dia":"28,483333333333366"},{"max_noc":"15,03666666666671"},{"mean_noc":"15,003218390804642"},{"min_noc":"14,890000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-11-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 101.62453581568798,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Noviembre"},{"NDMI":"0,04443855434104918"},{"NDVI":"0,023926514254590043"},{"SAVI":"0,03588809781911858"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Noviembre"},{"max_dia":"15,623333333333372"},{"mean_dia":"15,32484848484852"},{"min_dia":"15,236666666666698"},{"max_noc":"7,750000000000038"},{"mean_noc":"7,634451410658344"},{"min_noc":"7,243333333333358"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-10-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 47.77987225313396,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Octubre"},{"NDMI":"-0,04133293302373211"},{"NDVI":"0,21850765643397818"},{"SAVI":"0,32771878188434284"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Octubre"},{"max_dia":"25,755000000000038"},{"mean_dia":"25,53885579937309"},{"min_dia":"25,475000000000037"},{"max_noc":"12,960000000000022"},{"mean_noc":"12,867637147335447"},{"min_noc":"12,555000000000021"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-09-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 4.6506270595507715,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Septiembre"},{"NDMI":"-0,03687371114846244"},{"NDVI":"0,22736651403182245"},{"SAVI":"0,341007444982113"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2016"},{"Mes":"Septiembre"},{"max_dia":"36,56000000000003"},{"mean_dia":"36,18560736677121"},{"min_dia":"36,07500000000003"},{"max_noc":"19,970000000000013"},{"mean_noc":"19,83658699059563"},{"min_noc":"19,38500000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-04-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 31.478942427057177,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Abril"},{"NDMI":"-0,023008038961543565"},{"NDVI":"0,2732846553074316"},{"SAVI":"0,40987475852452404"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Abril"},{"max_dia":"31,980000000000018"},{"mean_dia":"30,72173197492166"},{"min_dia":"30,350000000000023"},{"max_noc":"15,050000000000049"},{"mean_noc":"14,94357366771165"},{"min_noc":"14,583333333333371"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-08-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 9.889220663090725,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Agosto"},{"NDMI":"-0,006169141773349749"},{"NDVI":"0,22457339010334126"},{"SAVI":"0,3368221310128592"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Agosto"},{"max_dia":"42,52000000000004"},{"mean_dia":"41,74805642633233"},{"min_dia":"41,52000000000004"},{"max_noc":"24,605000000000032"},{"mean_noc":"24,40043495297809"},{"min_noc":"24,340000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-12-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 47.38416818944913,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Diciembre"},{"NDMI":"0,04068274872139062"},{"NDVI":"0,3014886642548445"},{"SAVI":"0,4521555529975357"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Diciembre"},{"max_dia":"12,440000000000026"},{"mean_dia":"12,406931818181848"},{"min_dia":"12,29500000000003"},{"max_noc":"4,340000000000046"},{"mean_noc":"4,221410658307251"},{"min_noc":"3,8200000000000216"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-01-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 20.505359284015867,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Enero"},{"max_dia":"11,16500000000002"},{"mean_dia":"11,091665360501588"},{"min_dia":"11,070000000000022"},{"max_noc":"3,2800000000000296"},{"mean_noc":"3,1602703761755784"},{"min_noc":"2,755000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-02-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 50.0023934080005,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Febrero"},{"NDMI":"0,012805805460797253"},{"NDVI":"0,2899792981100376"},{"SAVI":"0,4348915158736972"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Febrero"},{"max_dia":"16,735000000000028"},{"mean_dia":"16,554835423197527"},{"min_dia":"15,945000000000036"},{"max_noc":"8,03500000000004"},{"mean_noc":"7,925532915360542"},{"min_noc":"7,555000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-07-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 6.510521138313408,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Julio"},{"NDMI":"-0,003131569139862343"},{"NDVI":"0,2800082688776007"},{"SAVI":"0,4199685787038331"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Julio"},{"max_dia":"44,565000000000026"},{"mean_dia":"43,76989811912229"},{"min_dia":"43,53500000000004"},{"max_noc":"25,50000000000003"},{"mean_noc":"25,436144200627"},{"min_noc":"25,220000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-06-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 3.6361073423663015,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Junio"},{"NDMI":"0,04433562507144274"},{"NDVI":"0,3429114675002328"},{"SAVI":"0,514312596838522"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Junio"},{"max_dia":"43,57500000000003"},{"mean_dia":"42,93814655172415"},{"min_dia":"42,750000000000014"},{"max_noc":"23,940000000000026"},{"mean_noc":"23,890967868338592"},{"min_noc":"23,725000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-03-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 58.06526691295133,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Marzo"},{"NDMI":"0,012854499747825552"},{"NDVI":"0,3342295281615358"},{"SAVI":"0,5012702799043468"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Marzo"},{"max_dia":"23,28000000000003"},{"mean_dia":"23,160348746081546"},{"min_dia":"23,12500000000003"},{"max_noc":"10,270000000000039"},{"mean_noc":"10,136586990595651"},{"min_noc":"9,68500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-05-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 14.441871490689095,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Mayo"},{"NDMI":"0,033965707727194"},{"NDVI":"0,34893978132095166"},{"SAVI":"0,5233485271708844"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Mayo"},{"max_dia":"34,40500000000003"},{"mean_dia":"33,822182601880925"},{"min_dia":"33,65000000000005"},{"max_noc":"18,135000000000034"},{"mean_noc":"18,051759404388754"},{"min_noc":"17,77000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-11-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 28.770184359892426,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Noviembre"},{"NDMI":"-2,3659743002239626E-4"},{"NDVI":"0,29067677274188386"},{"SAVI":"0,43594473584240273"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Noviembre"},{"max_dia":"17,260000000000034"},{"mean_dia":"16,982100313479656"},{"min_dia":"16,90000000000002"},{"max_noc":"6,3850000000000335"},{"mean_noc":"6,217378526645799"},{"min_noc":"5,65000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-10-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 27.635020983819203,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Octubre"},{"NDMI":"-0,019570347499563073"},{"NDVI":"0,2635485775689775"},{"SAVI":"0,3952702743601321"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Octubre"},{"max_dia":"30,996666666666687"},{"mean_dia":"30,990585161964503"},{"min_dia":"30,970000000000027"},{"max_noc":"15,076666666666691"},{"mean_noc":"14,936792058516223"},{"min_noc":"14,463333333333347"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-09-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 0.06171835599388942,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Septiembre"},{"NDMI":"-0,03474353483578604"},{"NDVI":"0,25472920691623"},{"SAVI":"0,38204536770061276"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2017"},{"Mes":"Septiembre"},{"max_dia":"37,39000000000003"},{"mean_dia":"36,65665360501573"},{"min_dia":"36,44000000000004"},{"max_noc":"20,095000000000027"},{"mean_noc":"19,985532915360537"},{"min_noc":"19,615000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-04-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 48.92081366815049,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Abril"},{"NDMI":"0,07967799855823965"},{"NDVI":"0,39681612184387494"},{"SAVI":"0,5951399215013315"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Abril"},{"max_dia":"25,316666666666702"},{"mean_dia":"24,987304075235134"},{"min_dia":"24,890000000000025"},{"max_noc":"10,470000000000027"},{"mean_noc":"10,410705329153638"},{"min_noc":"10,210000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-08-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 3.389204952156888,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Agosto"},{"NDMI":"-0,04462380160438281"},{"NDVI":"0,20717378659404212"},{"SAVI":"0,3107234158929442"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Agosto"},{"max_dia":"41,88500000000003"},{"mean_dia":"41,25200626959252"},{"min_dia":"41,06500000000004"},{"max_noc":"24,69500000000002"},{"mean_noc":"24,64140673981194"},{"min_noc":"24,460000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-12-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 9.783305530902453,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Diciembre"},{"NDMI":"0,012914413901711498"},{"NDVI":"0,2794027065535737"},{"SAVI":"0,4190286557616839"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Diciembre"},{"max_dia":"13,055000000000035"},{"mean_dia":"12,994565047021974"},{"min_dia":"12,79000000000002"},{"max_noc":"5,570000000000036"},{"mean_noc":"5,438867554858967"},{"min_noc":"4,995000000000019"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-01-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 52.757420360116214,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Enero"},{"max_dia":"11,590000000000032"},{"mean_dia":"11,475971786833895"},{"min_dia":"11,090000000000032"},{"max_noc":"4,605000000000032"},{"mean_noc":"4,4829898119122635"},{"min_noc":"4,07000000000005"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-02-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 58.44116988327741,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Febrero"},{"NDMI":"-0,0027562451507601093"},{"NDVI":"0,30039457818504217"},{"SAVI":"0,4505120804912912"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Febrero"},{"max_dia":"14,250000000000043"},{"mean_dia":"14,150795454545499"},{"min_dia":"13,815000000000026"},{"max_noc":"3,315000000000026"},{"mean_noc":"3,2602664576802782"},{"min_noc":"3,0750000000000313"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-07-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 0.038448231460819215,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Julio"},{"NDMI":"-0,02215472202973384"},{"NDVI":"0,25166018732655593"},{"SAVI":"0,3774457149918425"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Julio"},{"max_dia":"42,85000000000001"},{"mean_dia":"42,008581504702235"},{"min_dia":"41,76000000000003"},{"max_noc":"23,575000000000045"},{"mean_noc":"23,521406739811958"},{"min_noc":"23,340000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-06-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 4.671644397866714,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Junio"},{"NDMI":"-0,014005371341188368"},{"NDVI":"0,29401706139808265"},{"SAVI":"0,4409719738192216"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Junio"},{"max_dia":"39,93666666666669"},{"mean_dia":"38,92284743991643"},{"min_dia":"38,623333333333356"},{"max_noc":"22,2766666666667"},{"mean_noc":"22,241698014629087"},{"min_noc":"22,123333333333353"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-03-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 223.19637864969266,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Marzo"},{"max_dia":"18,475000000000023"},{"mean_dia":"18,25885579937308"},{"min_dia":"18,195000000000036"},{"max_noc":"8,150000000000034"},{"mean_noc":"8,077021943573707"},{"min_noc":"7,830000000000041"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-05-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 36.9816212217593,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Mayo"},{"NDMI":"-0,008222540485086733"},{"NDVI":"0,30343656087792237"},{"SAVI":"0,45509816303901873"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Mayo"},{"max_dia":"32,315000000000026"},{"mean_dia":"31,80165752351101"},{"min_dia":"31,650000000000034"},{"max_noc":"14,015000000000043"},{"mean_noc":"13,91009404388719"},{"min_noc":"13,555000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-11-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 75.67917452067974,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Noviembre"},{"NDMI":""},{"NDVI":""},{"SAVI":""}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Noviembre"},{"max_dia":"16,940000000000026"},{"mean_dia":"16,924036050156772"},{"min_dia":"16,870000000000033"},{"max_noc":"7,600000000000023"},{"mean_noc":"7,518945924764923"},{"min_noc":"7,495000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-10-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 65.79815602948713,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Octubre"},{"NDMI":"-0,040080652917429224"},{"NDVI":"0,2321025941341027"},{"SAVI":"0,3481093149461088"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Octubre"},{"max_dia":"25,476666666666706"},{"mean_dia":"25,20905956112855"},{"min_dia":"25,130000000000013"},{"max_noc":"12,676666666666696"},{"mean_noc":"12,527669801462938"},{"min_noc":"12,023333333333369"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-09-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 23.320607968909002,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Septiembre"},{"NDMI":"-0,053033627806839095"},{"NDVI":"0,2101887268456329"},{"SAVI":"0,31524256369355713"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2018"},{"Mes":"Septiembre"},{"max_dia":"35,73000000000002"},{"mean_dia":"35,24367554858937"},{"min_dia":"35,10000000000002"},{"max_noc":"20,195000000000036"},{"mean_noc":"20,03307993730411"},{"min_noc":"19,485000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-04-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 76.93707155169704,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Abril"},{"NDMI":"0,005425282605310509"},{"NDVI":"0,2853272106257148"},{"SAVI":"0,4279370263692768"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Abril"},{"max_dia":"26,56333333333335"},{"mean_dia":"26,531405433646846"},{"min_dia":"26,423333333333364"},{"max_noc":"12,57666666666671"},{"mean_noc":"12,471760710553852"},{"min_noc":"12,116666666666694"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-08-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 1.1474024990931753,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Agosto"},{"NDMI":"-0,04453286255923187"},{"NDVI":"0,20153145531216551"},{"SAVI":"0,3022618678910711"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Agosto"},{"max_dia":"43,11500000000004"},{"mean_dia":"42,33533699059565"},{"min_dia":"42,10500000000003"},{"max_noc":"24,870000000000033"},{"mean_noc":"24,76281347962387"},{"min_noc":"24,400000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-12-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 85.56611722109153,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Diciembre"},{"NDMI":"0,03776423812101214"},{"NDVI":"0,27943803180268"},{"SAVI":"0,4190748037610233"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Diciembre"},{"max_dia":"13,375000000000028"},{"mean_dia":"13,336402821316636"},{"min_dia":"13,325000000000017"},{"max_noc":"6,610000000000042"},{"mean_noc":"6,598597178683422"},{"min_noc":"6,5600000000000165"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-01-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 18.07649935502198,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Enero"},{"NDMI":"0,007944259929515418"},{"NDVI":"0,2739284819705045"},{"SAVI":"0,4108204298783247"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Enero"},{"max_dia":"11,3166666666667"},{"mean_dia":"11,193136102403386"},{"min_dia":"10,775000000000034"},{"max_noc":"2,9950000000000188"},{"mean_noc":"2,845623040752374"},{"min_noc":"2,340000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-02-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 21.99466764269431,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Febrero"},{"NDMI":"0,03215247771589719"},{"NDVI":"0,29826946876881677"},{"SAVI":"0,44732874203802414"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Febrero"},{"max_dia":"17,715000000000032"},{"mean_dia":"17,711140282131705"},{"min_dia":"17,710000000000036"},{"max_noc":"6,435000000000045"},{"mean_noc":"6,273079937304118"},{"min_noc":"5,725000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-07-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 2.317188244568058,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Julio"},{"NDMI":"-0,05527896819306038"},{"NDVI":"0,20005144616775433"},{"SAVI":"0,300043572473161"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Julio"},{"max_dia":"42,59500000000001"},{"mean_dia":"41,86937304075241"},{"min_dia":"41,655000000000044"},{"max_noc":"24,80000000000004"},{"mean_noc":"24,730525078369954"},{"min_noc":"24,71000000000005"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-06-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 0.06892428340776746,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Junio"},{"NDMI":"-0,034385240634078384"},{"NDVI":"0,16292376924038496"},{"SAVI":"0,24436241875197495"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Junio"},{"max_dia":"40,210000000000036"},{"mean_dia":"39,2450705329154"},{"min_dia":"38,960000000000036"},{"max_noc":"21,970000000000027"},{"mean_noc":"21,902723354232013"},{"min_noc":"21,67500000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-03-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 13.226942428410382,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Marzo"},{"NDMI":"0,008108207524191365"},{"NDVI":"0,28851273545492945"},{"SAVI":"0,4327134826772344"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Marzo"},{"max_dia":"25,315000000000026"},{"mean_dia":"25,30815830721007"},{"min_dia":"25,28500000000004"},{"max_noc":"11,095000000000027"},{"mean_noc":"10,938781347962417"},{"min_noc":"10,41000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-05-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 2.112649597425076,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Mayo"},{"NDMI":"-0,038373192075998666"},{"NDVI":"0,24962547217332287"},{"SAVI":"0,3743923098901977"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Mayo"},{"max_dia":"38,40500000000003"},{"mean_dia":"37,737268808777465"},{"min_dia":"37,540000000000035"},{"max_noc":"18,770000000000024"},{"mean_noc":"18,671935736677145"},{"min_noc":"18,340000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-11-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 75.76638260180246,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Noviembre"},{"max_dia":"15,610000000000028"},{"mean_dia":"15,598420846395005"},{"min_dia":"15,595000000000013"},{"max_noc":"5,67000000000003"},{"mean_noc":"5,583338557993763"},{"min_noc":"5,290000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-10-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 24.159863992753827,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Octubre"},{"NDMI":"-0,007481939798541579"},{"NDVI":"0,2658026344170278"},{"SAVI":"0,39864525860625244"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Octubre"},{"max_dia":"28,223333333333358"},{"mean_dia":"27,760167189132737"},{"min_dia":"27,623333333333353"},{"max_noc":"14,03000000000003"},{"mean_noc":"14,019357366771194"},{"min_noc":"13,983333333333348"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-09-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 32.46228552614738,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Septiembre"},{"NDMI":"-0,04110750080038572"},{"NDVI":"0,2138117705799806"},{"SAVI":"0,32067629994366004"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2019"},{"Mes":"Septiembre"},{"max_dia":"35,130000000000024"},{"mean_dia":"34,32331896551729"},{"min_dia":"34,085000000000036"},{"max_noc":"18,00000000000003"},{"mean_noc":"17,88141065830725"},{"min_noc":"17,480000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-04-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 56.784552768124996,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Abril"},{"NDMI":"0,0682120154830062"},{"NDVI":"0,32776051896094427"},{"SAVI":"0,49155611263322596"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Abril"},{"max_dia":"26,51000000000003"},{"mean_dia":"25,85642110762805"},{"min_dia":"25,663333333333373"},{"max_noc":"13,365000000000023"},{"mean_noc":"13,195097962382475"},{"min_noc":"12,620000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-08-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 9.462091571563747,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Agosto"},{"NDMI":"-0,046891362292064594"},{"NDVI":"0,2191013739864453"},{"SAVI":"0,3286118778484589"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Agosto"},{"max_dia":"42,58500000000002"},{"mean_dia":"41,7397217868339"},{"min_dia":"41,49000000000004"},{"max_noc":"23,790000000000035"},{"mean_noc":"23,720442789968693"},{"min_noc":"23,485000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-12-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 39.22433903551337,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Diciembre"},{"NDMI":"0,057018351860971594"},{"NDVI":"0,29282677038995053"},{"SAVI":"0,4391702067164005"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Diciembre"},{"max_dia":"12,270000000000024"},{"mean_dia":"12,181226489028244"},{"min_dia":"12,15500000000003"},{"max_noc":"4,675000000000026"},{"mean_noc":"4,661316614420088"},{"min_noc":"4,615000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-01-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 26.23287467813995,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Enero"},{"NDMI":"0,04358900238274958"},{"NDVI":"0,2676138180181893"},{"SAVI":"0,4013461106464494"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Enero"},{"max_dia":"10,643333333333374"},{"mean_dia":"10,327095088819268"},{"min_dia":"9,256666666666698"},{"max_noc":"5,90000000000002"},{"mean_noc":"5,832723354231995"},{"min_noc":"5,605000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-02-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 5.558151388719068,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Febrero"},{"NDMI":"0,013495656014617545"},{"NDVI":"0,3078605971063264"},{"SAVI":"0,4617103181893468"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Febrero"},{"max_dia":"18,76500000000003"},{"mean_dia":"18,707104231974952"},{"min_dia":"18,690000000000026"},{"max_noc":"9,40500000000003"},{"mean_noc":"9,260184169279029"},{"min_noc":"8,770000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-07-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 3.6269298676607775,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Julio"},{"NDMI":"-0,04550864265143468"},{"NDVI":"0,21866874590744256"},{"SAVI":"0,3279648687835295"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Julio"},{"max_dia":"44,545000000000044"},{"mean_dia":"43,329188871473406"},{"min_dia":"42,97000000000003"},{"max_noc":"26,55000000000004"},{"mean_noc":"26,499827586206937"},{"min_noc":"26,330000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-06-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 6.955143247164841,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Junio"},{"NDMI":"-0,02569233530466483"},{"NDVI":"0,272398606569312"},{"SAVI":"0,4085493979170407"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Junio"},{"max_dia":"39,98500000000003"},{"mean_dia":"39,17059952978062"},{"min_dia":"38,930000000000035"},{"max_noc":"22,28500000000004"},{"mean_noc":"22,26184169279"},{"min_noc":"22,255000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-03-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 56.59314830016271,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Marzo"},{"NDMI":"0,08516358573971348"},{"NDVI":"0,2673633323190349"},{"SAVI":"0,400981972221772"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Marzo"},{"max_dia":"21,360000000000028"},{"mean_dia":"21,012625391849557"},{"min_dia":"20,910000000000025"},{"max_noc":"10,790000000000035"},{"mean_noc":"10,755262539184988"},{"min_noc":"10,745000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-05-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 35.827735780490144,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Mayo"},{"NDMI":"-0,039519549044835275"},{"NDVI":"0,254686363288876"},{"SAVI":"0,3819782728967734"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Mayo"},{"max_dia":"36,30333333333336"},{"mean_dia":"35,77841170323932"},{"min_dia":"35,623333333333356"},{"max_noc":"20,81000000000003"},{"mean_noc":"20,72333855799377"},{"min_noc":"20,430000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-11-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 56.44082079953705,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Noviembre"},{"NDMI":"0,021522377089180984"},{"NDVI":"0,26794809252725754"},{"SAVI":"0,40184960830408206"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Noviembre"},{"max_dia":"18,53000000000003"},{"mean_dia":"18,435736677116022"},{"min_dia":"18,116666666666692"},{"max_noc":"8,756666666666717"},{"mean_noc":"8,62439393939399"},{"min_noc":"8,176666666666696"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-10-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 23.428101634639376,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Octubre"},{"NDMI":"-0,024799242749992182"},{"NDVI":"0,25120138573000644"},{"SAVI":"0,37674471798437376"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Octubre"},{"max_dia":"25,57500000000003"},{"mean_dia":"25,401312695924794"},{"min_dia":"25,350000000000037"},{"max_noc":"12,145000000000024"},{"mean_noc":"11,929486677116016"},{"min_noc":"11,200000000000031"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-09-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 38.82706903264577,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Septiembre"},{"NDMI":"-0,041296008391064745"},{"NDVI":"0,22326142438308932"},{"SAVI":"0,3348482815024429"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2020"},{"Mes":"Septiembre"},{"max_dia":"34,190000000000026"},{"mean_dia":"33,5454271159875"},{"min_dia":"33,35500000000003"},{"max_noc":"17,905000000000015"},{"mean_noc":"17,78070924764893"},{"min_noc":"17,360000000000042"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-04-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 39.21484860895319,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Abril"},{"NDMI":"0,035836368008533244"},{"NDVI":"0,3493089676429863"},{"SAVI":"0,5238908685138285"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Abril"},{"max_dia":"22,070000000000032"},{"mean_dia":"21,395835945663556"},{"min_dia":"21,196666666666697"},{"max_noc":"11,490000000000009"},{"mean_noc":"11,468714733542338"},{"min_noc":"11,396666666666704"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-08-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 3.334655176281842,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Agosto"},{"NDMI":"-0,04200552570193708"},{"NDVI":"0,22344944393536503"},{"SAVI":"0,33513192217818977"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Agosto"},{"max_dia":"42,24500000000003"},{"mean_dia":"41,47691614420065"},{"min_dia":"41,25000000000003"},{"max_noc":"24,540000000000035"},{"mean_noc":"24,493248432601916"},{"min_noc":"24,335000000000008"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-12-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 51.983533705008966,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Diciembre"},{"NDMI":"0,06431525324776251"},{"NDVI":"0,2646933024444203"},{"SAVI":"0,3969486929537691"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Diciembre"},{"max_dia":"14,67000000000003"},{"mean_dia":"14,51036050156743"},{"min_dia":"13,970000000000027"},{"max_noc":"5,895000000000024"},{"mean_noc":"5,408675548589373"},{"min_noc":"5,265000000000029"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-01-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 91.81323486103565,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Enero"},{"NDMI":"0,0506978868679072"},{"NDVI":"0,17983756913102555"},{"SAVI":"0,2697209144105479"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Enero"},{"max_dia":"11,40500000000003"},{"mean_dia":"11,354827586206927"},{"min_dia":"11,18500000000003"},{"max_noc":"3,035000000000025"},{"mean_noc":"2,9278134796238535"},{"min_noc":"2,5650000000000404"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-02-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 43.31592544749441,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Febrero"},{"NDMI":"0,1393671883118764"},{"NDVI":"0,4089350865414482"},{"SAVI":"0,6132975896480368"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Febrero"},{"max_dia":"16,225000000000023"},{"mean_dia":"16,20447492163012"},{"min_dia":"16,13500000000002"},{"max_noc":"6,335000000000022"},{"mean_noc":"6,23850705329156"},{"min_noc":"6,210000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-07-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 0.17686875452227468,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Julio"},{"NDMI":"-0,03628477081868993"},{"NDVI":"0,23873466517078576"},{"SAVI":"0,35805885305253"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Julio"},{"max_dia":"43,49000000000004"},{"mean_dia":"42,50963166144206"},{"min_dia":"42,22000000000004"},{"max_noc":"25,060000000000045"},{"mean_noc":"24,99728448275867"},{"min_noc":"24,785000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-06-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 20.47320691233878,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Junio"},{"NDMI":"-0,02786526540075926"},{"NDVI":"0,2562660842765346"},{"SAVI":"0,38435140557157144"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Junio"},{"max_dia":"41,655000000000015"},{"mean_dia":"40,296379310344875"},{"min_dia":"39,89500000000004"},{"max_noc":"22,460000000000022"},{"mean_noc":"22,35623432601885"},{"min_noc":"22,005000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-03-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 16.67659737936944,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Marzo"},{"NDMI":"-0,018823501297401093"},{"NDVI":"0,27759903882782655"},{"SAVI":"0,41633183097881477"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Marzo"},{"max_dia":"23,600000000000023"},{"mean_dia":"23,597719435736707"},{"min_dia":"23,590000000000018"},{"max_noc":"10,78500000000004"},{"mean_noc":"10,510192006269632"},{"min_noc":"9,580000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-05-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 10.320676940317242,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Mayo"},{"NDMI":"-0,031948018102337314"},{"NDVI":"0,2578929950460107"},{"SAVI":"0,3867883601338899"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Mayo"},{"max_dia":"34,53000000000003"},{"mean_dia":"33,84297021943579"},{"min_dia":"33,64000000000004"},{"max_noc":"17,28500000000004"},{"mean_noc":"17,18351489028217"},{"min_noc":"16,840000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-11-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 43.6179679897819,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Noviembre"},{"NDMI":"0,016622998813746955"},{"NDVI":"0,2818878123034297"},{"SAVI":"0,42275939027047127"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Noviembre"},{"max_dia":"16,485000000000028"},{"mean_dia":"16,473420846395026"},{"min_dia":"16,47000000000004"},{"max_noc":"6,715000000000018"},{"mean_noc":"6,526853448275882"},{"min_noc":"5,890000000000029"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-10-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 61.18322512250529,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Octubre"},{"NDMI":"-0,025038734311392197"},{"NDVI":"0,24882946965340585"},{"SAVI":"0,3731881305908847"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Octubre"},{"max_dia":"30,35000000000004"},{"mean_dia":"29,701567398119156"},{"min_dia":"29,51000000000003"},{"max_noc":"14,2966666666667"},{"mean_noc":"14,108140020898674"},{"min_noc":"13,470000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-09-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 14.055773025461349,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Septiembre"},{"NDMI":"-0,04508888790333474"},{"NDVI":"0,2370714240574724"},{"SAVI":"0,35555873888471234"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2021"},{"Mes":"Septiembre"},{"max_dia":"33,99000000000002"},{"mean_dia":"33,99000000000002"},{"min_dia":"33,99000000000002"},{"max_noc":"18,790000000000035"},{"mean_noc":"18,667989811912253"},{"min_noc":"18,255000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-04-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 64.39152172545448,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Abril"},{"max_dia":"26,156666666666695"},{"mean_dia":"25,621452455590426"},{"min_dia":"25,463333333333367"},{"max_noc":"11,57666666666671"},{"mean_noc":"11,429190177638493"},{"min_noc":"10,930000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-08-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 3.5577669890294317,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Agosto"},{"NDMI":"-0,026366574514728697"},{"NDVI":"0,14550664299052513"},{"SAVI":"0,21824214532532604"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Agosto"},{"max_dia":"41,53000000000003"},{"mean_dia":"40,65384404388719"},{"min_dia":"40,395000000000024"},{"max_noc":"24,600000000000037"},{"mean_noc":"24,54640673981195"},{"min_noc":"24,365000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-12-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 110.64674996043777,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Diciembre"},{"NDMI":"0,07890270399675649"},{"NDVI":"0,19119702751964363"},{"SAVI":"0,28676356762226385"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Diciembre"},{"max_dia":"13,53500000000004"},{"mean_dia":"13,48938871473358"},{"min_dia":"13,335000000000022"},{"max_noc":"7,190000000000026"},{"mean_noc":"6,942978056426372"},{"min_noc":"6,870000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-01-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 8.918099153142123,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Enero"},{"NDMI":"0,040445504686164424"},{"NDVI":"0,26774415452959127"},{"SAVI":"0,40155445544402363"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Enero"},{"max_dia":"12,135000000000034"},{"mean_dia":"12,085967868338592"},{"min_dia":"11,92000000000003"},{"max_noc":"4,535000000000025"},{"mean_noc":"4,325188087774322"},{"min_noc":"3,6150000000000233"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-02-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 11.226198137780585,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Febrero"},{"NDMI":"0,04217411599443398"},{"NDVI":"0,21522657651063695"},{"SAVI":"0,32280810497639745"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Febrero"},{"max_dia":"19,165000000000035"},{"mean_dia":"18,58218260188091"},{"min_dia":"18,410000000000025"},{"max_noc":"7,615000000000023"},{"mean_noc":"7,481586990595641"},{"min_noc":"7,030000000000044"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-07-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 0.6428608450015361,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Julio"},{"NDMI":"-0,022168859987022213"},{"NDVI":"0,14766927435818636"},{"SAVI":"0,22148668661941764"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Julio"},{"max_dia":"45,90500000000003"},{"mean_dia":"45,03270376175553"},{"min_dia":"44,77500000000002"},{"max_noc":"27,005000000000024"},{"mean_noc":"26,94000391849532"},{"min_noc":"26,720000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-06-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 2.596047612080099,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Junio"},{"NDMI":"-0,005169850298273734"},{"NDVI":"0,17738339941689765"},{"SAVI":"0,2660548691018029"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Junio"},{"max_dia":"41,440000000000026"},{"mean_dia":"40,428753918495325"},{"min_dia":"40,130000000000024"},{"max_noc":"23,045000000000044"},{"mean_noc":"22,975442789968703"},{"min_noc":"22,740000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-03-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 94.65427239107882,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Marzo"},{"NDMI":"0,002732963563251288"},{"NDVI":"0,18221295150819597"},{"SAVI":"0,27329073025459955"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Marzo"},{"max_dia":"19,123333333333374"},{"mean_dia":"19,05491640543369"},{"min_dia":"18,823333333333363"},{"max_noc":"8,29000000000002"},{"mean_noc":"8,157727272727302"},{"min_noc":"7,710000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-05-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 8.299225420866918,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Mayo"},{"NDMI":"-0,005513940602427159"},{"NDVI":"0,18018885454068612"},{"SAVI":"0,270261368494222"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Mayo"},{"max_dia":"34,71000000000002"},{"mean_dia":"34,26613244514111"},{"min_dia":"34,13500000000003"},{"max_noc":"19,12500000000003"},{"mean_noc":"18,976763322884043"},{"min_noc":"18,475000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-11-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 35.01405184192663,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Noviembre"},{"NDMI":"0,03816707274413308"},{"NDVI":"0,1359227318751096"},{"SAVI":"0,20385932538689092"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Noviembre"},{"max_dia":"18,520000000000024"},{"mean_dia":"18,41623432601884"},{"min_dia":"18,065000000000026"},{"max_noc":"10,195000000000036"},{"mean_noc":"10,03992163009408"},{"min_noc":"9,515000000000029"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-10-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 17.21437666801151,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Octubre"},{"NDMI":"0,002479234193576482"},{"NDVI":"0,15201943067326987"},{"SAVI":"0,22800916683617692"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Octubre"},{"max_dia":"28,440000000000026"},{"mean_dia":"27,992272727272777"},{"min_dia":"27,860000000000042"},{"max_noc":"17,32000000000005"},{"mean_noc":"16,51039968652043"},{"min_noc":"13,770000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-09-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 24.23958491879219,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Septiembre"},{"NDMI":"-0,018017928118299744"},{"NDVI":"0,15418369925906714"},{"SAVI":"0,2312556193718079"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2022"},{"Mes":"Septiembre"},{"max_dia":"35,285000000000025"},{"mean_dia":"34,501477272727286"},{"min_dia":"34,27000000000001"},{"max_noc":"19,970000000000027"},{"mean_noc":"19,883338557993767"},{"min_noc":"19,590000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-04-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 3.0242447175545806,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Abril"},{"NDMI":"0,06017179923072824"},{"NDVI":"0,25672948892426856"},{"SAVI":"0,3850607745516145"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Abril"},{"max_dia":"33,19000000000002"},{"mean_dia":"32,93268547544414"},{"min_dia":"32,856666666666705"},{"max_noc":"16,123333333333353"},{"mean_noc":"15,968254963427405"},{"min_noc":"15,443333333333365"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-08-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 0.4288946128276905,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Agosto"},{"NDMI":"-0,042350661642416146"},{"NDVI":"0,1408739386777996"},{"SAVI":"0,2112934236918237"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Agosto"},{"max_dia":"43,08000000000003"},{"mean_dia":"42,392970219435774"},{"min_dia":"42,190000000000026"},{"max_noc":"25,43500000000003"},{"mean_noc":"25,32325235109721"},{"min_noc":"24,945000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-12-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 28.649597914728986,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Diciembre"},{"NDMI":"0,12727782802970433"},{"NDVI":"0,2788101265933123"},{"SAVI":"0,4181718813411197"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Diciembre"},{"max_dia":"10,215000000000032"},{"mean_dia":"9,983416927899723"},{"min_dia":"9,915000000000035"},{"max_noc":"5,52500000000002"},{"mean_noc":"5,371061912225726"},{"min_noc":"4,850000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-01-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 29.74850268704543,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Enero"},{"NDMI":"0,10211102569125291"},{"NDVI":"0,26278557891664567"},{"SAVI":"0,3941383682182597"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Enero"},{"max_dia":"10,905000000000015"},{"mean_dia":"10,793068181818214"},{"min_dia":"10,760000000000034"},{"max_noc":"5,200000000000031"},{"mean_noc":"5,112198275862098"},{"min_noc":"4,815000000000012"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-02-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 10.402547092230208,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Febrero"},{"NDMI":"0,0836580460418336"},{"NDVI":"0,2384806523360619"},{"SAVI":"0,35768679149615606"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Febrero"},{"max_dia":"14,78000000000003"},{"mean_dia":"14,680795454545498"},{"min_dia":"14,345000000000041"},{"max_noc":"5,565000000000026"},{"mean_noc":"5,425885579937329"},{"min_noc":"4,955000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-07-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 1.2556426826222378,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Julio"},{"NDMI":"-0,047587628466887806"},{"NDVI":"0,14400706632925006"},{"SAVI":"0,21599284304115046"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Julio"},{"max_dia":"44,20500000000004"},{"mean_dia":"43,31340517241383"},{"min_dia":"43,050000000000026"},{"max_noc":"26,835000000000022"},{"mean_noc":"26,748338557993765"},{"min_noc":"26,455000000000013"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-06-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 22.352747259830608,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Junio"},{"NDMI":"-0,05460418421767972"},{"NDVI":"0,15339219620708017"},{"SAVI":"0,2300687400310424"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Junio"},{"max_dia":"41,23000000000003"},{"mean_dia":"39,89067789968656"},{"min_dia":"39,49500000000003"},{"max_noc":"23,990000000000023"},{"mean_noc":"23,125423197492207"},{"min_noc":"22,870000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-03-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 15.002553998705537,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Marzo"},{"NDMI":"0,010736736403927655"},{"NDVI":"0,19194280739491898"},{"SAVI":"0,2878861228519672"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Marzo"},{"max_dia":"24,505000000000024"},{"mean_dia":"24,443424764890313"},{"min_dia":"24,235000000000042"},{"max_noc":"12,100000000000023"},{"mean_noc":"11,919835423197519"},{"min_noc":"11,310000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-05-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 65.5657588144507,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Mayo"},{"NDMI":"0,048638745048275325"},{"NDVI":"0,2382129124937265"},{"SAVI":"0,3572911477131052"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Mayo"},{"max_dia":"35,26500000000004"},{"mean_dia":"34,23445532915363"},{"min_dia":"33,93000000000002"},{"max_noc":"18,31000000000002"},{"mean_noc":"18,150360501567427"},{"min_noc":"17,61000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-11-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 25.918734107712282,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Noviembre"},{"NDMI":"0,0683827697411311"},{"NDVI":"0,24715321122617123"},{"SAVI":"0,37069159121163736"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Noviembre"},{"max_dia":"17,350000000000023"},{"mean_dia":"17,3420180250784"},{"min_dia":"17,315000000000026"},{"max_noc":"8,855000000000032"},{"mean_noc":"8,800266457680284"},{"min_noc":"8,615000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-10-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 74.64908482621979,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Octubre"},{"NDMI":"-0,02085763672065073"},{"NDVI":"0,12191556332670192"},{"SAVI":"0,18285578440510625"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Octubre"},{"max_dia":"25,176666666666694"},{"mean_dia":"25,152340647857933"},{"min_dia":"25,070000000000032"},{"max_noc":"14,463333333333367"},{"mean_noc":"14,411870428422189"},{"min_noc":"14,396666666666704"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-09-01', 'YYYY-MM-DD'), 23, 59, 'J1', 6, 211, 1, 30.88049968590667,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Septiembre"},{"NDMI":"-0,042492598107685756"},{"NDVI":"0,142316986655529"},{"SAVI":"0,21345611007004386"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:59:6:211:1"},{"Año":"2023"},{"Mes":"Septiembre"},{"max_dia":"34,785000000000025"},{"mean_dia":"34,27551724137934"},{"min_dia":"34,125000000000014"},{"max_noc":"20,395000000000024"},{"mean_noc":"20,254745297805677"},{"min_noc":"19,78000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-04-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 92.01443028057454,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Abril"},{"NDMI":"-0,0037513317625031345"},{"NDVI":"0,3033996891115653"},{"SAVI":"0,455048450257555"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Abril"},{"max_dia":"27,760000000000034"},{"mean_dia":"27,372501219682114"},{"min_dia":"27,32500000000003"},{"max_noc":"10,200000000000031"},{"mean_noc":"10,142390402843612"},{"min_noc":"10,090000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-08-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 8.291528902681478,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Agosto"},{"NDMI":"-0,09785085300957005"},{"NDVI":"0,16880256388641496"},{"SAVI":"0,25317806353280126"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Agosto"},{"max_dia":"44,71000000000002"},{"mean_dia":"44,27889984666847"},{"min_dia":"44,065000000000026"},{"max_noc":"24,455000000000027"},{"mean_noc":"24,44600188179532"},{"min_noc":"24,315000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-12-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 67.32368434059666,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Diciembre"},{"NDMI":"0,013002740131419523"},{"NDVI":"0,26454837138180765"},{"SAVI":"0,39676141721260905"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Diciembre"},{"max_dia":"12,825000000000017"},{"mean_dia":"12,770369912182856"},{"min_dia":"12,54500000000003"},{"max_noc":"4,965000000000032"},{"mean_noc":"4,936490625871252"},{"min_noc":"4,715000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-01-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 63.31338867916614,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Enero"},{"max_dia":"11,640000000000043"},{"mean_dia":"11,608199226373038"},{"min_dia":"11,265000000000029"},{"max_noc":"6,2000000000000455"},{"mean_noc":"6,190766657373892"},{"min_noc":"5,910000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-02-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 70.40765145232086,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Febrero"},{"max_dia":"14,170000000000016"},{"mean_dia":"13,92762173589814"},{"min_dia":"13,923333333333366"},{"max_noc":"3,863333333333363"},{"mean_noc":"3,6833900195149414"},{"min_noc":"3,490000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-07-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 14.893518944308681,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Julio"},{"NDMI":"-0,09397058724277536"},{"NDVI":"0,17526408919734218"},{"SAVI":"0,2628702174983851"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Julio"},{"max_dia":"45,525000000000034"},{"mean_dia":"45,19024097435185"},{"min_dia":"45,06500000000004"},{"max_noc":"25,01000000000002"},{"mean_noc":"25,007908070811364"},{"min_noc":"24,92000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-06-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 2.6059571661036784,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Junio"},{"NDMI":"-0,0893356081933928"},{"NDVI":"0,18247143970816848"},{"SAVI":"0,2736801469885123"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Junio"},{"max_dia":"43,09000000000002"},{"mean_dia":"42,58820340814061"},{"min_dia":"42,51500000000004"},{"max_noc":"21,18000000000002"},{"mean_noc":"20,974510036242062"},{"min_noc":"20,77500000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-03-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 32.52098712713902,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Marzo"},{"NDMI":"-0,030586866422079455"},{"NDVI":"0,268229189143254"},{"SAVI":"0,4022961178952463"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Marzo"},{"max_dia":"22,37000000000002"},{"mean_dia":"21,813985398661835"},{"min_dia":"21,28500000000004"},{"max_noc":"7,415000000000035"},{"mean_noc":"7,344724351826059"},{"min_noc":"7,055000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-05-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 82.8073849591533,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Mayo"},{"NDMI":"-0,05548569536353777"},{"NDVI":"0,21972726151658234"},{"SAVI":"0,329556009773552"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Mayo"},{"max_dia":"31,51666666666671"},{"mean_dia":"31,49510547346899"},{"min_dia":"31,03666666666669"},{"max_noc":"15,650000000000034"},{"mean_noc":"15,601171591859575"},{"min_noc":"15,25000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-11-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 130.23196388957103,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Noviembre"},{"NDMI":"0,03034558389351127"},{"NDVI":"0,04104439723912036"},{"SAVI":"0,061563354337426185"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Noviembre"},{"max_dia":"15,863333333333363"},{"mean_dia":"15,852569696124856"},{"min_dia":"15,830000000000021"},{"max_noc":"5,596666666666692"},{"mean_noc":"5,537158256667602"},{"min_noc":"5,216666666666697"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-10-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 70.27137203474254,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Octubre"},{"NDMI":"-0,06533853027794596"},{"NDVI":"0,19782029315464658"},{"SAVI":"0,2966955599926545"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Octubre"},{"max_dia":"25,545000000000044"},{"mean_dia":"25,177761360468427"},{"min_dia":"25,145000000000024"},{"max_noc":"12,43000000000005"},{"mean_noc":"12,419066768887651"},{"min_noc":"12,300000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-09-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 8.007620257945547,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Septiembre"},{"NDMI":"-0,049408303859202446"},{"NDVI":"0,16805171862401294"},{"SAVI":"0,25205198093419845"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2016"},{"Mes":"Septiembre"},{"max_dia":"38,26500000000003"},{"mean_dia":"37,97573912740443"},{"min_dia":"37,945000000000036"},{"max_noc":"18,760000000000048"},{"mean_noc":"18,726248431837277"},{"min_noc":"18,385000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-04-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 49.48343435229674,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Abril"},{"NDMI":"-0,017644534992733923"},{"NDVI":"0,2781776592492195"},{"SAVI":"0,417222992515727"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Abril"},{"max_dia":"33,24000000000004"},{"mean_dia":"32,749688458321764"},{"min_dia":"32,630000000000024"},{"max_noc":"13,643333333333374"},{"mean_noc":"13,584002648452785"},{"min_noc":"13,376666666666702"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-08-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 33.61486441709616,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Agosto"},{"NDMI":"-0,06201571933733941"},{"NDVI":"0,13393285593232196"},{"SAVI":"0,2008814066169639"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Agosto"},{"max_dia":"43,85000000000002"},{"mean_dia":"43,43628066629498"},{"min_dia":"43,42000000000003"},{"max_noc":"23,950000000000045"},{"mean_noc":"23,824986409255683"},{"min_noc":"23,635000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-12-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 49.205179494304474,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Diciembre"},{"NDMI":"-0,018903732957258924"},{"NDVI":"0,22957323197493926"},{"SAVI":"0,3443175605307581"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Diciembre"},{"max_dia":"11,705000000000027"},{"mean_dia":"11,699895630052948"},{"min_dia":"11,56000000000003"},{"max_noc":"2,755000000000024"},{"mean_noc":"2,7443286520769576"},{"min_noc":"2,1700000000000443"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-01-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 18.817936889263365,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Enero"},{"max_dia":"12,090000000000032"},{"mean_dia":"12,076281711736911"},{"min_dia":"12,020000000000039"},{"max_noc":"2,610000000000042"},{"mean_noc":"2,5691502299972555"},{"min_noc":"2,17500000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-02-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 67.64428047674897,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Febrero"},{"NDMI":"-0,019492224085839695"},{"NDVI":"0,2828083062374963"},{"SAVI":"0,42415152985638593"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Febrero"},{"max_dia":"15,410000000000025"},{"mean_dia":"15,264650125453002"},{"min_dia":"14,66500000000002"},{"max_noc":"6,765000000000029"},{"mean_noc":"6,70262858935043"},{"min_noc":"6,610000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-07-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 9.066085184219475,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Julio"},{"NDMI":"-0,08778680214090186"},{"NDVI":"0,16429025205096248"},{"SAVI":"0,24641212641492216"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Julio"},{"max_dia":"46,85000000000004"},{"mean_dia":"46,659322553665916"},{"min_dia":"46,65500000000003"},{"max_noc":"25,03000000000003"},{"mean_noc":"25,02779829941454"},{"min_noc":"24,87000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-06-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 6.010473268155181,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Junio"},{"NDMI":"-0,09920765972468043"},{"NDVI":"0,16652472119410086"},{"SAVI":"0,2497651869536022"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Junio"},{"max_dia":"45,03500000000004"},{"mean_dia":"44,621741357680506"},{"min_dia":"44,60500000000003"},{"max_noc":"22,93000000000002"},{"mean_noc":"22,916990521327023"},{"min_noc":"22,720000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-03-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 68.71318966723905,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Marzo"},{"NDMI":"-0,01810150816547527"},{"NDVI":"0,2845023619741425"},{"SAVI":"0,42670410665902875"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Marzo"},{"max_dia":"23,16000000000004"},{"mean_dia":"22,184110328965676"},{"min_dia":"22,08000000000004"},{"max_noc":"8,985000000000028"},{"mean_noc":"8,944440340117094"},{"min_noc":"8,735000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-05-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 25.20991250536042,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Mayo"},{"NDMI":"-0,09881735868101708"},{"NDVI":"0,19056750192325791"},{"SAVI":"0,28582147926988455"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Mayo"},{"max_dia":"36,54000000000002"},{"mean_dia":"36,109698912740335"},{"min_dia":"36,10500000000003"},{"max_noc":"16,37500000000003"},{"mean_noc":"16,354751533314747"},{"min_noc":"16,270000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-11-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 39.963236294134674,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Noviembre"},{"NDMI":"-0,050775630864350024"},{"NDVI":"0,22299526911765424"},{"SAVI":"0,33445295453654733"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Noviembre"},{"max_dia":"16,810000000000016"},{"mean_dia":"16,22418978254815"},{"min_dia":"16,15000000000002"},{"max_noc":"5,03000000000003"},{"mean_noc":"5,022529272372464"},{"min_noc":"4,620000000000019"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-10-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 47.99671269715233,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Octubre"},{"NDMI":"-0,08072903902276324"},{"NDVI":"0,19350086189920696"},{"SAVI":"0,29021630658555964"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Octubre"},{"max_dia":"30,690000000000037"},{"mean_dia":"30,121628566118513"},{"min_dia":"29,983333333333366"},{"max_noc":"13,923333333333366"},{"mean_noc":"13,922455162159636"},{"min_noc":"13,363333333333363"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-09-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 0.11846197782006129,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Septiembre"},{"NDMI":"-0,10787854548740486"},{"NDVI":"0,17983956191225392"},{"SAVI":"0,26972904933483477"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2017"},{"Mes":"Septiembre"},{"max_dia":"38,645000000000024"},{"mean_dia":"38,26008903679953"},{"min_dia":"38,17500000000004"},{"max_noc":"18,735000000000028"},{"mean_noc":"18,694585308056944"},{"min_noc":"18,465000000000046"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-04-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 71.16990135945755,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Abril"},{"NDMI":"-0,04513304639392423"},{"NDVI":"0,2358285023740889"},{"SAVI":"0,35370370769762605"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Abril"},{"max_dia":"27,616666666666692"},{"mean_dia":"27,051114208716662"},{"min_dia":"27,00333333333337"},{"max_noc":"11,32333333333336"},{"mean_noc":"11,039870829848542"},{"min_noc":"11,023333333333369"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-08-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 8.698831412232266,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Agosto"},{"NDMI":"-0,09160838406798852"},{"NDVI":"0,1777055308535231"},{"SAVI":"0,26653034076842763"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Agosto"},{"max_dia":"43,29500000000003"},{"mean_dia":"42,841005018121166"},{"min_dia":"42,61500000000004"},{"max_noc":"23,960000000000022"},{"mean_noc":"23,931741531920913"},{"min_noc":"23,870000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-12-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 13.503365521785327,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Diciembre"},{"NDMI":"0,005764201062015272"},{"NDVI":"0,26560037573639694"},{"SAVI":"0,39834014540284907"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Diciembre"},{"max_dia":"11,960000000000036"},{"mean_dia":"11,507495121271246"},{"min_dia":"11,370000000000033"},{"max_noc":"4,105000000000047"},{"mean_noc":"4,092800738778957"},{"min_noc":"4,010000000000019"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-01-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 56.53221231606409,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Enero"},{"max_dia":"12,265000000000043"},{"mean_dia":"12,215121445497655"},{"min_dia":"12,010000000000034"},{"max_noc":"3,4500000000000455"},{"mean_noc":"3,4459415946473806"},{"min_noc":"3,3500000000000227"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-02-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 48.408530975844855,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Febrero"},{"NDMI":"-0,04374311146549124"},{"NDVI":"0,22035313009430443"},{"SAVI":"0,33048953175143675"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Febrero"},{"max_dia":"14,02333333333335"},{"mean_dia":"13,735662113186526"},{"min_dia":"13,730000000000038"},{"max_noc":"2,3566666666667024"},{"mean_noc":"2,30253484806248"},{"min_noc":"1,990000000000009"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-07-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 0.04552628302789685,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Julio"},{"NDMI":"-0,08546448188701392"},{"NDVI":"0,18356951256370607"},{"SAVI":"0,2753276093789972"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Julio"},{"max_dia":"45,33000000000003"},{"mean_dia":"44,83354108586552"},{"min_dia":"44,70000000000002"},{"max_noc":"23,28000000000003"},{"mean_noc":"23,272984039587406"},{"min_noc":"23,160000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-06-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 9.028699227464188,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Junio"},{"NDMI":"0,02890499209272607"},{"NDVI":"0,13891708586250276"},{"SAVI":"0,20835917740624108"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Junio"},{"max_dia":"41,963333333333345"},{"mean_dia":"41,269940293652986"},{"min_dia":"41,236666666666714"},{"max_noc":"21,12500000000003"},{"mean_noc":"21,12496863674379"},{"min_noc":"21,105000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-03-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 244.04459327600492,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Marzo"},{"max_dia":"17,370000000000044"},{"mean_dia":"15,940512498838372"},{"min_dia":"15,836666666666702"},{"max_noc":"7,150000000000034"},{"mean_noc":"7,063569138555955"},{"min_noc":"6,710000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-05-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 38.41679675982235,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Mayo"},{"NDMI":"-0,05424218314960744"},{"NDVI":"0,22141049493904758"},{"SAVI":"0,33208267526742735"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Mayo"},{"max_dia":"33,35500000000005"},{"mean_dia":"32,3510612977418"},{"min_dia":"32,26500000000004"},{"max_noc":"10,923333333333366"},{"mean_noc":"10,83755877706532"},{"min_noc":"10,8166666666667"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-11-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 103.3562932989085,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Noviembre"},{"NDMI":"0,05671901423233633"},{"NDVI":"0,15376991104538362"},{"SAVI":"0,23063381579801798"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Noviembre"},{"max_dia":"16,30500000000002"},{"mean_dia":"16,296276484527514"},{"min_dia":"15,865000000000023"},{"max_noc":"7,515000000000043"},{"mean_noc":"7,41833112628938"},{"min_noc":"7,345000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-10-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 105.2593813007121,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Octubre"},{"NDMI":"-0,09621331249558003"},{"NDVI":"0,20131649359791157"},{"SAVI":"0,301938914047222"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Octubre"},{"max_dia":"28,690000000000015"},{"mean_dia":"28,27188713874185"},{"min_dia":"28,05666666666669"},{"max_noc":"11,723333333333377"},{"mean_noc":"11,458385373106657"},{"min_noc":"11,456666666666706"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-09-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 65.11110825215027,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Septiembre"},{"NDMI":"-0,08425009381470723"},{"NDVI":"0,15889713317849297"},{"SAVI":"0,23832227413437626"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2018"},{"Mes":"Septiembre"},{"max_dia":"37,98000000000002"},{"mean_dia":"37,201169152495076"},{"min_dia":"37,03500000000004"},{"max_noc":"19,910000000000025"},{"mean_noc":"19,90551034987451"},{"min_noc":"19,535000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-04-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 91.91293226660946,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Abril"},{"NDMI":"-0,056266973326380636"},{"NDVI":"0,23556442620767037"},{"SAVI":"0,35330955270879244"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Abril"},{"max_dia":"29,52333333333337"},{"mean_dia":"28,88625174240305"},{"min_dia":"28,78333333333336"},{"max_noc":"11,630000000000033"},{"mean_noc":"11,291833705045992"},{"min_noc":"11,29000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-08-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 8.461846087350011,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Agosto"},{"NDMI":"-0,10344337654745958"},{"NDVI":"0,15186903107456037"},{"SAVI":"0,22778166700161467"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Agosto"},{"max_dia":"45,24000000000002"},{"mean_dia":"44,72758921104001"},{"min_dia":"44,59000000000003"},{"max_noc":"24,19500000000002"},{"mean_noc":"24,1890848898801"},{"min_noc":"24,15500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-12-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 82.7532548248513,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Diciembre"},{"NDMI":"-0,004451019289137419"},{"NDVI":"0,2570832586498036"},{"SAVI":"0,3855668238663524"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Diciembre"},{"max_dia":"13,805000000000021"},{"mean_dia":"13,773441768887647"},{"min_dia":"13,705000000000027"},{"max_noc":"5,630000000000024"},{"mean_noc":"5,371152773905802"},{"min_noc":"5,360000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-01-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 23.396348011676338,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Enero"},{"NDMI":"-0,014894114682915401"},{"NDVI":"0,2587659097622952"},{"SAVI":"0,3880931584589461"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Enero"},{"max_dia":"12,29000000000002"},{"mean_dia":"11,625759455440928"},{"min_dia":"11,463333333333367"},{"max_noc":"2,0400000000000205"},{"mean_noc":"1,9870293769166698"},{"min_noc":"1,560000000000045"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-02-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 27.303981178384618,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Febrero"},{"NDMI":"-0,014411678660239046"},{"NDVI":"0,2782136523353752"},{"SAVI":"0,41726021817681974"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Febrero"},{"max_dia":"18,88500000000002"},{"mean_dia":"18,793881377195373"},{"min_dia":"18,665000000000035"},{"max_noc":"5,4700000000000415"},{"mean_noc":"5,468609039587429"},{"min_noc":"5,205000000000041"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-07-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 3.5107265527116738,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Julio"},{"NDMI":"-0,10470908748747834"},{"NDVI":"0,15077061596671698"},{"SAVI":"0,2261352725882011"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Julio"},{"max_dia":"44,69500000000002"},{"mean_dia":"44,181498640925454"},{"min_dia":"44,06000000000003"},{"max_noc":"24,14000000000003"},{"mean_noc":"24,047959994424296"},{"min_noc":"24,040000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-06-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 0.36681339683397596,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Junio"},{"NDMI":"-0,0723572481003847"},{"NDVI":"0,14740243554888363"},{"SAVI":"0,22108402761417204"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Junio"},{"max_dia":"43,08000000000003"},{"mean_dia":"41,98993483412329"},{"min_dia":"41,775000000000034"},{"max_noc":"21,030000000000015"},{"mean_noc":"20,90709280039032"},{"min_noc":"20,750000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-03-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 16.652346857846112,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Marzo"},{"NDMI":"-0,04889013519225783"},{"NDVI":"0,2576867993347005"},{"SAVI":"0,38648598135267204"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Marzo"},{"max_dia":"26,82000000000002"},{"mean_dia":"26,624531642040644"},{"min_dia":"25,82500000000003"},{"max_noc":"8,40500000000003"},{"mean_noc":"8,39623728045723"},{"min_noc":"7,940000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-05-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 0.586949505109402,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Mayo"},{"NDMI":"-0,09772299460318082"},{"NDVI":"0,1821383347725924"},{"SAVI":"0,2731807455363955"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Mayo"},{"max_dia":"40,335000000000036"},{"mean_dia":"39,36692065096189"},{"min_dia":"39,34000000000002"},{"max_noc":"17,17500000000004"},{"mean_noc":"16,92139514218018"},{"min_noc":"16,825000000000017"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-11-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 81.59737088972818,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Noviembre"},{"max_dia":"12,596666666666673"},{"mean_dia":"12,433169547439817"},{"min_dia":"12,390000000000024"},{"max_noc":"5,850000000000037"},{"mean_noc":"5,531915249512145"},{"min_noc":"5,365000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-10-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 24.24530725103935,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Octubre"},{"NDMI":"-0,07516785177993981"},{"NDVI":"0,20194998525940594"},{"SAVI":"0,30289152494249727"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Octubre"},{"max_dia":"28,703333333333358"},{"mean_dia":"27,441551668060665"},{"min_dia":"27,336666666666684"},{"max_noc":"12,110000000000033"},{"mean_noc":"12,105297602453382"},{"min_noc":"10,77000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-09-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 42.239652641168135,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Septiembre"},{"NDMI":"-0,06022194926493765"},{"NDVI":"0,13415545075819132"},{"SAVI":"0,2012153978868631"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2019"},{"Mes":"Septiembre"},{"max_dia":"34,54500000000003"},{"mean_dia":"34,39231617647078"},{"min_dia":"34,03000000000003"},{"max_noc":"17,603333333333353"},{"mean_noc":"17,510650729486184"},{"min_noc":"17,130000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-04-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 93.57987089480346,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Abril"},{"NDMI":"0,008044195817471374"},{"NDVI":"0,21737180615255522"},{"SAVI":"0,326012397306698"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Abril"},{"max_dia":"30,363333333333383"},{"mean_dia":"30,061898522442075"},{"min_dia":"29,696666666666697"},{"max_noc":"13,230000000000018"},{"mean_noc":"13,04274567884027"},{"min_noc":"12,000000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-08-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 41.21645117449191,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Agosto"},{"NDMI":"-0,09253125658483544"},{"NDVI":"0,17440392862342405"},{"SAVI":"0,261580115431456"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Agosto"},{"max_dia":"44,530000000000044"},{"mean_dia":"43,87052028157236"},{"min_dia":"43,78500000000004"},{"max_noc":"23,240000000000023"},{"mean_noc":"23,226919954000596"},{"min_noc":"22,985000000000042"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-12-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 51.611644533636536,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Diciembre"},{"NDMI":"0,056654380218700395"},{"NDVI":"0,23302728207812493"},{"SAVI":"0,3494754467202893"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Diciembre"},{"max_dia":"11,860000000000028"},{"mean_dia":"11,404730972957926"},{"min_dia":"11,320000000000022"},{"max_noc":"4,8300000000000125"},{"mean_noc":"4,653129181767509"},{"min_noc":"4,610000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-01-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 45.85396377897766,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Enero"},{"NDMI":"-0,008118556067413643"},{"NDVI":"0,22121699338068432"},{"SAVI":"0,3317772358676005"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Enero"},{"max_dia":"11,550000000000031"},{"mean_dia":"11,484738407211283"},{"min_dia":"11,483333333333368"},{"max_noc":"3,6166666666666933"},{"mean_noc":"3,5681205278320345"},{"min_noc":"3,3966666666666847"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-02-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 1.7094049697661262,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Febrero"},{"NDMI":"-0,026403315919865493"},{"NDVI":"0,2634468667638031"},{"SAVI":"0,39512143222028856"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Febrero"},{"max_dia":"19,800000000000026"},{"mean_dia":"19,554923508502885"},{"min_dia":"19,535000000000025"},{"max_noc":"7,850000000000023"},{"mean_noc":"7,821412217730733"},{"min_noc":"7,55000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-07-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 5.677061427032726,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Julio"},{"NDMI":"-0,09673373288242801"},{"NDVI":"0,16450007759903007"},{"SAVI":"0,24672679090171445"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Julio"},{"max_dia":"46,835000000000036"},{"mean_dia":"46,260502160579776"},{"min_dia":"46,155000000000044"},{"max_noc":"26,30500000000002"},{"mean_noc":"26,302790458600555"},{"min_noc":"26,14000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-06-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 8.102040920771714,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Junio"},{"NDMI":"-0,0899662159382399"},{"NDVI":"0,17650353660099588"},{"SAVI":"0,2647290433902563"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Junio"},{"max_dia":"42,35500000000003"},{"mean_dia":"41,71301627404521"},{"min_dia":"41,670000000000044"},{"max_noc":"21,476666666666688"},{"mean_noc":"21,464275044140813"},{"min_noc":"19,380000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-03-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 79.22355670642034,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Marzo"},{"NDMI":"-0,024928605294791965"},{"NDVI":"0,18993221830404383"},{"SAVI":"0,28486954300067074"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Marzo"},{"max_dia":"23,860000000000042"},{"mean_dia":"23,85269392946751"},{"min_dia":"23,555000000000035"},{"max_noc":"9,465000000000018"},{"mean_noc":"9,4001123850014"},{"min_noc":"9,070000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-05-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 42.02220809341739,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Mayo"},{"NDMI":"-0,07344439023586251"},{"NDVI":"0,20790800281781233"},{"SAVI":"0,31183119415708416"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Mayo"},{"max_dia":"36,6766666666667"},{"mean_dia":"35,87860747142472"},{"min_dia":"35,85000000000002"},{"max_noc":"20,110000000000014"},{"mean_noc":"20,06041887371068"},{"min_noc":"19,230000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-11-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 91.24294470376526,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Noviembre"},{"NDMI":"0,002686594274236514"},{"NDVI":"0,151049749370793"},{"SAVI":"0,22655019055053194"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Noviembre"},{"max_dia":"17,98333333333335"},{"mean_dia":"17,875801505436243"},{"min_dia":"17,716666666666697"},{"max_noc":"8,763333333333359"},{"mean_noc":"8,698354242170844"},{"min_noc":"8,310000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-10-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 34.042481875079744,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Octubre"},{"NDMI":"-0,06972093753638431"},{"NDVI":"0,21169673677320175"},{"SAVI":"0,3175074633726432"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Octubre"},{"max_dia":"26,24500000000002"},{"mean_dia":"26,154856774463425"},{"min_dia":"26,030000000000015"},{"max_noc":"10,78000000000003"},{"mean_noc":"10,776990695567347"},{"min_noc":"10,105000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-09-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 45.32084606931264,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Septiembre"},{"NDMI":"-0,09276665427414049"},{"NDVI":"0,18253674921076868"},{"SAVI":"0,27377572179551174"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2020"},{"Mes":"Septiembre"},{"max_dia":"36,710000000000036"},{"mean_dia":"35,37583373989402"},{"min_dia":"35,24500000000002"},{"max_noc":"15,465000000000032"},{"mean_noc":"15,463710970170139"},{"min_noc":"15,265000000000029"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-04-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 80.40074917791529,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Abril"},{"NDMI":"-0,05076160178822067"},{"NDVI":"0,18628592470470764"},{"SAVI":"0,27939649643306647"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Abril"},{"max_dia":"25,57000000000002"},{"mean_dia":"25,17562029551153"},{"min_dia":"25,08000000000004"},{"max_noc":"10,29000000000004"},{"mean_noc":"10,198183022023988"},{"min_noc":"8,963333333333347"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-08-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 13.97575319874278,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Agosto"},{"NDMI":"-0,10770472464766417"},{"NDVI":"0,15489980333796752"},{"SAVI":"0,232327436062178"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Agosto"},{"max_dia":"43,695000000000036"},{"mean_dia":"43,5950487872874"},{"min_dia":"43,26500000000004"},{"max_noc":"24,105000000000032"},{"mean_noc":"24,056579314190184"},{"min_noc":"23,965000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-12-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 62.07372089697216,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Diciembre"},{"NDMI":"-0,03461113682216455"},{"NDVI":"0,2362001256971448"},{"SAVI":"0,35424950258572213"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Diciembre"},{"max_dia":"13,830000000000021"},{"mean_dia":"13,7010844717034"},{"min_dia":"13,663333333333355"},{"max_noc":"5,230000000000032"},{"mean_noc":"4,932148034569303"},{"min_noc":"4,840000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-01-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 102.82417970432789,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Enero"},{"NDMI":"0,017228487154416754"},{"NDVI":"0,25841460940802197"},{"SAVI":"0,38756108873424594"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Enero"},{"max_dia":"11,78333333333336"},{"mean_dia":"11,782032803642773"},{"min_dia":"11,7766666666667"},{"max_noc":"3,2200000000000273"},{"mean_noc":"3,0788879983273256"},{"min_noc":"2,8850000000000193"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-02-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 50.30646249488058,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Febrero"},{"NDMI":"0,02161051902111948"},{"NDVI":"0,1866327546461808"},{"SAVI":"0,2799197556915381"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Febrero"},{"max_dia":"17,62500000000003"},{"mean_dia":"17,588737803178148"},{"min_dia":"17,44000000000004"},{"max_noc":"6,230000000000032"},{"mean_noc":"5,625434032617802"},{"min_noc":"5,540000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-07-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 0.09383948435015554,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Julio"},{"NDMI":"-0,1041374363999631"},{"NDVI":"0,16137621659341972"},{"SAVI":"0,24204207664119215"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Julio"},{"max_dia":"45,45500000000003"},{"mean_dia":"44,96720448843046"},{"min_dia":"44,89000000000003"},{"max_noc":"23,655000000000015"},{"mean_noc":"23,650669605519894"},{"min_noc":"23,45500000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-06-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 31.13568810111289,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Junio"},{"NDMI":"-0,11070147611498124"},{"NDVI":"0,1733280401643432"},{"SAVI":"0,2599676408163014"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Junio"},{"max_dia":"42,535000000000025"},{"mean_dia":"41,833517040702674"},{"min_dia":"41,76000000000003"},{"max_noc":"21,32000000000002"},{"mean_noc":"21,30317518120993"},{"min_noc":"21,165000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-03-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 21.457620047254267,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Marzo"},{"NDMI":"-0,04242425469819358"},{"NDVI":"0,22865247967570074"},{"SAVI":"0,342939311422937"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Marzo"},{"max_dia":"25,53000000000003"},{"mean_dia":"24,856857575968807"},{"min_dia":"24,805000000000035"},{"max_noc":"9,940000000000026"},{"mean_noc":"9,931488186506861"},{"min_noc":"9,635000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-05-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 18.146200555200664,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Mayo"},{"NDMI":"-0,10954588430859195"},{"NDVI":"0,1897214174030977"},{"SAVI":"0,28455329578911465"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Mayo"},{"max_dia":"36,84000000000003"},{"mean_dia":"36,66014583914143"},{"min_dia":"35,92500000000004"},{"max_noc":"15,600000000000023"},{"mean_noc":"15,554545407025412"},{"min_noc":"14,79000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-11-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 55.24263205800395,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Noviembre"},{"NDMI":"-0,07685974834831392"},{"NDVI":"0,21884582520406096"},{"SAVI":"0,3282280654903705"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Noviembre"},{"max_dia":"16,380000000000024"},{"mean_dia":"16,174406014775645"},{"min_dia":"15,330000000000021"},{"max_noc":"4,470000000000027"},{"mean_noc":"4,437293525230044"},{"min_noc":"4,105000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-10-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 38.79339596372233,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Octubre"},{"NDMI":"-0,10575656207564854"},{"NDVI":"0,18828546626157908"},{"SAVI":"0,28239787292255336"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Octubre"},{"max_dia":"30,130000000000013"},{"mean_dia":"29,614635489266888"},{"min_dia":"29,55000000000003"},{"max_noc":"13,010000000000028"},{"mean_noc":"12,982102964408485"},{"min_noc":"12,296666666666681"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-09-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 39.44283664793602,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Septiembre"},{"NDMI":"-0,10722915150715683"},{"NDVI":"0,17766660967621226"},{"SAVI":"0,2664709481859698"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2021"},{"Mes":"Septiembre"},{"max_dia":"35,22500000000002"},{"mean_dia":"34,98364144828558"},{"min_dia":"34,925000000000026"},{"max_noc":"17,970000000000027"},{"mean_noc":"17,954064329523376"},{"min_noc":"17,760000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-04-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 75.04756561259285,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Abril"},{"max_dia":"27,86333333333336"},{"mean_dia":"27,68024672428206"},{"min_dia":"27,650000000000016"},{"max_noc":"11,32333333333336"},{"mean_noc":"11,215801505436344"},{"min_noc":"11,056666666666692"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-08-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 7.499392345703626,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Agosto"},{"NDMI":"-0,08222965660238667"},{"NDVI":"0,1141023689947082"},{"SAVI":"0,1711417015098237"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Agosto"},{"max_dia":"44,395000000000024"},{"mean_dia":"43,900376707555075"},{"min_dia":"43,795000000000016"},{"max_noc":"24,05500000000002"},{"mean_noc":"24,053852104823005"},{"min_noc":"23,94500000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-12-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 138.1198047866974,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Diciembre"},{"NDMI":"0,008459437224879471"},{"NDVI":"0,1633475585014204"},{"SAVI":"0,2449974670548358"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Diciembre"},{"max_dia":"13,023333333333369"},{"mean_dia":"12,939710761081665"},{"min_dia":"12,896666666666684"},{"max_noc":"6,363333333333363"},{"mean_noc":"5,761453686925044"},{"min_noc":"5,655000000000044"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-01-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 11.321306276421694,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Enero"},{"NDMI":"-0,03870901764231618"},{"NDVI":"0,21204653462406714"},{"SAVI":"0,3180296219915232"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Enero"},{"max_dia":"12,76000000000002"},{"mean_dia":"12,337730345692853"},{"min_dia":"12,235000000000028"},{"max_noc":"2,5800000000000267"},{"mean_noc":"2,523067500696996"},{"min_noc":"2,1350000000000193"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-02-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 29.17442327835218,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Febrero"},{"NDMI":"-0,03926899173500268"},{"NDVI":"0,1312354465055847"},{"SAVI":"0,1968380443068507"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Febrero"},{"max_dia":"19,415000000000035"},{"mean_dia":"18,855410335935343"},{"min_dia":"18,750000000000043"},{"max_noc":"6,330000000000041"},{"mean_noc":"6,3155211527739175"},{"min_noc":"5,805000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-07-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 2.604688123138743,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Julio"},{"NDMI":"-0,07634051495045446"},{"NDVI":"0,11672099977445548"},{"SAVI":"0,17506975713722203"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Julio"},{"max_dia":"49,025000000000034"},{"mean_dia":"48,480055582659695"},{"min_dia":"48,27000000000004"},{"max_noc":"26,630000000000024"},{"mean_noc":"26,622905631446958"},{"min_noc":"26,460000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-06-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 6.567832919010641,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Junio"},{"NDMI":"-0,0737860266760979"},{"NDVI":"0,12543912974003296"},{"SAVI":"0,18814639332775493"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Junio"},{"max_dia":"43,86500000000004"},{"mean_dia":"43,17872386395313"},{"min_dia":"43,06500000000004"},{"max_noc":"22,280000000000044"},{"mean_noc":"22,25140437691662"},{"min_noc":"21,975000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-03-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 118.77162296938693,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Marzo"},{"NDMI":"-0,05676736720636781"},{"NDVI":"0,15492677029086319"},{"SAVI":"0,23237140967512895"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Marzo"},{"max_dia":"17,876666666666704"},{"mean_dia":"17,662367345042338"},{"min_dia":"17,656666666666712"},{"max_noc":"6,200000000000017"},{"mean_noc":"6,051725327571796"},{"min_noc":"6,03000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-05-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 14.152431340132665,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Mayo"},{"NDMI":"-0,08205356884892206"},{"NDVI":"0,132883254850329"},{"SAVI":"0,19931076198099992"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Mayo"},{"max_dia":"38,88500000000002"},{"mean_dia":"38,04023452746019"},{"min_dia":"38,03500000000001"},{"max_noc":"16,635000000000034"},{"mean_noc":"16,613525578477915"},{"min_noc":"16,52500000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-11-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 29.752541231346186,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Noviembre"},{"NDMI":"-0,04167100539089"},{"NDVI":"0,1574779695876296"},{"SAVI":"0,23619558275374075"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Noviembre"},{"max_dia":"18,965000000000032"},{"mean_dia":"18,72504512824094"},{"min_dia":"18,085000000000036"},{"max_noc":"8,960000000000036"},{"mean_noc":"8,807151345135216"},{"min_noc":"8,770000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-10-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 18.76132581618961,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Octubre"},{"NDMI":"-0,06778462127018595"},{"NDVI":"0,12408542435311402"},{"SAVI":"0,18611368674244672"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Octubre"},{"max_dia":"30,29000000000002"},{"mean_dia":"30,02765786172286"},{"min_dia":"29,81000000000003"},{"max_noc":"15,130000000000024"},{"mean_noc":"12,793669500975716"},{"min_noc":"12,79000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-09-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 40.699273463065566,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Septiembre"},{"NDMI":"-0,07945058097437363"},{"NDVI":"0,11746036860076933"},{"SAVI":"0,17617752224273608"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2022"},{"Mes":"Septiembre"},{"max_dia":"36,03000000000003"},{"mean_dia":"35,91150909534441"},{"min_dia":"35,85500000000003"},{"max_noc":"18,75000000000003"},{"mean_noc":"18,749631481739627"},{"min_noc":"18,51500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-04-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 2.514014057116043,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Abril"},{"NDMI":"-0,048935103022377024"},{"NDVI":"0,15990564957519995"},{"SAVI":"0,23984182540174764"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Abril"},{"max_dia":"36,35000000000002"},{"mean_dia":"35,55837143388169"},{"min_dia":"35,47666666666671"},{"max_noc":"15,096666666666692"},{"mean_noc":"15,091834634327753"},{"min_noc":"14,50333333333335"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-08-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 0.11327311758080327,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Agosto"},{"NDMI":"-0,09924457742967484"},{"NDVI":"0,10580915999478512"},{"SAVI":"0,15870302188953445"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Agosto"},{"max_dia":"45,34500000000003"},{"mean_dia":"44,96250052272095"},{"min_dia":"44,80500000000002"},{"max_noc":"24,710000000000036"},{"mean_noc":"24,697643922497875"},{"min_noc":"24,515000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-12-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 40.27947738936888,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Diciembre"},{"NDMI":"-0,018791918195099525"},{"NDVI":"0,16738446159162518"},{"SAVI":"0,25105317411105993"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Diciembre"},{"max_dia":"10,620000000000033"},{"mean_dia":"9,638142772511896"},{"min_dia":"9,535000000000025"},{"max_noc":"4,020000000000039"},{"mean_noc":"3,9750236966824954"},{"min_noc":"3,515000000000029"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-01-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 29.86057432038436,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Enero"},{"NDMI":"4,000586040034462E-4"},{"NDVI":"0,1821527907925763"},{"SAVI":"0,2732048162762178"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Enero"},{"max_dia":"11,360000000000014"},{"mean_dia":"11,269165737385006"},{"min_dia":"11,265000000000029"},{"max_noc":"3,5950000000000273"},{"mean_noc":"3,473666016169541"},{"min_noc":"3,065000000000012"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-02-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 18.20530173280943,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Febrero"},{"NDMI":"-6,038686712212193E-4"},{"NDVI":"0,18930153284164875"},{"SAVI":"0,28392898369672137"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Febrero"},{"max_dia":"16,36333333333336"},{"mean_dia":"14,424537566211376"},{"min_dia":"14,400000000000034"},{"max_noc":"3,545000000000016"},{"mean_noc":"3,524461423194884"},{"min_noc":"3,255000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-07-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 1.7568432393773037,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Julio"},{"NDMI":"-0,1057152611432586"},{"NDVI":"0,10718774711898957"},{"SAVI":"0,16077079383696416"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Julio"},{"max_dia":"47,27500000000002"},{"mean_dia":"46,82335534569293"},{"min_dia":"46,710000000000036"},{"max_noc":"25,600000000000023"},{"mean_noc":"25,590994040981375"},{"min_noc":"25,455000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-06-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 42.400844035839214,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Junio"},{"NDMI":"-0,11145842832198208"},{"NDVI":"0,11250690822111388"},{"SAVI":"0,16874876078076292"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Junio"},{"max_dia":"43,99000000000002"},{"mean_dia":"43,45841964036795"},{"min_dia":"43,44000000000004"},{"max_noc":"24,983333333333366"},{"mean_noc":"24,979139020537247"},{"min_noc":"24,7966666666667"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-03-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 15.908827721354157,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Marzo"},{"NDMI":"-0,025496227297350873"},{"NDVI":"0,1871970279638642"},{"SAVI":"0,2807738863285727"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Marzo"},{"max_dia":"26,89000000000003"},{"mean_dia":"26,818220135210478"},{"min_dia":"26,625000000000043"},{"max_noc":"10,223333333333358"},{"mean_noc":"10,09934764427099"},{"min_noc":"9,710000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-05-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 70.05226003133913,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Mayo"},{"NDMI":"-0,0576588440645144"},{"NDVI":"0,13911939408553511"},{"SAVI":"0,2086660105651757"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Mayo"},{"max_dia":"36,74000000000002"},{"mean_dia":"36,33959785335943"},{"min_dia":"36,17000000000003"},{"max_noc":"18,04000000000005"},{"mean_noc":"18,029822623362126"},{"min_noc":"17,77000000000001"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-11-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 20.094332133034243,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Noviembre"},{"NDMI":"-0,06013872478504776"},{"NDVI":"0,1467356784662385"},{"SAVI":"0,22008480603016242"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Noviembre"},{"max_dia":"17,90500000000003"},{"mean_dia":"17,514344682185683"},{"min_dia":"17,460000000000022"},{"max_noc":"6,965000000000018"},{"mean_noc":"6,948431140228608"},{"min_noc":"6,645000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-10-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 66.72652484964203,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Octubre"},{"NDMI":"-0,09347757731647073"},{"NDVI":"0,11516750336399163"},{"SAVI":"0,17273765434654365"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Octubre"},{"max_dia":"26,343333333333362"},{"mean_dia":"25,995602639160047"},{"min_dia":"25,983333333333366"},{"max_noc":"12,096666666666712"},{"mean_noc":"11,880548740823425"},{"min_noc":"10,990000000000046"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-09-01', 'YYYY-MM-DD'), 23, 87, 'T18', 42, 284, 2, 63.071761335038445,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Septiembre"},{"NDMI":"-0,10026913054828808"},{"NDVI":"0,10598116211796453"},{"SAVI":"0,1589598524400527"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:42:284:2"},{"Año":"2023"},{"Mes":"Septiembre"},{"max_dia":"37,43500000000003"},{"mean_dia":"37,05800738778915"},{"min_dia":"36,98500000000003"},{"max_noc":"19,29000000000002"},{"mean_noc":"19,25542201003622"},{"min_noc":"19,01000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 92.01443028057454,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Abril"},{"NDMI":"-0,04341014762396731"},{"NDVI":"0,2099962277025628"},{"SAVI":"0,3149664680375687"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Abril"},{"max_dia":"28,245000000000033"},{"mean_dia":"27,711662121323805"},{"min_dia":"27,055000000000035"},{"max_noc":"10,595000000000027"},{"mean_noc":"10,553613731849383"},{"min_noc":"10,520000000000053"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 8.291528902681478,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Agosto"},{"NDMI":"-0,09630141753862699"},{"NDVI":"0,13114324779194914"},{"SAVI":"0,19669884774902613"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Agosto"},{"max_dia":"44,42000000000003"},{"mean_dia":"44,097308174246315"},{"min_dia":"43,70000000000003"},{"max_noc":"24,29500000000003"},{"mean_noc":"24,264650070022906"},{"min_noc":"24,240000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 67.32368434059666,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Diciembre"},{"NDMI":"0,005386115695277721"},{"NDVI":"0,23924308618026063"},{"SAVI":"0,3588174402062738"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Diciembre"},{"max_dia":"13,705000000000027"},{"mean_dia":"13,613122466278481"},{"min_dia":"13,500000000000028"},{"max_noc":"5,350000000000023"},{"mean_noc":"5,040982531141763"},{"min_noc":"4,7900000000000205"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 63.31338867916614,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Enero"},{"max_dia":"11,336666666666702"},{"mean_dia":"11,133490331932913"},{"min_dia":"10,883333333333363"},{"max_noc":"6,6850000000000165"},{"mean_noc":"6,680518169086779"},{"min_noc":"6,675000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 70.40765145232086,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Febrero"},{"max_dia":"14,396666666666684"},{"mean_dia":"14,067999066362043"},{"min_dia":"13,663333333333355"},{"max_noc":"3,683333333333375"},{"mean_noc":"3,5877209405174666"},{"min_noc":"3,4700000000000273"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 14.893518944308681,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Julio"},{"NDMI":"-0,09427180442549057"},{"NDVI":"0,1371934297497793"},{"SAVI":"0,2057740320011563"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Julio"},{"max_dia":"45,270000000000024"},{"mean_dia":"45,023499299771565"},{"min_dia":"44,72000000000003"},{"max_noc":"24,925000000000026"},{"mean_noc":"24,853263801872234"},{"min_noc":"24,795000000000044"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 2.6059571661036784,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Junio"},{"NDMI":"-0,08988942873220059"},{"NDVI":"0,13871141480639373"},{"SAVI":"0,2080509670451369"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Junio"},{"max_dia":"42,60000000000002"},{"mean_dia":"42,310921906095636"},{"min_dia":"41,95500000000003"},{"max_noc":"21,19500000000002"},{"mean_noc":"21,178445492739744"},{"min_noc":"21,165000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 32.52098712713902,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Marzo"},{"NDMI":"-0,04196797949419064"},{"NDVI":"0,21435207775048648"},{"SAVI":"0,3214926747454219"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Marzo"},{"max_dia":"22,705000000000027"},{"mean_dia":"22,300888245989025"},{"min_dia":"21,80333333333336"},{"max_noc":"7,490000000000023"},{"mean_noc":"7,401709294611944"},{"min_noc":"7,3300000000000125"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 82.8073849591533,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Mayo"},{"NDMI":"-0,04471723429069414"},{"NDVI":"0,1645624751345108"},{"SAVI":"0,24682522241315438"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Mayo"},{"max_dia":"31,730000000000036"},{"mean_dia":"31,443162821552338"},{"min_dia":"31,090000000000032"},{"max_noc":"14,896666666666704"},{"mean_noc":"14,845163755190319"},{"min_noc":"14,803333333333342"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 130.23196388957103,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Noviembre"},{"NDMI":"0,003808358416518054"},{"NDVI":"0,056335851089428034"},{"SAVI":"0,08449952642674954"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Noviembre"},{"max_dia":"16,95666666666669"},{"mean_dia":"16,598120193607084"},{"min_dia":"16,156666666666695"},{"max_noc":"5,9300000000000255"},{"mean_noc":"5,8159578388737705"},{"min_noc":"5,723333333333376"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 70.27137203474254,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Octubre"},{"NDMI":"-0,078876816912808"},{"NDVI":"0,15630272839967393"},{"SAVI":"0,23443226423324998"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Octubre"},{"max_dia":"25,935000000000016"},{"mean_dia":"25,775895002579762"},{"min_dia":"25,580000000000027"},{"max_noc":"12,580000000000041"},{"mean_noc":"12,447563941917913"},{"min_noc":"12,340000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 8.007620257945547,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Septiembre"},{"NDMI":"-0,05691589438341207"},{"NDVI":"0,13697610544416275"},{"SAVI":"0,2054471549467685"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2016"},{"Mes":"Septiembre"},{"max_dia":"39,06000000000003"},{"mean_dia":"38,7148990196801"},{"min_dia":"38,290000000000035"},{"max_noc":"18,70000000000003"},{"mean_noc":"18,61170929461194"},{"min_noc":"18,54000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 49.48343435229674,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Abril"},{"NDMI":"-0,04012714732745239"},{"NDVI":"0,21254799950750647"},{"SAVI":"0,3187968351123329"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Abril"},{"max_dia":"33,79000000000002"},{"mean_dia":"33,62865408712314"},{"min_dia":"33,430000000000035"},{"max_noc":"13,54333333333337"},{"mean_noc":"13,026428834672403"},{"min_noc":"12,390000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 33.61486441709616,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Agosto"},{"NDMI":"-0,09986555573614347"},{"NDVI":"0,11931155671528779"},{"SAVI":"0,17895280297419675"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Agosto"},{"max_dia":"44,08500000000002"},{"mean_dia":"43,876594862534084"},{"min_dia":"43,62000000000003"},{"max_noc":"23,725000000000023"},{"mean_noc":"23,628432040981796"},{"min_noc":"23,55000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 49.205179494304474,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Diciembre"},{"NDMI":"-0,025180308225273795"},{"NDVI":"0,18067619423368103"},{"SAVI":"0,2709874729624203"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Diciembre"},{"max_dia":"12,575000000000031"},{"mean_dia":"12,326258384314908"},{"min_dia":"12,020000000000039"},{"max_noc":"2,615000000000009"},{"mean_noc":"2,574663521780811"},{"min_noc":"2,525000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 18.817936889263365,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Enero"},{"max_dia":"13,03000000000003"},{"mean_dia":"12,805908454337732"},{"min_dia":"12,53000000000003"},{"max_noc":"2,9550000000000267"},{"mean_noc":"2,764623166506994"},{"min_noc":"2,610000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 67.64428047674897,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Febrero"},{"NDMI":"-0,026080885360126656"},{"NDVI":"0,2378951651116632"},{"SAVI":"0,3568015339492509"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Febrero"},{"max_dia":"14,38500000000002"},{"mean_dia":"14,048862681506598"},{"min_dia":"13,635000000000034"},{"max_noc":"6,950000000000031"},{"mean_noc":"6,930686408196383"},{"min_noc":"6,9150000000000205"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 9.066085184219475,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Julio"},{"NDMI":"-0,09727722793253904"},{"NDVI":"0,1294448632419098"},{"SAVI":"0,19415185565697907"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Julio"},{"max_dia":"46,92000000000003"},{"mean_dia":"46,68694479251127"},{"min_dia":"46,40000000000002"},{"max_noc":"24,820000000000036"},{"mean_noc":"24,737227463698716"},{"min_noc":"24,67000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 6.010473268155181,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Junio"},{"NDMI":"-0,10698476383099025"},{"NDVI":"0,12261275055527908"},{"SAVI":"0,1839050244522529"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Junio"},{"max_dia":"44,945000000000036"},{"mean_dia":"44,79709957986297"},{"min_dia":"44,61500000000002"},{"max_noc":"22,635000000000048"},{"mean_noc":"22,54670929461197"},{"min_noc":"22,475000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 68.71318966723905,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Marzo"},{"NDMI":"-0,036164576945386426"},{"NDVI":"0,22808738799696596"},{"SAVI":"0,3421003981029935"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Marzo"},{"max_dia":"23,105000000000032"},{"mean_dia":"22,61423951499967"},{"min_dia":"22,010000000000034"},{"max_noc":"9,095000000000027"},{"mean_noc":"8,904623166506987"},{"min_noc":"8,750000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 25.20991250536042,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Mayo"},{"NDMI":"-0,09584036455806767"},{"NDVI":"0,15353550030008167"},{"SAVI":"0,23028545749222407"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Mayo"},{"max_dia":"36,420000000000016"},{"mean_dia":"36,19814936979441"},{"min_dia":"35,925000000000026"},{"max_noc":"16,440000000000026"},{"mean_noc":"16,409650070022877"},{"min_noc":"16,385000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 39.963236294134674,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Noviembre"},{"NDMI":"-0,06217476709695068"},{"NDVI":"0,1677675409351647"},{"SAVI":"0,2516285642251673"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Noviembre"},{"max_dia":"17,935000000000045"},{"mean_dia":"17,294098179405953"},{"min_dia":"16,505000000000038"},{"max_noc":"5,310000000000031"},{"mean_noc":"5,125141335593753"},{"min_noc":"4,975000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 47.99671269715233,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Octubre"},{"NDMI":"-0,09310512316311316"},{"NDVI":"0,14694895008572487"},{"SAVI":"0,2204027340190416"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Octubre"},{"max_dia":"31,430000000000025"},{"mean_dia":"31,304508734429163"},{"min_dia":"31,150000000000034"},{"max_noc":"14,203333333333356"},{"mean_noc":"13,927424878995632"},{"min_noc":"13,703333333333356"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 0.11846197782006129,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Septiembre"},{"NDMI":"-0,11169934911868805"},{"NDVI":"0,13466568065349266"},{"SAVI":"0,20198131328871347"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2017"},{"Mes":"Septiembre"},{"max_dia":"39,08500000000002"},{"mean_dia":"38,74662176604996"},{"min_dia":"38,33000000000003"},{"max_noc":"18,565000000000026"},{"mean_noc":"18,43808211100468"},{"min_noc":"18,335000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 71.16990135945755,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Abril"},{"NDMI":"-0,02525144592011995"},{"NDVI":"0,22010004765409638"},{"SAVI":"0,3301195123964068"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Abril"},{"max_dia":"27,2966666666667"},{"mean_dia":"27,183126950197806"},{"min_dia":"27,04333333333337"},{"max_noc":"11,130000000000015"},{"mean_noc":"10,995545072602656"},{"min_noc":"10,830000000000021"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 8.698831412232266,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Agosto"},{"NDMI":"-0,09196712661689375"},{"NDVI":"0,13635548500445"},{"SAVI":"0,20451598160972495"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Agosto"},{"max_dia":"42,86500000000004"},{"mean_dia":"42,70813591803643"},{"min_dia":"42,51500000000003"},{"max_noc":"23,91500000000002"},{"mean_noc":"23,88465007002287"},{"min_noc":"23,860000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 13.503365521785327,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Diciembre"},{"NDMI":"-0,006548131264038529"},{"NDVI":"0,23626098231247852"},{"SAVI":"0,3543462052209758"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Diciembre"},{"max_dia":"13,29000000000002"},{"mean_dia":"12,546016068401283"},{"min_dia":"11,630000000000024"},{"max_noc":"4,285000000000025"},{"mean_noc":"4,28224091545665"},{"min_noc":"4,28000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 56.53221231606409,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Enero"},{"max_dia":"12,820000000000036"},{"mean_dia":"12,690026903515902"},{"min_dia":"12,53000000000003"},{"max_noc":"3,8500000000000227"},{"mean_noc":"3,648586828333486"},{"min_noc":"3,485000000000042"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 48.408530975844855,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Febrero"},{"NDMI":"-0,0351106249602903"},{"NDVI":"0,20247656116001897"},{"SAVI":"0,30368319757142914"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Febrero"},{"max_dia":"13,710000000000036"},{"mean_dia":"13,596460283531155"},{"min_dia":"13,456666666666706"},{"max_noc":"3,255000000000024"},{"mean_noc":"3,0453095747033485"},{"min_noc":"2,8750000000000284"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 0.04552628302789685,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Julio"},{"NDMI":"-0,08269584864817191"},{"NDVI":"0,1401970893097268"},{"SAVI":"0,2102796655269423"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Julio"},{"max_dia":"44,800000000000026"},{"mean_dia":"44,41456254146092"},{"min_dia":"43,940000000000026"},{"max_noc":"22,995000000000047"},{"mean_noc":"22,92326380187222"},{"min_noc":"22,865000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 9.028699227464188,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Junio"},{"NDMI":"0,024961587339192452"},{"NDVI":"0,10391166871642052"},{"SAVI":"0,15585644438951135"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Junio"},{"max_dia":"40,55666666666671"},{"mean_dia":"39,639730903417664"},{"min_dia":"38,89500000000004"},{"max_noc":"20,82500000000003"},{"mean_noc":"20,76225436721458"},{"min_noc":"20,68500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 244.04459327600492,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Marzo"},{"max_dia":"18,890000000000015"},{"mean_dia":"17,26765828849418"},{"min_dia":"15,950000000000026"},{"max_noc":"7,270000000000039"},{"mean_noc":"7,054872116164237"},{"min_noc":"6,7900000000000205"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 38.41679675982235,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Mayo"},{"NDMI":"-0,036736484112629676"},{"NDVI":"0,19051456875042266"},{"SAVI":"0,2857493570176499"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Mayo"},{"max_dia":"33,47500000000002"},{"mean_dia":"32,95286669860689"},{"min_dia":"32,31000000000003"},{"max_noc":"12,130000000000033"},{"mean_noc":"11,69675634505299"},{"min_noc":"11,163333333333375"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 103.3562932989085,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Noviembre"},{"NDMI":"0,014925674806248967"},{"NDVI":"0,2356540864580029"},{"SAVI":"0,35344627767926223"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Noviembre"},{"max_dia":"15,380000000000038"},{"mean_dia":"14,963189725068222"},{"min_dia":"14,450000000000031"},{"max_noc":"7,630000000000024"},{"mean_noc":"7,395477813812942"},{"min_noc":"7,2050000000000125"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 105.2593813007121,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Octubre"},{"NDMI":"-0,10029135764702865"},{"NDVI":"0,15449330678503526"},{"SAVI":"0,23171949431617875"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Octubre"},{"max_dia":"26,170000000000034"},{"mean_dia":"25,933956905235803"},{"min_dia":"25,643333333333374"},{"max_noc":"11,763333333333359"},{"mean_noc":"11,561000466819022"},{"min_noc":"11,396666666666704"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 65.11110825215027,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Septiembre"},{"NDMI":"-0,09373461066634226"},{"NDVI":"0,1289065604147891"},{"SAVI":"0,19334374437247664"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2018"},{"Mes":"Septiembre"},{"max_dia":"37,70000000000002"},{"mean_dia":"37,41316282155227"},{"min_dia":"37,06000000000002"},{"max_noc":"19,770000000000024"},{"mean_noc":"19,71205922458909"},{"min_noc":"19,665000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 91.91293226660946,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Abril"},{"NDMI":"-0,07865252378507584"},{"NDVI":"0,15797475406908784"},{"SAVI":"0,23694359998219963"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Abril"},{"max_dia":"30,04333333333335"},{"mean_dia":"29,598138129284315"},{"min_dia":"29,05000000000005"},{"max_noc":"10,763333333333359"},{"mean_noc":"10,652969951598259"},{"min_noc":"10,563333333333352"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 8.461846087350011,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Agosto"},{"NDMI":"-0,10567243445792267"},{"NDVI":"0,1219019382465867"},{"SAVI":"0,18283883676333554"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Agosto"},{"max_dia":"44,88500000000003"},{"mean_dia":"44,66090845433782"},{"min_dia":"44,38500000000002"},{"max_noc":"23,895000000000024"},{"mean_noc":"23,895000000000024"},{"min_noc":"23,895000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 82.7532548248513,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Diciembre"},{"NDMI":"0,0040635264393865484"},{"NDVI":"0,2502949101960747"},{"SAVI":"0,37539246659733855"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Diciembre"},{"max_dia":"14,475000000000009"},{"mean_dia":"14,291244932556955"},{"min_dia":"14,065000000000026"},{"max_noc":"5,870000000000019"},{"mean_noc":"5,843109014520555"},{"min_noc":"5,810000000000031"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 23.396348011676338,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Enero"},{"NDMI":"-0,030558296047266648"},{"NDVI":"0,21187011037171094"},{"SAVI":"0,3177700879472175"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Enero"},{"max_dia":"13,27000000000002"},{"mean_dia":"13,108654087123176"},{"min_dia":"12,910000000000005"},{"max_noc":"2,4350000000000307"},{"mean_noc":"2,2473822510503716"},{"min_noc":"2,0950000000000273"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 27.303981178384618,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Febrero"},{"NDMI":"-0,03189852025261031"},{"NDVI":"0,23034589387147253"},{"SAVI":"0,3454782898276014"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Febrero"},{"max_dia":"19,840000000000018"},{"mean_dia":"19,47697169602711"},{"min_dia":"19,03000000000003"},{"max_noc":"5,770000000000039"},{"mean_noc":"5,560309574703365"},{"min_noc":"5,390000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 3.5107265527116738,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Julio"},{"NDMI":"-0,10779812822214299"},{"NDVI":"0,12121539308759961"},{"SAVI":"0,18180969391701773"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Julio"},{"max_dia":"44,23500000000004"},{"mean_dia":"44,04452218618712"},{"min_dia":"43,81000000000003"},{"max_noc":"23,935000000000016"},{"mean_noc":"23,908109014520516"},{"min_noc":"23,875000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 0.36681339683397596,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Junio"},{"NDMI":"-6,864636013469873E-4"},{"NDVI":"0,1037395845526319"},{"SAVI":"0,15559903181674747"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Junio"},{"max_dia":"41,98000000000002"},{"mean_dia":"41,76711303162091"},{"min_dia":"41,50500000000004"},{"max_noc":"20,925000000000026"},{"mean_noc":"20,883613731849373"},{"min_noc":"20,850000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 16.652346857846112,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Marzo"},{"NDMI":"-0,07474832394841231"},{"NDVI":"0,1717298075191217"},{"SAVI":"0,2575733415911537"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Marzo"},{"max_dia":"27,455000000000027"},{"mean_dia":"26,93062578315027"},{"min_dia":"26,285000000000025"},{"max_noc":"8,560000000000016"},{"mean_noc":"8,449636618264934"},{"min_noc":"8,360000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 0.586949505109402,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Mayo"},{"NDMI":"-0,07492705322060528"},{"NDVI":"0,15400921033055218"},{"SAVI":"0,23099734805680766"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Mayo"},{"max_dia":"39,97000000000003"},{"mean_dia":"39,5375033168719"},{"min_dia":"39,00500000000004"},{"max_noc":"17,22000000000004"},{"mean_noc":"17,16481830913249"},{"min_noc":"17,120000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 81.59737088972818,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Noviembre"},{"max_dia":"14,400000000000034"},{"mean_dia":"14,14677655340167"},{"min_dia":"13,835000000000022"},{"max_noc":"5,715000000000032"},{"mean_noc":"5,56325035011428"},{"min_noc":"5,440000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 24.24530725103935,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Octubre"},{"NDMI":"-0,07363341815846665"},{"NDVI":"0,16545102350828395"},{"SAVI":"0,24815534673963305"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Octubre"},{"max_dia":"30,503333333333348"},{"mean_dia":"29,621906587061787"},{"min_dia":"28,536666666666708"},{"max_noc":"12,156666666666714"},{"mean_noc":"12,024230608584611"},{"min_noc":"11,916666666666705"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 42.239652641168135,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Septiembre"},{"NDMI":"-0,08675085185044731"},{"NDVI":"0,12946558672071803"},{"SAVI":"0,1941826598583272"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2019"},{"Mes":"Septiembre"},{"max_dia":"35,48000000000003"},{"mean_dia":"34,94218029041061"},{"min_dia":"34,28000000000003"},{"max_noc":"17,070000000000032"},{"mean_noc":"16,91181248617971"},{"min_noc":"16,78333333333336"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 93.57987089480346,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Abril"},{"NDMI":"0,025487966369524395"},{"NDVI":"0,163322305063812"},{"SAVI":"0,24495418138270827"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Abril"},{"max_dia":"31,463333333333367"},{"mean_dia":"30,34885137957303"},{"min_dia":"28,976666666666706"},{"max_noc":"12,715000000000032"},{"mean_noc":"12,33976450210072"},{"min_noc":"12,035000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 41.21645117449191,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Agosto"},{"NDMI":"-0,091982555310483"},{"NDVI":"0,13440046850852386"},{"SAVI":"0,20158349834481362"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Agosto"},{"max_dia":"43,99000000000002"},{"mean_dia":"43,7972812707305"},{"min_dia":"43,56000000000003"},{"max_noc":"22,715000000000046"},{"mean_noc":"22,63498654824211"},{"min_noc":"22,57000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 51.611644533636536,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Diciembre"},{"NDMI":"0,026502018902869025"},{"NDVI":"0,24457602636169443"},{"SAVI":"0,3668136399333127"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Diciembre"},{"max_dia":"12,555000000000035"},{"mean_dia":"12,24799458244273"},{"min_dia":"11,870000000000033"},{"max_noc":"4,705000000000027"},{"mean_noc":"4,638781970958981"},{"min_noc":"4,585000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 45.85396377897766,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Enero"},{"NDMI":"0,011283639250970963"},{"NDVI":"0,23945134670902463"},{"SAVI":"0,35913008391604345"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Enero"},{"max_dia":"13,04000000000002"},{"mean_dia":"12,65008071054767"},{"min_dia":"12,170000000000016"},{"max_noc":"3,890000000000024"},{"mean_noc":"3,6729520159210094"},{"min_noc":"3,496666666666689"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 1.7094049697661262,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Febrero"},{"NDMI":"-0,048056453702606514"},{"NDVI":"0,2406306333511201"},{"SAVI":"0,3609020486315427"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Febrero"},{"max_dia":"19,87500000000003"},{"mean_dia":"19,498526203287433"},{"min_dia":"19,035000000000025"},{"max_noc":"7,8650000000000375"},{"mean_noc":"7,732563941917904"},{"min_noc":"7,625000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 5.677061427032726,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Julio"},{"NDMI":"-0,09940109412098524"},{"NDVI":"0,1286480679216919"},{"SAVI":"0,19295682711827192"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Julio"},{"max_dia":"46,16000000000004"},{"mean_dia":"45,97624493255694"},{"min_dia":"45,75000000000004"},{"max_noc":"26,03500000000004"},{"mean_noc":"25,91911844917816"},{"min_noc":"25,825000000000017"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 8.102040920771714,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Junio"},{"NDMI":"-0,09737039113882688"},{"NDVI":"0,14120949595965057"},{"SAVI":"0,21179748908838508"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Junio"},{"max_dia":"41,960000000000036"},{"mean_dia":"41,48492592319604"},{"min_dia":"40,90000000000002"},{"max_noc":"21,570000000000032"},{"mean_noc":"21,404454927397353"},{"min_noc":"21,27000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 79.22355670642034,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Marzo"},{"NDMI":"-0,08495525275920428"},{"NDVI":"0,1620102202498363"},{"SAVI":"0,2429944615383714"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Marzo"},{"max_dia":"24,230000000000018"},{"mean_dia":"24,086581410776184"},{"min_dia":"23,91000000000004"},{"max_noc":"9,54500000000003"},{"mean_noc":"9,478781970958984"},{"min_noc":"9,425000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 42.02220809341739,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Mayo"},{"NDMI":"-0,06305640593543445"},{"NDVI":"0,17826042014732021"},{"SAVI":"0,2673693322763104"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Mayo"},{"max_dia":"37,18333333333336"},{"mean_dia":"36,872593056681744"},{"min_dia":"36,49000000000003"},{"max_noc":"20,200000000000045"},{"mean_noc":"19,769582811233175"},{"min_noc":"19,420000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 91.24294470376526,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Noviembre"},{"NDMI":"-0,016437197020946204"},{"NDVI":"0,13423582445058407"},{"SAVI":"0,2013339684471566"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Noviembre"},{"max_dia":"19,236666666666697"},{"mean_dia":"19,114163288371316"},{"min_dia":"18,963333333333384"},{"max_noc":"8,916666666666705"},{"mean_noc":"8,872521313972664"},{"min_noc":"8,836666666666682"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 34.042481875079744,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Octubre"},{"NDMI":"-0,06658269988598808"},{"NDVI":"0,15161174090712565"},{"SAVI":"0,22739682665513036"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Octubre"},{"max_dia":"27,435000000000045"},{"mean_dia":"27,02491247143805"},{"min_dia":"26,520000000000024"},{"max_noc":"11,090000000000032"},{"mean_noc":"10,8499596447262"},{"min_noc":"10,65500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 45.32084606931264,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Septiembre"},{"NDMI":"-0,10259944374432989"},{"NDVI":"0,14522128972603643"},{"SAVI":"0,2178125667477538"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2020"},{"Mes":"Septiembre"},{"max_dia":"35,96500000000003"},{"mean_dia":"35,83726781897252"},{"min_dia":"35,680000000000035"},{"max_noc":"15,43500000000003"},{"mean_noc":"15,252900420137108"},{"min_noc":"15,105000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 80.40074917791529,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Abril"},{"NDMI":"-0,08463168679739604"},{"NDVI":"0,18593044829378644"},{"SAVI":"0,2788727993136251"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Abril"},{"max_dia":"28,02000000000004"},{"mean_dia":"27,14812928429279"},{"min_dia":"26,440000000000026"},{"max_noc":"10,336666666666702"},{"mean_noc":"10,255733520060957"},{"min_noc":"10,190000000000017"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 13.97575319874278,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Agosto"},{"NDMI":"-0,1094614731916723"},{"NDVI":"0,11758171143666366"},{"SAVI":"0,1763583765133458"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Agosto"},{"max_dia":"43,49000000000004"},{"mean_dia":"43,46310901452054"},{"min_dia":"43,43000000000002"},{"max_noc":"23,960000000000036"},{"mean_noc":"23,885504717328846"},{"min_noc":"23,82500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 62.07372089697216,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Diciembre"},{"NDMI":"-0,04142535585331307"},{"NDVI":"0,19057929511556118"},{"SAVI":"0,28583638886182505"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Diciembre"},{"max_dia":"14,683333333333357"},{"mean_dia":"14,354665733028703"},{"min_dia":"13,950000000000026"},{"max_noc":"5,300000000000026"},{"mean_noc":"5,242059224589099"},{"min_noc":"5,195000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 102.82417970432789,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Enero"},{"NDMI":"0,02199266623132198"},{"NDVI":"0,24040772603066518"},{"SAVI":"0,360563475654123"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Enero"},{"max_dia":"10,930000000000035"},{"mean_dia":"10,589380850593402"},{"min_dia":"10,170000000000035"},{"max_noc":"3,2050000000000267"},{"mean_noc":"3,1277456327854667"},{"min_noc":"3,065000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 50.30646249488058,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Febrero"},{"NDMI":"0,041864513949671854"},{"NDVI":"0,1532333180523321"},{"SAVI":"0,2298207591095537"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Febrero"},{"max_dia":"19,02333333333335"},{"mean_dia":"18,699147563941903"},{"min_dia":"18,30000000000001"},{"max_noc":"5,620000000000019"},{"mean_noc":"5,465491265570885"},{"min_noc":"5,340000000000018"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 0.09383948435015554,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Julio"},{"NDMI":"-0,10822669587055694"},{"NDVI":"0,12372214008708698"},{"SAVI":"0,1855688968391691"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Julio"},{"max_dia":"44,81000000000003"},{"mean_dia":"44,655376833493065"},{"min_dia":"44,46500000000002"},{"max_noc":"23,62500000000003"},{"mean_noc":"23,556022886415573"},{"min_noc":"23,500000000000043"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 31.13568810111289,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Junio"},{"NDMI":"-0,10733388861811427"},{"NDVI":"0,1256730101278621"},{"SAVI":"0,18849518282250938"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Junio"},{"max_dia":"41,44000000000004"},{"mean_dia":"41,32135936463476"},{"min_dia":"41,22500000000002"},{"max_noc":"20,90000000000002"},{"mean_noc":"20,880686408196386"},{"min_noc":"20,865000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 21.457620047254267,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Marzo"},{"NDMI":"-0,03707425747032324"},{"NDVI":"0,21136851758628636"},{"SAVI":"0,3170221337975799"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Marzo"},{"max_dia":"25,800000000000026"},{"mean_dia":"25,50644007518244"},{"min_dia":"25,145000000000024"},{"max_noc":"9,31500000000004"},{"mean_noc":"8,858600218667895"},{"min_noc":"8,2966666666667"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 18.146200555200664,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Mayo"},{"NDMI":"-0,10939169138276734"},{"NDVI":"0,14552831526502724"},{"SAVI":"0,21827495516652498"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Mayo"},{"max_dia":"36,86000000000003"},{"mean_dia":"36,85172274636996"},{"min_dia":"36,84500000000004"},{"max_noc":"15,575000000000031"},{"mean_noc":"15,448082111004677"},{"min_noc":"15,345000000000041"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 55.24263205800395,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Noviembre"},{"NDMI":"-0,08288192802229892"},{"NDVI":"0,16558321081698518"},{"SAVI":"0,24835050399040162"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Noviembre"},{"max_dia":"16,240000000000023"},{"mean_dia":"16,173781970958963"},{"min_dia":"16,12000000000002"},{"max_noc":"4,850000000000023"},{"mean_noc":"4,662382251050361"},{"min_noc":"4,510000000000019"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 38.79339596372233,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Octubre"},{"NDMI":"-0,0993237177922526"},{"NDVI":"0,13824998644286954"},{"SAVI":"0,20735729153105797"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Octubre"},{"max_dia":"31,143333333333374"},{"mean_dia":"30,88039925308966"},{"min_dia":"30,55666666666669"},{"max_noc":"13,236666666666716"},{"mean_noc":"12,894540183287914"},{"min_noc":"12,616666666666712"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 39.44283664793602,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Septiembre"},{"NDMI":"-0,11287506012323927"},{"NDVI":"0,13500269647237828"},{"SAVI":"0,20248620268153278"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2021"},{"Mes":"Septiembre"},{"max_dia":"35,07500000000003"},{"mean_dia":"34,998808874474854"},{"min_dia":"34,90500000000003"},{"max_noc":"17,740000000000023"},{"mean_noc":"17,618600280091407"},{"min_noc":"17,520000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 75.04756561259285,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Abril"},{"max_dia":"28,590000000000032"},{"mean_dia":"28,14480479595104"},{"min_dia":"27,59666666666671"},{"max_noc":"11,223333333333358"},{"mean_noc":"11,164472863074637"},{"min_noc":"11,116666666666694"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 7.499392345703626,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Agosto"},{"NDMI":"-0,07907994010866101"},{"NDVI":"0,09959996594597113"},{"SAVI":"0,14939097248492886"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Agosto"},{"max_dia":"43,45500000000003"},{"mean_dia":"43,29813591803644"},{"min_dia":"43,10500000000003"},{"max_noc":"23,860000000000028"},{"mean_noc":"23,83516823910967"},{"min_noc":"23,815000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 138.1198047866974,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Diciembre"},{"NDMI":"0,008133195980773967"},{"NDVI":"0,14936918608208125"},{"SAVI":"0,22403426838326987"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Diciembre"},{"max_dia":"13,565000000000026"},{"mean_dia":"13,154912471438102"},{"min_dia":"12,650000000000034"},{"max_noc":"6,525000000000034"},{"mean_noc":"6,43760429719175"},{"min_noc":"6,330000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 11.321306276421694,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Enero"},{"NDMI":"-0,03535025557991626"},{"NDVI":"0,18492121487756844"},{"SAVI":"0,2773535086922827"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Enero"},{"max_dia":"14,105000000000032"},{"mean_dia":"13,71059887963442"},{"min_dia":"13,225000000000023"},{"max_noc":"3,015000000000029"},{"mean_noc":"2,816345912876867"},{"min_noc":"2,6550000000000296"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 29.17442327835218,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Febrero"},{"NDMI":"-0,037333734577594424"},{"NDVI":"0,12120140492096212"},{"SAVI":"0,18179038609732628"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Febrero"},{"max_dia":"20,64000000000003"},{"mean_dia":"20,44410499742026"},{"min_dia":"20,285000000000025"},{"max_noc":"6,620000000000033"},{"mean_noc":"6,341332461118908"},{"min_noc":"6,115000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 2.604688123138743,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Julio"},{"NDMI":"-0,07324164473297849"},{"NDVI":"0,10290410602012316"},{"SAVI":"0,15434723413785967"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Julio"},{"max_dia":"48,38000000000004"},{"mean_dia":"48,207449509840046"},{"min_dia":"47,99500000000003"},{"max_noc":"26,54000000000002"},{"mean_noc":"26,476541055502313"},{"min_noc":"26,425000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 6.567832919010641,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Junio"},{"NDMI":"-0,07309808774597153"},{"NDVI":"0,11492045141259474"},{"SAVI":"0,17237100534106176"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Junio"},{"max_dia":"43,01000000000003"},{"mean_dia":"42,866581410776185"},{"min_dia":"42,69000000000004"},{"max_noc":"22,185000000000016"},{"mean_noc":"22,146372816392716"},{"min_noc":"22,115000000000038"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 118.77162296938693,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Marzo"},{"NDMI":"-0,05129825094466143"},{"NDVI":"0,1434649739643708"},{"SAVI":"0,21518319464422772"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Marzo"},{"max_dia":"18,79000000000005"},{"mean_dia":"18,62566619984772"},{"min_dia":"18,423333333333364"},{"max_noc":"6,350000000000051"},{"mean_noc":"6,245154787351696"},{"min_noc":"6,160000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 14.152431340132665,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Mayo"},{"NDMI":"-0,07228222242554835"},{"NDVI":"0,12697801989302585"},{"SAVI":"0,19045578370513958"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Mayo"},{"max_dia":"38,53000000000003"},{"mean_dia":"38,218512751529495"},{"min_dia":"37,835000000000036"},{"max_noc":"17,56000000000003"},{"mean_noc":"17,267537038402004"},{"min_noc":"17,03000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 29.752541231346186,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Noviembre"},{"NDMI":"-0,04135348684828373"},{"NDVI":"0,13814325973411545"},{"SAVI":"0,20719991556835726"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Noviembre"},{"max_dia":"20,430000000000035"},{"mean_dia":"20,010948809611616"},{"min_dia":"19,49500000000002"},{"max_noc":"8,690000000000026"},{"mean_noc":"8,632059224589115"},{"min_noc":"8,585000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 18.76132581618961,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Octubre"},{"NDMI":"-0,06794517002740819"},{"NDVI":"0,1106997993854475"},{"SAVI":"0,16603867949627713"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Octubre"},{"max_dia":"31,08000000000004"},{"mean_dia":"30,829017468858254"},{"min_dia":"30,52000000000001"},{"max_noc":"12,910000000000025"},{"mean_noc":"12,667200560182836"},{"min_noc":"12,470000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 40.699273463065566,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Septiembre"},{"NDMI":"-0,0799478219588029"},{"NDVI":"0,10265740805507434"},{"SAVI":"0,15397617799114235"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2022"},{"Mes":"Septiembre"},{"max_dia":"36,32500000000003"},{"mean_dia":"36,11883577799077"},{"min_dia":"35,86500000000004"},{"max_noc":"18,735000000000042"},{"mean_noc":"18,654986548242125"},{"min_noc":"18,590000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 2.514014057116043,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Abril"},{"NDMI":"-0,06225679970705982"},{"NDVI":"0,12715613769537357"},{"SAVI":"0,19072306771423697"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Abril"},{"max_dia":"35,7166666666667"},{"mean_dia":"35,46568413552497"},{"min_dia":"35,156666666666695"},{"max_noc":"15,156666666666695"},{"mean_noc":"14,969048917717048"},{"min_noc":"14,8166666666667"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 0.11327311758080327,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Agosto"},{"NDMI":"-0,09117738316562769"},{"NDVI":"0,08774656964693461"},{"SAVI":"0,13161237777339457"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Agosto"},{"max_dia":"45,130000000000024"},{"mean_dia":"44,9440040171004"},{"min_dia":"44,71500000000003"},{"max_noc":"24,55500000000002"},{"mean_noc":"24,47774563278544"},{"min_noc":"24,415000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 40.27947738936888,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Diciembre"},{"NDMI":"-0,031251567755518246"},{"NDVI":"0,1488945517869928"},{"SAVI":"0,22332349112205196"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Diciembre"},{"max_dia":"11,78000000000003"},{"mean_dia":"11,664966339893374"},{"min_dia":"11,523333333333369"},{"max_noc":"3,860000000000042"},{"mean_noc":"3,7165276037444106"},{"min_noc":"3,600000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 29.86057432038436,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Enero"},{"NDMI":"0,00759576372780458"},{"NDVI":"0,1767398721704081"},{"SAVI":"0,26508843868002613"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Enero"},{"max_dia":"12,300000000000026"},{"mean_dia":"12,07814936979439"},{"min_dia":"11,805000000000021"},{"max_noc":"3,820000000000036"},{"mean_noc":"3,6682503501142762"},{"min_noc":"3,545000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 18.20530173280943,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Febrero"},{"NDMI":"-0,013305543185816325"},{"NDVI":"0,15832233630476775"},{"SAVI":"0,2374666992479641"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Febrero"},{"max_dia":"15,995000000000033"},{"mean_dia":"15,741776553401678"},{"min_dia":"15,430000000000035"},{"max_noc":"4,010000000000019"},{"mean_noc":"3,7920323210732065"},{"min_noc":"3,6150000000000233"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 1.7568432393773037,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Julio"},{"NDMI":"-0,09724961892122357"},{"NDVI":"0,0889039258644806"},{"SAVI":"0,1333482842131684"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Julio"},{"max_dia":"47,050000000000026"},{"mean_dia":"46,778849229748715"},{"min_dia":"46,445000000000036"},{"max_noc":"25,380000000000024"},{"mean_noc":"25,26963661826497"},{"min_noc":"25,180000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 42.400844035839214,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Junio"},{"NDMI":"-0,10569400968718161"},{"NDVI":"0,09635658618270755"},{"SAVI":"0,1445264121793828"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Junio"},{"max_dia":"44,065000000000026"},{"mean_dia":"43,57872134591294"},{"min_dia":"42,98000000000003"},{"max_noc":"25,323333333333363"},{"mean_noc":"25,010637085083903"},{"min_noc":"24,7566666666667"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 15.908827721354157,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Marzo"},{"NDMI":"-0,051283824447870906"},{"NDVI":"0,14361061013570556"},{"SAVI":"0,21540230944041622"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Marzo"},{"max_dia":"27,615000000000023"},{"mean_dia":"27,451413171666562"},{"min_dia":"27,250000000000043"},{"max_noc":"10,490000000000029"},{"mean_noc":"10,236164222009323"},{"min_noc":"10,030000000000049"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 70.05226003133913,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Mayo"},{"NDMI":"-0,06149280218387543"},{"NDVI":"0,11570180305646888"},{"SAVI":"0,17354330124110653"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Mayo"},{"max_dia":"35,89000000000003"},{"mean_dia":"35,51128528783079"},{"min_dia":"35,045000000000044"},{"max_noc":"18,55000000000004"},{"mean_noc":"18,489300140045724"},{"min_noc":"18,440000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 20.094332133034243,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Noviembre"},{"NDMI":"-0,0698338432204457"},{"NDVI":"0,12293938856481748"},{"SAVI":"0,1843959444804566"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Noviembre"},{"max_dia":"18,71000000000005"},{"mean_dia":"18,56658141077621"},{"min_dia":"18,390000000000043"},{"max_noc":"7,395000000000024"},{"mean_noc":"7,218418589223879"},{"min_noc":"7,075000000000031"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 66.72652484964203,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Octubre"},{"NDMI":"-0,09457130451617039"},{"NDVI":"0,09858353978553488"},{"SAVI":"0,1478652877699742"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Octubre"},{"max_dia":"28,06333333333335"},{"mean_dia":"27,34922827448962"},{"min_dia":"26,470000000000027"},{"max_noc":"11,256666666666698"},{"mean_noc":"11,22977568118722"},{"min_noc":"11,196666666666678"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 1, 1, 63.071761335038445,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Septiembre"},{"NDMI":"-0,10056312342797179"},{"NDVI":"0,09061641962088195"},{"SAVI":"0,13591588497229212"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:1:1"},{"Año":"2023"},{"Mes":"Septiembre"},{"max_dia":"37,40500000000003"},{"mean_dia":"37,20555852436061"},{"min_dia":"36,960000000000036"},{"max_noc":"19,82500000000003"},{"mean_noc":"19,733950210068596"},{"min_noc":"19,660000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 92.01443028057454,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Abril"},{"NDMI":"-0,0664431110267632"},{"NDVI":"0,192050176761279"},{"SAVI":"0,2880454405483161"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Abril"},{"max_dia":"29,080000000000027"},{"mean_dia":"28,86197577198422"},{"min_dia":"28,505000000000024"},{"max_noc":"11,950000000000045"},{"mean_noc":"11,631245325355337"},{"min_noc":"11,090000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 8.291528902681478,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Agosto"},{"NDMI":"-0,08134038733143643"},{"NDVI":"0,1483143814436456"},{"SAVI":"0,22245084870180262"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Agosto"},{"max_dia":"44,75000000000003"},{"mean_dia":"44,4532746554119"},{"min_dia":"44,36500000000002"},{"max_noc":"24,150000000000034"},{"mean_noc":"24,07324687466611"},{"min_noc":"24,060000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 67.32368434059666,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Diciembre"},{"NDMI":"0,03775553075129732"},{"NDVI":"0,2556409471191398"},{"SAVI":"0,38340894554847516"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Diciembre"},{"max_dia":"13,835000000000036"},{"mean_dia":"13,343039721124079"},{"min_dia":"13,150000000000034"},{"max_noc":"4,870000000000033"},{"mean_noc":"4,765285554012212"},{"min_noc":"4,6850000000000165"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 63.31338867916614,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Enero"},{"max_dia":"13,095000000000027"},{"mean_dia":"12,224089245645937"},{"min_dia":"11,936666666666705"},{"max_noc":"5,615000000000023"},{"mean_noc":"5,37271810556686"},{"min_noc":"5,28000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 70.40765145232086,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Febrero"},{"max_dia":"15,370000000000042"},{"mean_dia":"14,444188303593737"},{"min_dia":"13,710000000000017"},{"max_noc":"3,5833333333333712"},{"mean_noc":"3,5341703173416126"},{"min_noc":"3,4833333333333485"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 14.893518944308681,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Julio"},{"NDMI":"-0,07925405465393229"},{"NDVI":"0,15500474089456742"},{"SAVI":"0,23248616011998974"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Julio"},{"max_dia":"45,535000000000025"},{"mean_dia":"45,39778461908322"},{"min_dia":"45,290000000000006"},{"max_noc":"24,735000000000042"},{"mean_noc":"24,627218987071284"},{"min_noc":"24,55000000000001"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 2.6059571661036784,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Junio"},{"NDMI":"-0,0726724471238321"},{"NDVI":"0,15643210032199648"},{"SAVI":"0,23462779179411059"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Junio"},{"max_dia":"43,04500000000003"},{"mean_dia":"42,842463137087364"},{"min_dia":"42,52500000000002"},{"max_noc":"21,230000000000032"},{"mean_noc":"20,935054359440212"},{"min_noc":"20,840000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 32.52098712713902,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Marzo"},{"NDMI":"0,032824638356791856"},{"NDVI":"0,2967047845794276"},{"SAVI":"0,44500175302955286"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Marzo"},{"max_dia":"23,005000000000024"},{"mean_dia":"22,422649455070008"},{"min_dia":"22,260000000000034"},{"max_noc":"6,645000000000039"},{"mean_noc":"6,4445551073832865"},{"min_noc":"6,1350000000000335"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 82.8073849591533,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Mayo"},{"NDMI":"-0,038253816768562265"},{"NDVI":"0,17378872554319502"},{"SAVI":"0,2606606818101467"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Mayo"},{"max_dia":"32,156666666666695"},{"mean_dia":"32,00837803184107"},{"min_dia":"31,59000000000005"},{"max_noc":"15,136666666666693"},{"mean_noc":"14,96655322862134"},{"min_noc":"14,843333333333362"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 130.23196388957103,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Noviembre"},{"NDMI":"0,0379708652912573"},{"NDVI":"0,03898388690836047"},{"SAVI":"0,05847249987464271"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Noviembre"},{"max_dia":"16,963333333333367"},{"mean_dia":"16,74554154646157"},{"min_dia":"16,630000000000013"},{"max_noc":"5,656666666666695"},{"mean_noc":"4,348708729565148"},{"min_noc":"4,263333333333359"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 70.27137203474254,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Octubre"},{"NDMI":"-0,048368536638023096"},{"NDVI":"0,17586565145393607"},{"SAVI":"0,26377204879727445"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Octubre"},{"max_dia":"26,620000000000033"},{"mean_dia":"25,98512861951065"},{"min_dia":"25,81500000000004"},{"max_noc":"12,245000000000033"},{"mean_noc":"12,166748984934303"},{"min_noc":"12,100000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2016-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 8.007620257945547,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Septiembre"},{"NDMI":"-0,043038339200438355"},{"NDVI":"0,15483120702615163"},{"SAVI":"0,23222617719568575"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2016"},{"Mes":"Septiembre"},{"max_dia":"39,17000000000003"},{"mean_dia":"38,63364635644834"},{"min_dia":"38,48500000000003"},{"max_noc":"18,360000000000028"},{"mean_noc":"18,16677502938352"},{"min_noc":"18,025000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 49.48343435229674,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Abril"},{"NDMI":"0,014930364397751889"},{"NDVI":"0,26526778450730165"},{"SAVI":"0,39786467268606274"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Abril"},{"max_dia":"34,49000000000001"},{"mean_dia":"34,343430387861936"},{"min_dia":"33,99000000000004"},{"max_noc":"13,590000000000051"},{"mean_noc":"13,47371353777118"},{"min_noc":"13,416666666666686"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 33.61486441709616,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Agosto"},{"NDMI":"-0,06967071644410482"},{"NDVI":"0,1456400425712643"},{"SAVI":"0,21844065835894577"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Agosto"},{"max_dia":"44,58000000000004"},{"mean_dia":"44,27987845923724"},{"min_dia":"44,13000000000004"},{"max_noc":"23,680000000000035"},{"mean_noc":"23,60765079068277"},{"min_noc":"23,51000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 49.205179494304474,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Diciembre"},{"NDMI":"0,03183100498530058"},{"NDVI":"0,19107954675587624"},{"SAVI":"0,28658987992881796"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Diciembre"},{"max_dia":"12,910000000000025"},{"mean_dia":"12,536916604338078"},{"min_dia":"12,330000000000027"},{"max_noc":"2,5550000000000352"},{"mean_noc":"2,295316807351243"},{"min_noc":"2,080000000000041"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 18.817936889263365,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Enero"},{"max_dia":"13,275000000000034"},{"mean_dia":"12,56871767817077"},{"min_dia":"12,19000000000004"},{"max_noc":"2,480000000000018"},{"mean_noc":"2,259696949460437"},{"min_noc":"2,17000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 67.64428047674897,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Febrero"},{"NDMI":"-0,00952023862088842"},{"NDVI":"0,2559484977139197"},{"SAVI":"0,3838733570149944"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Febrero"},{"max_dia":"15,460000000000022"},{"mean_dia":"15,096931028956101"},{"min_dia":"14,410000000000025"},{"max_noc":"6,870000000000047"},{"mean_noc":"6,757683513195884"},{"min_noc":"6,720000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 9.066085184219475,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Julio"},{"NDMI":"-0,06609853204267752"},{"NDVI":"0,15643252621038609"},{"SAVI":"0,2346281957556367"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Julio"},{"max_dia":"47,410000000000025"},{"mean_dia":"47,284803932043936"},{"min_dia":"47,06500000000001"},{"max_noc":"24,700000000000017"},{"mean_noc":"24,61728990810991"},{"min_noc":"24,54500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 6.010473268155181,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Junio"},{"NDMI":"-0,06639513333982608"},{"NDVI":"0,15160625392796578"},{"SAVI":"0,22739030421240078"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Junio"},{"max_dia":"45,35500000000003"},{"mean_dia":"45,26537250240415"},{"min_dia":"45,02000000000004"},{"max_noc":"22,645000000000024"},{"mean_noc":"22,6199242707554"},{"min_noc":"22,43000000000005"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 68.71318966723905,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Marzo"},{"NDMI":"-0,012299000982840104"},{"NDVI":"0,2502107735487027"},{"SAVI":"0,37527748874239014"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Marzo"},{"max_dia":"24,525000000000034"},{"mean_dia":"24,175698792606102"},{"min_dia":"23,180000000000035"},{"max_noc":"8,755000000000024"},{"mean_noc":"8,526021877337339"},{"min_noc":"8,395000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 25.20991250536042,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Mayo"},{"NDMI":"-0,07083626679919758"},{"NDVI":"0,19196242661965165"},{"SAVI":"0,2879158770573768"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Mayo"},{"max_dia":"37,49000000000002"},{"mean_dia":"37,30172748156859"},{"min_dia":"36,93500000000003"},{"max_noc":"16,360000000000028"},{"mean_noc":"16,20397678704991"},{"min_noc":"16,120000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 39.963236294134674,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Noviembre"},{"NDMI":"-0,004011103443891026"},{"NDVI":"0,23277895181613364"},{"SAVI":"0,34912904006351436"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Noviembre"},{"max_dia":"18,18500000000003"},{"mean_dia":"17,209901832460776"},{"min_dia":"16,91000000000004"},{"max_noc":"4,795000000000044"},{"mean_noc":"4,616559728603512"},{"min_noc":"4,485000000000028"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 47.99671269715233,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Octubre"},{"NDMI":"-0,04498564574461891"},{"NDVI":"0,18517731272427268"},{"SAVI":"0,2777362028987447"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Octubre"},{"max_dia":"31,430000000000025"},{"mean_dia":"30,804211810378654"},{"min_dia":"30,236666666666697"},{"max_noc":"13,583333333333352"},{"mean_noc":"13,443204580261414"},{"min_noc":"13,270000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2017-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 0.11846197782006129,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Septiembre"},{"NDMI":"-0,07189438882487305"},{"NDVI":"0,16742926022704588"},{"SAVI":"0,2511190896979969"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2017"},{"Mes":"Septiembre"},{"max_dia":"39,47000000000004"},{"mean_dia":"39,02476079175117"},{"min_dia":"38,95500000000003"},{"max_noc":"18,37500000000003"},{"mean_noc":"18,183683486483634"},{"min_noc":"18,01500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 71.16990135945755,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Abril"},{"NDMI":"-0,015659768580165354"},{"NDVI":"0,24928755211679013"},{"SAVI":"0,37389123482312026"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Abril"},{"max_dia":"28,25000000000004"},{"mean_dia":"26,715664600918902"},{"min_dia":"26,216666666666697"},{"max_noc":"11,163333333333375"},{"mean_noc":"10,934034441001586"},{"min_noc":"10,623333333333372"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 8.698831412232266,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Agosto"},{"NDMI":"-0,06917130543392519"},{"NDVI":"0,1479238529857717"},{"SAVI":"0,22186607520642873"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Agosto"},{"max_dia":"43,57500000000003"},{"mean_dia":"43,38447764184208"},{"min_dia":"42,940000000000026"},{"max_noc":"23,980000000000032"},{"mean_noc":"23,92669061865581"},{"min_noc":"23,870000000000033"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 13.503365521785327,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Diciembre"},{"NDMI":"0,01823304227793361"},{"NDVI":"0,25092940988546547"},{"SAVI":"0,3763409156696058"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Diciembre"},{"max_dia":"13,390000000000029"},{"mean_dia":"12,924805267656795"},{"min_dia":"12,550000000000026"},{"max_noc":"4,130000000000024"},{"mean_noc":"4,013232984293229"},{"min_noc":"3,945000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 56.53221231606409,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Enero"},{"max_dia":"13,305000000000021"},{"mean_dia":"12,656359253125364"},{"min_dia":"12,460000000000036"},{"max_noc":"3,350000000000037"},{"mean_noc":"3,2601785714286073"},{"min_noc":"3,1200000000000188"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 48.408530975844855,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Febrero"},{"NDMI":"-0,0021773352649320375"},{"NDVI":"0,23116906042698546"},{"SAVI":"0,34671281032846707"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Febrero"},{"max_dia":"15,376666666666702"},{"mean_dia":"14,591733937030334"},{"min_dia":"14,135000000000034"},{"max_noc":"3,460000000000022"},{"mean_noc":"2,581288866331907"},{"min_noc":"2,056666666666691"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 0.04552628302789685,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Julio"},{"NDMI":"-0,06399429221541253"},{"NDVI":"0,15621417460780987"},{"SAVI":"0,23430172406146346"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Julio"},{"max_dia":"45,49500000000003"},{"mean_dia":"45,377289908109816"},{"min_dia":"45,060000000000045"},{"max_noc":"22,965000000000032"},{"mean_noc":"22,871222352815458"},{"min_noc":"22,80500000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 9.028699227464188,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Junio"},{"NDMI":"0,04673170629818548"},{"NDVI":"0,11165406635685445"},{"SAVI":"0,1674695500843048"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Junio"},{"max_dia":"39,43500000000003"},{"mean_dia":"39,09564870712682"},{"min_dia":"38,91000000000004"},{"max_noc":"20,980000000000018"},{"mean_noc":"20,908185837162094"},{"min_noc":"20,850000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 244.04459327600492,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Marzo"},{"max_dia":"17,570000000000032"},{"mean_dia":"17,38341044271113"},{"min_dia":"16,2966666666667"},{"max_noc":"7,100000000000023"},{"mean_noc":"6,9950066780639295"},{"min_noc":"6,930000000000035"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 38.41679675982235,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Mayo"},{"NDMI":"-0,06767010091156365"},{"NDVI":"0,17700061283920554"},{"SAVI":"0,26547584310890376"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Mayo"},{"max_dia":"34,680000000000035"},{"mean_dia":"34,28808860455176"},{"min_dia":"33,58000000000003"},{"max_noc":"11,356666666666683"},{"mean_noc":"11,305161520105413"},{"min_noc":"11,2766666666667"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 103.3562932989085,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Noviembre"},{"NDMI":"0,01424826106583353"},{"NDVI":"0,18895949952473992"},{"SAVI":"0,2834041876512906"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Noviembre"},{"max_dia":"16,43500000000003"},{"mean_dia":"16,250669275563634"},{"min_dia":"15,620000000000033"},{"max_noc":"7,410000000000025"},{"mean_noc":"7,361077572390247"},{"min_noc":"6,8450000000000415"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 105.2593813007121,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Octubre"},{"NDMI":"-0,07005421457791318"},{"NDVI":"0,17888018109456416"},{"SAVI":"0,26829180342475223"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Octubre"},{"max_dia":"27,640000000000015"},{"mean_dia":"26,0718743989743"},{"min_dia":"25,670000000000034"},{"max_noc":"11,843333333333362"},{"mean_noc":"11,547948498771259"},{"min_noc":"11,370000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2018-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 65.11110825215027,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Septiembre"},{"NDMI":"-0,06589889831552163"},{"NDVI":"0,14424548848286473"},{"SAVI":"0,21634823901953817"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2018"},{"Mes":"Septiembre"},{"max_dia":"38,41500000000002"},{"mean_dia":"38,16804306015601"},{"min_dia":"37,76500000000003"},{"max_noc":"19,635000000000034"},{"mean_noc":"19,572260123944915"},{"min_noc":"19,515000000000015"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 91.91293226660946,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Abril"},{"NDMI":"-0,02076687676563809"},{"NDVI":"0,23315932457918018"},{"SAVI":"0,34970436077109024"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Abril"},{"max_dia":"30,923333333333364"},{"mean_dia":"30,67620899668767"},{"min_dia":"30,27000000000002"},{"max_noc":"11,223333333333358"},{"mean_noc":"11,061292873170245"},{"min_noc":"10,443333333333365"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 8.461846087350011,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Agosto"},{"NDMI":"-0,07191950849715475"},{"NDVI":"0,1359944228409337"},{"SAVI":"0,2039739572443753"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Agosto"},{"max_dia":"45,285000000000025"},{"mean_dia":"45,171416016668374"},{"min_dia":"44,945000000000036"},{"max_noc":"24,05000000000004"},{"mean_noc":"23,93158096484672"},{"min_noc":"23,895000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 82.7532548248513,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Diciembre"},{"NDMI":"0,02911062446424613"},{"NDVI":"0,25409654647883834"},{"SAVI":"0,3810914181879858"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Diciembre"},{"max_dia":"15,010000000000034"},{"mean_dia":"14,118371353777144"},{"min_dia":"13,79500000000003"},{"max_noc":"5,8250000000000455"},{"mean_noc":"5,583904396837305"},{"min_noc":"5,460000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 23.396348011676338,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Enero"},{"NDMI":"-9,183231432480384E-4"},{"NDVI":"0,23789892599408674"},{"SAVI":"0,3568018504577253"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Enero"},{"max_dia":"13,190000000000035"},{"mean_dia":"12,868765893792112"},{"min_dia":"12,670000000000035"},{"max_noc":"1,910000000000025"},{"mean_noc":"1,6683988674003858"},{"min_noc":"1,5900000000000176"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 27.303981178384618,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Febrero"},{"NDMI":"-0,001608126235538649"},{"NDVI":"0,2610088866899623"},{"SAVI":"0,3914602455266908"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Febrero"},{"max_dia":"20,445000000000036"},{"mean_dia":"20,03471257612996"},{"min_dia":"19,965000000000046"},{"max_noc":"5,255000000000024"},{"mean_noc":"5,085952959717946"},{"min_noc":"4,960000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 3.5107265527116738,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Julio"},{"NDMI":"-0,07647335792729322"},{"NDVI":"0,13397196690823218"},{"SAVI":"0,20094134734281913"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Julio"},{"max_dia":"44,99500000000003"},{"mean_dia":"44,85065177903617"},{"min_dia":"44,38500000000003"},{"max_noc":"24,02500000000002"},{"mean_noc":"24,012370846244277"},{"min_noc":"23,980000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 0.36681339683397596,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Junio"},{"NDMI":"0,12157662051184455"},{"NDVI":"0,09290631317598624"},{"SAVI":"0,1393510325902921"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Junio"},{"max_dia":"42,780000000000015"},{"mean_dia":"42,53800272465009"},{"min_dia":"42,090000000000046"},{"max_noc":"20,76500000000003"},{"mean_noc":"20,635041938241304"},{"min_noc":"20,605000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 16.652346857846112,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Marzo"},{"NDMI":"-0,023152725226585166"},{"NDVI":"0,23817717122609489"},{"SAVI":"0,357228185798878"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Marzo"},{"max_dia":"27,25000000000003"},{"mean_dia":"27,112469681589907"},{"min_dia":"27,015000000000043"},{"max_noc":"8,430000000000021"},{"mean_noc":"8,40039173522815"},{"min_noc":"8,31000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 0.586949505109402,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Mayo"},{"NDMI":"-0,039431140520538775"},{"NDVI":"0,20052535261455856"},{"SAVI":"0,30076199285255295"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Mayo"},{"max_dia":"41,04500000000003"},{"mean_dia":"40,5886923015279"},{"min_dia":"40,15500000000003"},{"max_noc":"16,835000000000036"},{"mean_noc":"16,74443570360085"},{"min_noc":"16,690000000000026"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 81.59737088972818,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Noviembre"},{"max_dia":"14,68500000000003"},{"mean_dia":"13,88782468746663"},{"min_dia":"13,29000000000002"},{"max_noc":"5,2900000000000205"},{"mean_noc":"5,184208782989665"},{"min_noc":"5,025000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 24.24530725103935,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Octubre"},{"NDMI":"-0,0395246299218546"},{"NDVI":"0,19647459348464738"},{"SAVI":"0,2946830311777857"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Octubre"},{"max_dia":"30,150000000000034"},{"mean_dia":"29,493810414218146"},{"min_dia":"29,03000000000003"},{"max_noc":"11,53666666666669"},{"mean_noc":"11,371400612601077"},{"min_noc":"11,270000000000039"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2019-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 42.239652641168135,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Septiembre"},{"NDMI":"-0,05923943066905084"},{"NDVI":"0,15278377936342094"},{"SAVI":"0,22915443310495123"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2019"},{"Mes":"Septiembre"},{"max_dia":"36,39000000000003"},{"mean_dia":"35,81781587242231"},{"min_dia":"35,655000000000015"},{"max_noc":"17,276666666666717"},{"mean_noc":"17,034706521352014"},{"min_noc":"16,27666666666668"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 93.57987089480346,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Abril"},{"NDMI":"0,03725806034626107"},{"NDVI":"0,15808041160958286"},{"SAVI":"0,23708346227343977"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Abril"},{"max_dia":"30,976666666666688"},{"mean_dia":"30,705594258645842"},{"min_dia":"30,410000000000025"},{"max_noc":"12,545000000000044"},{"mean_noc":"12,319164974890516"},{"min_noc":"12,230000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 41.21645117449191,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Agosto"},{"NDMI":"-0,07224063542092976"},{"NDVI":"0,15213997948417973"},{"SAVI":"0,2281893829737195"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Agosto"},{"max_dia":"44,78000000000003"},{"mean_dia":"44,353877818143"},{"min_dia":"44,25000000000004"},{"max_noc":"22,535000000000025"},{"mean_noc":"22,387176381023615"},{"min_noc":"22,26500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 51.611644533636536,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Diciembre"},{"NDMI":"0,08534529428651419"},{"NDVI":"0,20596485311067583"},{"SAVI":"0,3088798281755664"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Diciembre"},{"max_dia":"12,560000000000016"},{"mean_dia":"12,008763756811616"},{"min_dia":"11,830000000000027"},{"max_noc":"4,750000000000028"},{"mean_noc":"4,679106341489505"},{"min_noc":"4,590000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 45.85396377897766,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Enero"},{"NDMI":"0,003985245321924195"},{"NDVI":"0,22971202437000754"},{"SAVI":"0,3445293396051212"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Enero"},{"max_dia":"13,03000000000003"},{"mean_dia":"12,20266570502552"},{"min_dia":"11,903333333333364"},{"max_noc":"4,070000000000036"},{"mean_noc":"4,025062105994271"},{"min_noc":"3,9300000000000352"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 1.7094049697661262,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Febrero"},{"NDMI":"-0,03264375352447505"},{"NDVI":"0,23304176403743815"},{"SAVI":"0,3495194236736532"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Febrero"},{"max_dia":"20,420000000000044"},{"mean_dia":"20,12560623464051"},{"min_dia":"19,860000000000028"},{"max_noc":"7,450000000000017"},{"mean_noc":"7,325097633294201"},{"min_noc":"7,080000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 5.677061427032726,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Julio"},{"NDMI":"-0,07967497471454033"},{"NDVI":"0,1446156571270859"},{"SAVI":"0,2169046957067992"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Julio"},{"max_dia":"46,63000000000004"},{"mean_dia":"46,495035126616"},{"min_dia":"46,30000000000001"},{"max_noc":"26,06000000000003"},{"mean_noc":"26,038597606581924"},{"min_noc":"25,990000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 8.102040920771714,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Junio"},{"NDMI":"-0,07179327864210022"},{"NDVI":"0,1371158721928699"},{"SAVI":"0,20565714475518954"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Junio"},{"max_dia":"42,03000000000003"},{"mean_dia":"41,93263663318729"},{"min_dia":"41,72000000000003"},{"max_noc":"21,51666666666669"},{"mean_noc":"21,468248388360607"},{"min_noc":"21,330000000000023"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 79.22355670642034,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Marzo"},{"NDMI":"-0,018994101918792732"},{"NDVI":"0,1580858173722678"},{"SAVI":"0,23710086170305106"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Marzo"},{"max_dia":"24,70000000000003"},{"mean_dia":"23,221377551020446"},{"min_dia":"22,64000000000003"},{"max_noc":"9,440000000000026"},{"mean_noc":"9,386945854257956"},{"min_noc":"9,330000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 42.02220809341739,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Mayo"},{"NDMI":"-0,06669681119785821"},{"NDVI":"0,17234022101090082"},{"SAVI":"0,2584872991076585"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Mayo"},{"max_dia":"37,65000000000001"},{"mean_dia":"37,39944171385833"},{"min_dia":"37,06333333333337"},{"max_noc":"19,370000000000033"},{"mean_noc":"19,346397585212067"},{"min_noc":"19,25000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 91.24294470376526,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Noviembre"},{"NDMI":"8,913958123906388E-4"},{"NDVI":"0,17638323381819104"},{"SAVI":"0,264543144419605"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Noviembre"},{"max_dia":"19,196666666666697"},{"mean_dia":"18,419733233607623"},{"min_dia":"17,99666666666671"},{"max_noc":"8,690000000000035"},{"mean_noc":"8,421793817003273"},{"min_noc":"8,32333333333338"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 34.042481875079744,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Octubre"},{"NDMI":"-0,0494841692639724"},{"NDVI":"0,18391168537864291"},{"SAVI":"0,2758346935023296"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Octubre"},{"max_dia":"27,120000000000033"},{"mean_dia":"26,675575248424035"},{"min_dia":"26,405000000000044"},{"max_noc":"10,375000000000028"},{"mean_noc":"10,138217891868829"},{"min_noc":"10,025000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2020-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 45.32084606931264,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Septiembre"},{"NDMI":"-0,07009847106921084"},{"NDVI":"0,1580701581872864"},{"SAVI":"0,23708306387972844"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2020"},{"Mes":"Septiembre"},{"max_dia":"36,805000000000035"},{"mean_dia":"36,46936144353028"},{"min_dia":"36,410000000000025"},{"max_noc":"15,680000000000035"},{"mean_noc":"15,306038973180945"},{"min_noc":"15,03500000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 80.40074917791529,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Abril"},{"NDMI":"-0,052015906462110614"},{"NDVI":"0,18561961040219535"},{"SAVI":"0,27840496254677366"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Abril"},{"max_dia":"26,230000000000018"},{"mean_dia":"24,36881557858751"},{"min_dia":"23,240000000000038"},{"max_noc":"10,863333333333363"},{"mean_noc":"10,491150407807154"},{"min_noc":"10,156666666666695"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 13.97575319874278,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Agosto"},{"NDMI":"-0,07993892402594026"},{"NDVI":"0,14170458328367735"},{"SAVI":"0,21253884145567034"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Agosto"},{"max_dia":"44,37500000000003"},{"mean_dia":"43,900722299391"},{"min_dia":"43,815000000000026"},{"max_noc":"23,780000000000044"},{"mean_noc":"23,76551247462338"},{"min_noc":"23,645000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 62.07372089697216,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Diciembre"},{"NDMI":"0,008278151336531233"},{"NDVI":"0,24094957773649134"},{"SAVI":"0,36137498366143855"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Diciembre"},{"max_dia":"15,096666666666692"},{"mean_dia":"14,667962567225873"},{"min_dia":"14,410000000000025"},{"max_noc":"5,115000000000023"},{"mean_noc":"4,936885751682897"},{"min_noc":"4,775000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 102.82417970432789,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Enero"},{"NDMI":"0,029681304291588863"},{"NDVI":"0,25525128186182067"},{"SAVI":"0,382819590579283"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Enero"},{"max_dia":"10,710000000000022"},{"mean_dia":"10,189156560529986"},{"min_dia":"9,955000000000027"},{"max_noc":"3,090000000000032"},{"mean_noc":"2,900464659685902"},{"min_noc":"2,6850000000000165"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 50.30646249488058,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Febrero"},{"NDMI":"0,032856963729502975"},{"NDVI":"0,15603997415608994"},{"SAVI":"0,23403993228756914"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Febrero"},{"max_dia":"18,943333333333367"},{"mean_dia":"18,45681621077756"},{"min_dia":"18,215000000000032"},{"max_noc":"5,9900000000000375"},{"mean_noc":"5,808814109413421"},{"min_noc":"5,0950000000000415"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 0.09383948435015554,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Julio"},{"NDMI":"-0,07773484204891615"},{"NDVI":"0,1480755206472645"},{"SAVI":"0,22209528989375107"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Julio"},{"max_dia":"45,74000000000004"},{"mean_dia":"45,578009936959056"},{"min_dia":"45,060000000000045"},{"max_noc":"23,470000000000027"},{"mean_noc":"23,348094614809288"},{"min_noc":"23,145000000000024"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 31.13568810111289,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Junio"},{"NDMI":"-0,07447904938632618"},{"NDVI":"0,1536515012891298"},{"SAVI":"0,23045794099444783"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Junio"},{"max_dia":"42,75000000000004"},{"mean_dia":"42,47921025216372"},{"min_dia":"42,13500000000005"},{"max_noc":"20,985000000000042"},{"mean_noc":"20,93229885671548"},{"min_noc":"20,885000000000034"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 21.457620047254267,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Marzo"},{"NDMI":"-0,014666067750695212"},{"NDVI":"0,22535230390199867"},{"SAVI":"0,3379919718873954"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Marzo"},{"max_dia":"26,065000000000012"},{"mean_dia":"25,686097740143214"},{"min_dia":"25,37500000000003"},{"max_noc":"9,450000000000031"},{"mean_noc":"9,251434848808655"},{"min_noc":"9,18500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 18.146200555200664,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Mayo"},{"NDMI":"-0,07329389526772773"},{"NDVI":"0,1744179576445209"},{"SAVI":"0,26160415606113996"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Mayo"},{"max_dia":"38,28500000000004"},{"mean_dia":"37,97328493963034"},{"min_dia":"37,29500000000003"},{"max_noc":"15,745000000000033"},{"mean_noc":"15,685399615343561"},{"min_noc":"15,40500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 55.24263205800395,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Noviembre"},{"NDMI":"-0,03811593632749312"},{"NDVI":"0,21343678789092263"},{"SAVI":"0,3201176459482458"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Noviembre"},{"max_dia":"17,855000000000032"},{"mean_dia":"17,52763649962604"},{"min_dia":"17,37500000000003"},{"max_noc":"4,3650000000000375"},{"mean_noc":"4,1628164066674165"},{"min_noc":"4,060000000000031"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 38.79339596372233,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Octubre"},{"NDMI":"-0,07041530044214432"},{"NDVI":"0,17923239702471827"},{"SAVI":"0,2688203015213272"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Octubre"},{"max_dia":"32,063333333333354"},{"mean_dia":"31,35667984471281"},{"min_dia":"31,06333333333337"},{"max_noc":"12,496666666666707"},{"mean_noc":"12,25770933504297"},{"min_noc":"12,170000000000016"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2021-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 39.44283664793602,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Septiembre"},{"NDMI":"-0,07692820770543818"},{"NDVI":"0,162280154652275"},{"SAVI":"0,24339659639329583"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2021"},{"Mes":"Septiembre"},{"max_dia":"35,94500000000002"},{"mean_dia":"35,71170945079602"},{"min_dia":"35,555000000000035"},{"max_noc":"17,490000000000038"},{"mean_noc":"17,37338243936319"},{"min_noc":"17,335000000000036"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 75.04756561259285,
+    utl_raw.cast_to_raw('{}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Abril"},{"max_dia":"29,416666666666686"},{"mean_dia":"29,05737596609324"},{"min_dia":"28,890000000000025"},{"max_noc":"11,656666666666714"},{"mean_noc":"11,33464632973614"},{"min_noc":"11,090000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 7.499392345703626,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Agosto"},{"NDMI":"-0,06809784349670366"},{"NDVI":"0,09380691854481722"},{"SAVI":"0,1407012585498808"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Agosto"},{"max_dia":"44,27500000000005"},{"mean_dia":"44,0924093118923"},{"min_dia":"43,50500000000004"},{"max_noc":"23,845000000000027"},{"mean_noc":"23,817334517576686"},{"min_noc":"23,79000000000002"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 138.1198047866974,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Diciembre"},{"NDMI":"0,05778775040193059"},{"NDVI":"0,1937895173382528"},{"SAVI":"0,290656777745423"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Diciembre"},{"max_dia":"14,03000000000003"},{"mean_dia":"13,562357757239061"},{"min_dia":"13,335000000000036"},{"max_noc":"6,950000000000027"},{"mean_noc":"6,077345157958503"},{"min_noc":"5,460000000000022"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 11.321306276421694,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Enero"},{"NDMI":"-0,0013247235189313492"},{"NDVI":"0,21972125855034524"},{"SAVI":"0,329542356457918"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Enero"},{"max_dia":"13,910000000000025"},{"mean_dia":"13,525808847099087"},{"min_dia":"13,340000000000032"},{"max_noc":"2,5200000000000387"},{"mean_noc":"2,309273693770727"},{"min_noc":"2,1950000000000216"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 29.17442327835218,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Febrero"},{"NDMI":"-0,010297296638221865"},{"NDVI":"0,1348794974026376"},{"SAVI":"0,20230490199787995"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Febrero"},{"max_dia":"20,985000000000014"},{"mean_dia":"20,53018671866655"},{"min_dia":"19,960000000000022"},{"max_noc":"6,02500000000002"},{"mean_noc":"5,80606394913989"},{"min_noc":"5,715000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 2.604688123138743,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Julio"},{"NDMI":"-0,06422194002465015"},{"NDVI":"0,09929378542368356"},{"SAVI":"0,14893140351841855"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Julio"},{"max_dia":"49,075000000000045"},{"mean_dia":"48,939982503472606"},{"min_dia":"48,53000000000003"},{"max_noc":"26,365000000000038"},{"mean_noc":"26,224046639598292"},{"min_noc":"26,17000000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 6.567832919010641,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Junio"},{"NDMI":"-0,06497445081427125"},{"NDVI":"0,10924918501863426"},{"SAVI":"0,16386347286568917"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Junio"},{"max_dia":"43,905000000000015"},{"mean_dia":"43,689140933860415"},{"min_dia":"43,18000000000001"},{"max_noc":"22,085000000000022"},{"mean_noc":"22,04367707554226"},{"min_noc":"22,02000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 118.77162296938693,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Marzo"},{"NDMI":"-0,030463521391140596"},{"NDVI":"0,15648301235585188"},{"SAVI":"0,2347071894431767"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Marzo"},{"max_dia":"20,180000000000035"},{"mean_dia":"19,530109876411267"},{"min_dia":"19,316666666666702"},{"max_noc":"6,240000000000009"},{"mean_noc":"6,21148226306232"},{"min_noc":"6,110000000000014"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 14.152431340132665,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Mayo"},{"NDMI":"-0,04494814443367963"},{"NDVI":"0,14800637764179855"},{"SAVI":"0,22199461635693282"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Mayo"},{"max_dia":"39,795000000000044"},{"mean_dia":"39,56979805534785"},{"min_dia":"39,035000000000025"},{"max_noc":"16,630000000000038"},{"mean_noc":"16,358535767710254"},{"min_noc":"16,17500000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 29.752541231346186,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Noviembre"},{"NDMI":"-0,02646065735428256"},{"NDVI":"0,1532910025815506"},{"SAVI":"0,22991670449406626"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Noviembre"},{"max_dia":"21,460000000000022"},{"mean_dia":"20,729772010898635"},{"min_dia":"20,225000000000037"},{"max_noc":"8,41500000000002"},{"mean_noc":"8,305011085586077"},{"min_noc":"8,160000000000025"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 18.76132581618961,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Octubre"},{"NDMI":"-0,06195049501761113"},{"NDVI":"0,11011915085841888"},{"SAVI":"0,16516676311177103"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Octubre"},{"max_dia":"31,390000000000015"},{"mean_dia":"31,125427128966795"},{"min_dia":"30,960000000000036"},{"max_noc":"12,490000000000009"},{"mean_noc":"12,24216903515337"},{"min_noc":"12,130000000000052"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2022-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 40.699273463065566,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Septiembre"},{"NDMI":"-0,07025934068346752"},{"NDVI":"0,10013636011273963"},{"SAVI":"0,15019425243117682"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2022"},{"Mes":"Septiembre"},{"max_dia":"36,645000000000024"},{"mean_dia":"36,417523239662394"},{"min_dia":"36,270000000000024"},{"max_noc":"18,475000000000037"},{"mean_noc":"18,4142899882466"},{"min_noc":"18,330000000000027"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-04-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 2.514014057116043,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Abril"},{"NDMI":"-0,03759811598109009"},{"NDVI":"0,16747799238058675"},{"SAVI":"0,25119983213732683"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Abril"},{"max_dia":"37,250000000000036"},{"mean_dia":"36,97636927022117"},{"min_dia":"36,236666666666714"},{"max_noc":"14,723333333333358"},{"mean_noc":"14,40166025572537"},{"min_noc":"14,216666666666697"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-08-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 0.11327311758080327,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Agosto"},{"NDMI":"-0,08628980132872618"},{"NDVI":"0,09914591556356105"},{"SAVI":"0,14870940328068163"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Agosto"},{"max_dia":"45,90000000000005"},{"mean_dia":"45,46569425152266"},{"min_dia":"45,43000000000002"},{"max_noc":"24,420000000000016"},{"mean_noc":"24,378627924991996"},{"min_noc":"24,29500000000003"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-12-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 40.27947738936888,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Diciembre"},{"NDMI":"0,009227758766532743"},{"NDVI":"0,17753387583041896"},{"SAVI":"0,2662773313180469"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Diciembre"},{"max_dia":"12,195000000000022"},{"mean_dia":"11,240202211774784"},{"min_dia":"10,756666666666698"},{"max_noc":"3,8650000000000233"},{"mean_noc":"3,517453119991477"},{"min_noc":"3,3050000000000352"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-01-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 29.86057432038436,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Enero"},{"NDMI":"0,04473778287984908"},{"NDVI":"0,21240159646725545"},{"SAVI":"0,31857413934842976"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Enero"},{"max_dia":"12,570000000000022"},{"mean_dia":"12,048522411582438"},{"min_dia":"11,835000000000022"},{"max_noc":"3,420000000000016"},{"mean_noc":"3,1115006945186785"},{"min_noc":"2,975000000000037"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-02-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 18.20530173280943,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Febrero"},{"NDMI":"0,01952076150895938"},{"NDVI":"0,20774523472584874"},{"SAVI":"0,3115929737614587"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Febrero"},{"max_dia":"16,790000000000035"},{"mean_dia":"15,741790656053032"},{"min_dia":"15,610000000000042"},{"max_noc":"3,485000000000042"},{"mean_noc":"3,3383291484133144"},{"min_noc":"3,0650000000000404"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-07-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 1.7568432393773037,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Julio"},{"NDMI":"-0,09146752989233631"},{"NDVI":"0,09969180011150472"},{"SAVI":"0,1495282080348446"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Julio"},{"max_dia":"47,685000000000045"},{"mean_dia":"47,417707287103354"},{"min_dia":"47,18500000000002"},{"max_noc":"25,260000000000034"},{"mean_noc":"25,224665161876295"},{"min_noc":"25,105000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-06-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 42.400844035839214,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Junio"},{"NDMI":"-0,09930821349264371"},{"NDVI":"0,10625989738177766"},{"SAVI":"0,15937936017800733"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Junio"},{"max_dia":"44,59500000000003"},{"mean_dia":"44,35405545464269"},{"min_dia":"44,13000000000004"},{"max_noc":"24,843333333333362"},{"mean_noc":"21,95916346119599"},{"min_noc":"20,980000000000032"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-03-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 15.908827721354157,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Marzo"},{"NDMI":"-0,005484873271874681"},{"NDVI":"0,20332907536000186"},{"SAVI":"0,3049705338330636"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Marzo"},{"max_dia":"28,105000000000032"},{"mean_dia":"27,94843760017094"},{"min_dia":"27,74500000000002"},{"max_noc":"9,980000000000032"},{"mean_noc":"9,893854845603181"},{"min_noc":"9,863333333333344"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-05-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 70.05226003133913,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Mayo"},{"NDMI":"-0,04397115467266656"},{"NDVI":"0,14325013707109188"},{"SAVI":"0,21486195754033846"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Mayo"},{"max_dia":"38,030000000000044"},{"mean_dia":"37,247693129607875"},{"min_dia":"36,295000000000044"},{"max_noc":"17,920000000000044"},{"mean_noc":"17,75041938241266"},{"min_noc":"17,58000000000004"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-11-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 20.094332133034243,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Noviembre"},{"NDMI":"-0,03546261859617568"},{"NDVI":"0,1516899206358058"},{"SAVI":"0,22751640145997035"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Noviembre"},{"max_dia":"19,105000000000047"},{"mean_dia":"18,832098381237344"},{"min_dia":"18,72000000000004"},{"max_noc":"7,28000000000003"},{"mean_noc":"6,98588925098838"},{"min_noc":"6,7400000000000375"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-10-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 66.72652484964203,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Octubre"},{"NDMI":"-0,07753361611553655"},{"NDVI":"0,11023875740333638"},{"SAVI":"0,1653463159229043"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Octubre"},{"max_dia":"28,75000000000004"},{"mean_dia":"27,309585247711624"},{"min_dia":"26,73666666666668"},{"max_noc":"11,03000000000003"},{"mean_noc":"10,89945150835204"},{"min_noc":"10,55666666666671"}]}') -- Temperatura
+);
+
+INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)
+VALUES (TO_DATE('2023-09-01', 'YYYY-MM-DD'), 23, 87, 'T27', 43, 53, 2, 63.071761335038445,
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Septiembre"},{"NDMI":"-0,08535671803148366"},{"NDVI":"0,09883589781234399"},{"SAVI":"0,14824350963726898"}]}'), -- Reflectancia
+    utl_raw.cast_to_raw('{"data":[{"ID":"23:87:43:53:2"},{"Año":"2023"},{"Mes":"Septiembre"},{"max_dia":"37,84500000000003"},{"mean_dia":"37,67242787691"},{"min_dia":"37,380000000000024"},{"max_noc":"19,57500000000003"},{"mean_noc":"19,062109066139573"},{"min_noc":"18,43000000000005"}]}') -- Temperatura
+);
+
