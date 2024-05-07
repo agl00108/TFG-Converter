@@ -85,7 +85,6 @@ public class CSVPTemperaturaF
             Cell headerCell = headerRow.createCell(headerIndex++);
             headerCell.setCellValue(header);
         }
-
         // Añadir datos a la hoja Excel
         int rowNum = 1;
         for (Map.Entry<String, Map<String, String>> entry : dataMap.entrySet())
@@ -176,29 +175,21 @@ public class CSVPTemperaturaF
 
                 if (!Objects.equals(municipio, "municipio"))
                 {
-                    // Ajustar la construcción de la clave para incluir
                     String key = provincia + "," + municipio + "," + poligono + "," + parcela + "," + recinto + "," + year + "," + month;
-
-                    // Almacenar los valores en un mapa interno, si la clave ya existe, actualizar los valores
                     dataMap.computeIfAbsent(key, k -> new HashMap<>()).put("max_" + fileName.substring(0,3), max);
                     dataMap.computeIfAbsent(key, k -> new HashMap<>()).put("mean_" + fileName.substring(0,3), mean);
                     dataMap.computeIfAbsent(key, k -> new HashMap<>()).put("min_" + fileName.substring(0,3), min);
 
-                    // Añadir el encabezado a la lista solo si no está presente
                     headers.add("max_" + fileName.substring(0,3));
                     headers.add("mean_" + fileName.substring(0,3));
                     headers.add("min_" + fileName.substring(0,3));
                 }
             }
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (Exception e) {
+        } catch (Exception e)
+        {
             throw new RuntimeException(e);
         }
     }
-
 
     /**
      * @brief función para establecer la celda
@@ -224,7 +215,6 @@ public class CSVPTemperaturaF
      */
     private String getMonthName(String month)
     {
-        // Mapeo de las tres letras del mes a su nombre completo
         Map<String, String> monthMap = new HashMap<>();
         monthMap.put("Jan", "Enero");
         monthMap.put("Feb", "Febrero");

@@ -17,7 +17,6 @@ import java.util.*;
 
 public class CSVPrecipF
 {
-
     private Map<String, Map<String, String>> dataMap;
     private Set<String> headers;
 
@@ -180,11 +179,8 @@ public class CSVPrecipF
                     headers.add("lluvia");
                 }
             }
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (Exception e) {
+        } catch (Exception e)
+        {
             throw new RuntimeException(e);
         }
     }
@@ -196,7 +192,6 @@ public class CSVPrecipF
      */
     private String getMonthName(String month)
     {
-        // Mapeo de las tres letras del mes a su nombre completo
         Map<String, String> monthMap = new HashMap<>();
         monthMap.put("ene", "Enero");
         monthMap.put("feb", "Febrero");
@@ -231,5 +226,4 @@ public class CSVPrecipF
             cell.setCellValue(value);
         }
     }
-
 }

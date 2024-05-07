@@ -37,7 +37,6 @@ public class SQLConvertorF
             Sheet sheet = workbook.getSheetAt(0);
             for (Row row : sheet)
             {
-                // Suponemos que la primera fila contiene encabezados y empezamos desde la segunda
                 if (row.getRowNum() > 0)
                 {
                     //Obtenemos todos los datos necesarios del archivo Excel
@@ -50,8 +49,6 @@ public class SQLConvertorF
                     String mes = row.getCell(6).getStringCellValue();
                     String lluviaStr = row.getCell(7).getStringCellValue().replace(",", ".");
                     double lluvia = Double.parseDouble(lluviaStr);
-
-                    //Llamamos a la función que generará el INSERT INTO
                     generarInsertInto(row.getRowNum(),provinciaCodigo, municipioCodigo, poligono, parcela, recinto, lluvia,  anno, mes , sqlFilePath);
                 }
             }
@@ -89,18 +86,27 @@ public class SQLConvertorF
             String jsonTemperatura = obtenerContenidoJSON(fila, "temperatura",anno,mes, provinciaCodigo, municipioCodigo, poligono, parcela, recinto);
             String lluviaStr = String.valueOf(lluvia).replace(',', '.');
 
-            String insertInto = String.format("INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, " +
-                            "POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)\nVALUES " +
-                            "(TO_DATE('%s', 'YYYY-MM-DD'), %d, %d, %d, %d, %d, %s,\n" +
-                            "    %s, -- Reflectancia\n" +
-                            "    %s -- Temperatura\n);\n",
-                    formattedDate, provinciaCodigo, municipioCodigo, poligono, parcela, recinto, lluviaStr,
-                    jsonReflectancia != null ? "utl_raw.cast_to_raw('" + jsonReflectancia + "')" : "utl_raw.cast_to_raw('{}')",
-                    jsonTemperatura != null ? "utl_raw.cast_to_raw('" + jsonTemperatura + "')" : "utl_raw.cast_to_raw('{}')");
+            //AL CAMBIAR EN LA BASE DE DATOS Y PONER ZONA UBICACION COMO OBLIGATORIO HAY QUE AÑADIRLO AQUÍ
+            String zonaUbicacion = getZonaUbicacion(provinciaCodigo, municipioCodigo, poligono, parcela, recinto);
+            if (zonaUbicacion != null)
+            {
+                String insertInto = String.format("INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, " +
+                                "POLIGONO, PARCELA, RECINTO, LLUVIA, REFLECTANCIA, TEMPERATURA)\nVALUES " +
+                                "(TO_DATE('%s', 'YYYY-MM-DD'), %d, %d, '%s', %d, %d, %d, %s,\n" +
+                                "    %s, -- Reflectancia\n" +
+                                "    %s -- Temperatura\n);\n",
+                        formattedDate, provinciaCodigo, municipioCodigo, zonaUbicacion, poligono, parcela, recinto, lluviaStr,
+                        jsonReflectancia != null ? "utl_raw.cast_to_raw('" + jsonReflectancia + "')" : "utl_raw.cast_to_raw('{}')",
+                        jsonTemperatura != null ? "utl_raw.cast_to_raw('" + jsonTemperatura + "')" : "utl_raw.cast_to_raw('{}')");
 
-            // Escribir el INSERT INTO en el archivo .sql
-            writer.write(insertInto);
-            writer.newLine();
+                // Escribir el INSERT INTO en el archivo .sql
+                writer.write(insertInto);
+                writer.newLine();
+            }else {
+                System.out.println("Zona de ubicación no encontrada para la finca con los siguientes datos: " +
+                        "Provincia: " + provinciaCodigo + ", Municipio: " + municipioCodigo + ", Polígono: " + poligono +
+                        ", Parcela: " + parcela + ", Recinto: " + recinto);
+            }
         } catch (IOException e)
         {
             e.printStackTrace();
@@ -172,8 +178,8 @@ public class SQLConvertorF
             por tanto el índice almacenado en lastRowIndices, que posteriormente se incrementa para seguir el órden
         */
             String nombreArchivo = tipoJSON.equals("indices") ?
-                    String.format("JSONIndices/indice_%s_%d.json", "20240312", encontrado ? (fila - 1) : lastRowIndices) :
-                    String.format("JSONTemperaturas/temperatura_%s_%d.json", "20240312", fila - 1);
+                    String.format("JSONIndices/indice_%s_%d.json", "20240430", encontrado ? (fila - 1) : lastRowIndices) :
+                    String.format("JSONTemperaturas/temperatura_%s_%d.json", "20240430", fila - 1);
 
             rutaCompleta = Paths.get(rutaBase, nombreArchivo).toString();
 
@@ -222,14 +228,45 @@ public class SQLConvertorF
         {
             e.printStackTrace();
         }
-        //Para el control la primera vez que no se encuentra el archivo JSON de índices
         if(encontrado)
         {
             encontrado = false;
             lastRowIndices++;
         }
-        return null; // Retorna null para indicar un valor nulo
+        return null;
     }
 
+    /**
+     * @brief función que según los datos de la finca, devuelve la zona de ubicación
+     * @param provinciaCodigo
+     * @param municipioCodigo
+     * @param poligono
+     * @param parcela
+     * @param recinto
+     * @return la zona de ubicación
+     */
+    private static String getZonaUbicacion(int provinciaCodigo, int municipioCodigo, int poligono, int parcela, int recinto)
+    {
+        String sigpac = String.format("%d:%d:0:0:%d:%d:%d", provinciaCodigo, municipioCodigo, poligono, parcela, recinto);
+        switch (sigpac)
+        {
+            case "23:87:0:0:42:284:2":
+                return "T18";
+            case "23:32:0:0:3:101:3":
+                return "J4";
+            case "23:41:0:0:2:36:1":
+                return "H4";
+            case "23:5:0:0:7:325:2":
+            case "23:5:0:0:8:101:2":
+                return "J2";
+            case "23:59:0:0:6:211:1":
+                return "J1";
+            case "23:87:0:0:43:53:2":
+            case "23:87:0:0:43:1:1":
+                return "T27";
+            default:
+                return null;
+        }
+    }
 }
 

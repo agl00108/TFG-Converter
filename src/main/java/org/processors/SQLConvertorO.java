@@ -50,8 +50,6 @@ public class SQLConvertorO
                     String mes = row.getCell(6).getStringCellValue();
                     String lluviaStr = row.getCell(7).getStringCellValue().replace(",", ".");
                     double lluvia = Double.parseDouble(lluviaStr);
-
-                    //Llamamos a la función que generará el INSERT INTO
                     generarInsertInto(row.getRowNum(),provinciaCodigo, municipioCodigo, poligono, parcela, recinto, lluvia,  anno, mes , sqlFilePath);
                 }
             }
@@ -97,8 +95,6 @@ public class SQLConvertorO
                     formattedDate, provinciaCodigo, municipioCodigo, poligono, parcela, recinto, lluviaStr,
                     jsonReflectancia != null ? "utl_raw.cast_to_raw('" + jsonReflectancia + "')" : "utl_raw.cast_to_raw('{}')",
                     jsonTemperatura != null ? "utl_raw.cast_to_raw('" + jsonTemperatura + "')" : "utl_raw.cast_to_raw('{}')");
-
-            // Escribir el INSERT INTO en el archivo .sql
             writer.write(insertInto);
             writer.newLine();
         } catch (IOException e)
@@ -228,7 +224,7 @@ public class SQLConvertorO
             encontrado = false;
             lastRowIndices++;
         }
-        return null; // Retorna null para indicar un valor nulo
+        return null;
     }
 
 }

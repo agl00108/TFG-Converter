@@ -224,7 +224,6 @@ public class CSVPIndicesF
     return monthMap.getOrDefault(month, "Desconocido");
     }
 
-
     /**
      * @brief función para establecer la celda
      * @param cell

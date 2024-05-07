@@ -1,10 +1,13 @@
 import org.processors.*;
 
 import java.io.IOException;
+import java.util.Map;
 
 public class Main
 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException
+    {
+        //GENERAR DATOS PARA LAS FINCAS
 
         //Primero creamos un excel combinator que nos servirá para combinar todos los excel genrados
         ExcelCombinator comb=new ExcelCombinator();
@@ -43,32 +46,38 @@ public class Main
             ind.writeExcelFile(excelFile, year);
         }
         comb.combineExcelFiles("src/main/archivosExcel/resultadoPrecipitaciones/","src/main/archivosExcel/resultadoPRECIPITACIONES.xlsx");
-*/
-        /*
-     SQLConvertor prueba=new SQLConvertor();
+
+
+        SQLConvertorF prueba=new SQLConvertorF();
         prueba.generarInsercionDesdeExcel("src/main/archivosExcel/resultadoPRECIPITACIONES.xlsx", "src/main/insertDatos.sql");
-*/
-        //Para transformar el archivo generado por GEU al válido en nuestra BD
-        GEUConverter.transformarArchivoSQL("src/main/J2Input.sql", "src/main/J2Output.sql");
+
+        //PARA GENERAR LOS DATOS DE LOS OLIVOS
+
+       //Para transformar el archivo generado por GEU al válido en nuestra BD
+        GEUConverter.transformarArchivoSQL("src/main/J1Input.sql", "src/main/J1Output.sql");
         //Para obtener el archivo del punto medio
-        GEUConverter.processSqlFile("src/main/J2Input.sql");
-
-    /*
-
+        GEUConverter.processSqlFile("src/main/J1Input.sql");
+*/
+/*
     for (String year : years)
     {
-        String folderPath = "src/main/J2_OLIVOS/INDICES/" + year;
-        String excelFile = "src/main/J2_OLIVOS/resultadoIndices/resultado" + year + ".xlsx";
-        String oliveSql="src/main/J2_OLIVOS/datos.sql";
+        String folderPath = "src/main/J1_OLIVOS/INDICES/" + year;
+        String excelFile = "src/main/J1_OLIVOS/resultadoIndices/resultado" + year + ".xlsx";
+        String oliveSql="src/main/J1_OLIVOS/datosJ1.sql";
         CSVPIndicesO pro = new CSVPIndicesO();
         pro.readOliveIds(oliveSql);
         pro.processCSVFiles(folderPath);
         pro.writeExcelFile(excelFile);
     }
-    comb.combineExcelFiles("src/main/J2_OLIVOS/resultadoIndices/","src/main/J2_OLIVOS/resultadoIndices/resultadoINDICES.xlsx");
-
-    CSVPIndicesO pro = new CSVPIndicesO();
-    pro.generateSQLFromExcel("src/main/J2_OLIVOS/resultadoIndices/resultadoINDICES.xlsx","src/main/J2_OLIVOS/resultadosjson","src/main/J2_OLIVOS/insercion.sql","Sentinel-2","Satelite");
+    comb.combineExcelFiles("src/main/J1_OLIVOS/resultadoIndices/","src/main/J1_OLIVOS/resultadoIndices/resultadoINDICESJ1.xlsx");
 */
+    CSVPIndicesO pro = new CSVPIndicesO();
+    //pro.generateSQLFromExcel("src/main/J1_OLIVOS/resultadoIndices/resultadoINDICESJ1.xlsx","src/main/J1_OLIVOS/resultadosjson","src/main/J1_OLIVOS/insercionJ1.sql","Sentinel-2","Satelite");
+    SQLConvertorDron dron=new SQLConvertorDron("src/main/J3_OLIVOS/resultadosDron/datosDron");
+    String oliveSql="src/main/J3_OLIVOS/datosJ3.sql";
+    String rutaGuardar="src/main/J3_OLIVOS/resultadosDron/resultado_final.xlsx";
+    dron.readOliveIds(oliveSql);
+    //prueba.procesarArchivos(rutaGuardar);
+    dron.generarSQLParaDron("src/main/J3_OLIVOS/resultadosDron/resultado_final.xlsx","src/main/J3_OLIVOS/resultadosDron/resultadosJSONDron","src/main/J3_OLIVOS/resultadosDron/insercionJ3Dron.sql","DJI 210","Dron");
     }
 }

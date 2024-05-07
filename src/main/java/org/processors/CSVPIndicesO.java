@@ -20,29 +20,26 @@ public class CSVPIndicesO
     private Map<String, Map<String, String>> dataMap;
     private Set<String> headers;
     private Map<String, String> oliveIds; //Mapa para almacenar los IDs de los olivos
-
     private int indice;
 
     /**
      * @brief constructor
      */
-    public CSVPIndicesO()
-    {
+    public CSVPIndicesO() {
         this.dataMap = new HashMap<>();
         this.headers = new LinkedHashSet<>();
-        this.oliveIds=new HashMap<>();
-        this.indice=0;
+        this.oliveIds = new HashMap<>();
+        this.indice = 0;
     }
 
     /**
-     * @brief función para procesar los ficheros csv
      * @param folderPath carpeta donde se encuentran los csv
+     * @brief función para procesar los ficheros csv
      */
     public void processCSVFiles(String folderPath)
     {
         File folder1 = new File(folderPath);
         File[] listOfFolders = folder1.listFiles();
-
         if (listOfFolders != null)
         {
             for (File folder : listOfFolders)
@@ -61,8 +58,8 @@ public class CSVPIndicesO
     }
 
     /**
-     * @brief función para escribir los resultados en el excel
      * @param excelFile ruta del excel
+     * @brief función para escribir los resultados en el excel
      */
     public void writeExcelFile(String excelFile)
     {
@@ -111,8 +108,7 @@ public class CSVPIndicesO
             // Establecer los valores en las celdas correspondientes
             // Obtener el ID del olivo de los datos del mapa
             String oliveId = entry.getValue().get("ID_OBJETO");
-            if (oliveId != null)
-            {
+            if (oliveId != null) {
                 cellOliveIdData.setCellValue(oliveId);
                 setCell(cellCentroX, centroX);
                 setCell(cellCentroY, centroY);
@@ -135,7 +131,8 @@ public class CSVPIndicesO
         try (FileOutputStream fileOut = new FileOutputStream(excelFile))
         {
             workbook.write(fileOut);
-        } catch (IOException e) {
+        } catch (IOException e)
+        {
             throw new RuntimeException(e);
         }
     }
@@ -145,8 +142,8 @@ public class CSVPIndicesO
      * @param file archivo
      */
     /**
-     * @brief función para procesar un archivo CSV
      * @param file archivo
+     * @brief función para procesar un archivo CSV
      */
     private void processCSV(File file)
     {
@@ -165,30 +162,28 @@ public class CSVPIndicesO
 
             // Extraer año y mes del nombre de la carpeta
             String[] folderNameParts = folderName.split("_");
-            String year = folderNameParts[2];
-            String monthAbbreviation = folderNameParts[1];
+            String year = folderNameParts[2].substring(3, 7);
+            String monthAbbreviation = folderNameParts[2].substring(0, 3).toLowerCase();
             String month = getMonthName(monthAbbreviation);
 
-            for (String[] rowData : csvData) {
+            for (String[] rowData : csvData)
+            {
                 String centroX = rowData[indiceCentroX];
                 String centroY = rowData[indiceCentroY];
                 String mean = rowData[indiceMean];
 
                 if (!Objects.equals(centroX, "field_1")) //Para no repetir el encabezado
                 {
-                    // Ajustar la construcción de la clave para incluir
-                    String key = centroX + "," + centroY;
 
+                    String key = centroX + "," + centroY;
                     // Verificar si hay un ID de olivo correspondiente para el punto medio x e y actual
                     if (oliveIds.containsKey(key))
                     {
-                        // Obtener el ID del olivo y agregarlo al mapa de datos
                         String oliveId = oliveIds.get(key);
                         dataMap.computeIfAbsent(key + "," + year + "," + month, k -> new HashMap<>()).put(fileName, mean);
                         dataMap.get(key + "," + year + "," + month).put("ID_OBJETO", oliveId);
                     }
 
-                    // Añadir el encabezado a la lista solo si no está presente
                     headers.add(fileName);
                 }
             }
@@ -205,10 +200,10 @@ public class CSVPIndicesO
     }
 
     /**
-     * @brief Función para obtener el mes a poner en la columna
      * @param month mes
      * @return string con el mes
-    */
+     * @brief Función para obtener el mes a poner en la columna
+     */
     private String getMonthName(String month)
     {
         Map<String, String> monthMap = new HashMap<>();
@@ -229,35 +224,32 @@ public class CSVPIndicesO
     }
 
     /**
-     * @brief función para establecer la celda
      * @param cell
      * @param value
+     * @brief función para establecer la celda
      */
     private void setCell(Cell cell, String value)
     {
-        try
-        {
+        try {
             double numericValue = Double.parseDouble(value);
             cell.setCellValue(numericValue);
-        } catch (NumberFormatException e)
-        {
+        } catch (NumberFormatException e) {
             cell.setCellValue(value);
         }
     }
 
     /**
-     * @brief Método para leer los IDs de los olivos desde un archivo SQL
      * @param sqlFile Ruta del archivo SQL
+     * @brief Método para leer los IDs de los olivos desde un archivo SQL
      */
     public void readOliveIds(String sqlFile)
     {
         try (BufferedReader br = new BufferedReader(new FileReader(sqlFile)))
         {
             String line;
-            while ((line = br.readLine()) != null)
-            {
-                if (line.startsWith("Insert into ALBAGOMEZ.OBJETO"))
-                {
+            while ((line = br.readLine()) != null) {
+                //if (line.startsWith("Insert into ALBAGOMEZ.OBJETO"))
+                if (line.startsWith("Insert into OBJETO")) {
                     String id = line.split("'")[1];
                     String[] parts = line.split("SDO_POINT_TYPE\\(")[1].split(",");
                     String x = parts[0].trim();
@@ -275,48 +267,40 @@ public class CSVPIndicesO
     /**
      * Genera un archivo SQL con las sentencias INSERT INTO para cada fila del Excel.
      *
-     * @param excelFilePath    Ruta del archivo Excel.
-     * @param jsonFolderPath   Ruta de la carpeta que contiene los archivos JSON.
-     * @param sqlFilePath      Ruta donde se guardará el archivo SQL generado.
-     * @param nombreFuente     Nombre de la fuente.
-     * @param tipoFuente       Tipo de fuente.
-     * @throws IOException    Excepción de E/S si hay problemas al leer/escribir archivos.
+     * @param excelFilePath  Ruta del archivo Excel.
+     * @param jsonFolderPath Ruta de la carpeta que contiene los archivos JSON.
+     * @param sqlFilePath    Ruta donde se guardará el archivo SQL generado.
+     * @param nombreFuente   Nombre de la fuente.
+     * @param tipoFuente     Tipo de fuente.
+     * @throws IOException Excepción de E/S si hay problemas al leer/escribir archivos.
      */
-    public void generateSQLFromExcel(String excelFilePath, String jsonFolderPath, String sqlFilePath, String nombreFuente, String tipoFuente) {
+    public void generateSQLFromExcel(String excelFilePath, String jsonFolderPath, String sqlFilePath, String nombreFuente, String tipoFuente)
+    {
         try (FileInputStream fileInputStream = new FileInputStream(excelFilePath);
              Workbook workbook = new XSSFWorkbook(fileInputStream);
              BufferedWriter writer = new BufferedWriter(new FileWriter(sqlFilePath)))
         {
 
-            Sheet sheet = workbook.getSheetAt(0); // Suponiendo que trabajaremos con la primera hoja
+            Sheet sheet = workbook.getSheetAt(0);
 
             for (Row row : sheet)
             {
-                // Suponemos que la primera fila contiene encabezados y empezamos desde la segunda
                 if (row.getRowNum() > 0)
                 {
                     // Obtenemos todos los datos necesarios del archivo Excel
-                    String ID=row.getCell(0).getStringCellValue();
+                    String ID = row.getCell(0).getStringCellValue();
                     String year = row.getCell(3).getStringCellValue();
                     String month = row.getCell(4).getStringCellValue();
-
                     String fecha = year + "-" + obtenerNumeroMes(month) + "-01"; // Suponiendo que month sea el nombre del mes
-
-                    // Obtener el nombre del archivo JSON correspondiente
-                    String jsonFileName ="/indice_20240319_"+indice+".json";
+                    String jsonFileName = "/indice_20240506_" + indice + ".json";
                     indice++;
                     String jsonFilePath = jsonFolderPath + jsonFileName;
-
-                    // Leer el contenido del archivo JSON
                     String jsonContent = readJSON(jsonFilePath);
-
-                    // Construir la sentencia INSERT INTO
                     String sqlStatement = "INSERT INTO HISTORICO_DATOS(FECHA,VOLUMEN,REFLECTANCIA,ID_OBJETO,NOMBRE_FUENTE,TIPO_FUENTE) VALUES " +
                             "(TO_DATE('" + fecha + "', 'YYYY-MM-DD'), NULL, utl_raw.cast_to_raw('" + jsonContent + "')," + ID + ",'" + nombreFuente + "','" + tipoFuente + "');";
 
-                    // Escribir la sentencia en el archivo SQL
                     writer.write(sqlStatement);
-                    writer.newLine(); // Nueva línea para la próxima sentencia
+                    writer.newLine();
                 }
             }
         } catch (IOException e)
@@ -328,8 +312,8 @@ public class CSVPIndicesO
     /**
      * Lee el contenido de un archivo JSON y lo retorna como una cadena de texto.
      *
-     * @param jsonFilePath  Ruta del archivo JSON.
-     * @return              Contenido del archivo JSON.
+     * @param jsonFilePath Ruta del archivo JSON.
+     * @return Contenido del archivo JSON.
      * @throws IOException Excepción de E/S si hay problemas al leer el archivo.
      */
     private String readJSON(String jsonFilePath) throws IOException
@@ -345,6 +329,12 @@ public class CSVPIndicesO
         }
         return sb.toString();
     }
+
+    /**
+     * Obtiene el número correspondiente a un mes a partir de su nombre.
+     * @param mes
+     * @return Número correspondiente al mes.
+     */
     private static int obtenerNumeroMes(String mes)
     {
         switch (mes.toLowerCase())
@@ -377,5 +367,4 @@ public class CSVPIndicesO
                 throw new IllegalArgumentException("Mes no válido: " + mes);
         }
     }
-
 }

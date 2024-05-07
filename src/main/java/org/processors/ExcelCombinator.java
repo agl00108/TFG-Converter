@@ -28,16 +28,12 @@ public class ExcelCombinator
         Workbook combinedWorkbook = new XSSFWorkbook();
         Sheet combinedSheet = combinedWorkbook.createSheet("DatosCombinados");
 
-        // Copiar encabezados de la primera hoja
         copyHeader(files[0], combinedSheet);
-
-        // Copiar datos de todas las hojas
         for (File file : files)
         {
             copyData(file, combinedSheet);
         }
 
-        // Guardar el archivo combinado
         try (FileOutputStream fileOut = new FileOutputStream(outputFile))
         {
             combinedWorkbook.write(fileOut);
@@ -86,7 +82,8 @@ public class ExcelCombinator
      */
     private void copyData(File file, Sheet combinedSheet)
     {
-        try {
+        try
+        {
             Workbook workbook = WorkbookFactory.create(file);
             Sheet sheet = workbook.getSheetAt(0);
 
