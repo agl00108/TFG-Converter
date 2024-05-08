@@ -257,13 +257,15 @@ public class SQLConvertorF
             case "23:41:0:0:2:36:1":
                 return "H4";
             case "23:5:0:0:7:325:2":
-            case "23:5:0:0:8:101:2":
                 return "J2";
+            case "23:5:0:0:8:101:2":
+                return "J3";
             case "23:59:0:0:6:211:1":
                 return "J1";
             case "23:87:0:0:43:53:2":
-            case "23:87:0:0:43:1:1":
                 return "T27";
+            case "23:87:0:0:43:1:1":
+                return "T20";
             default:
                 return null;
         }

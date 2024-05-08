@@ -47,18 +47,18 @@ public class Main
         }
         comb.combineExcelFiles("src/main/archivosExcel/resultadoPrecipitaciones/","src/main/archivosExcel/resultadoPRECIPITACIONES.xlsx");
 
-
+*/
         SQLConvertorF prueba=new SQLConvertorF();
         prueba.generarInsercionDesdeExcel("src/main/archivosExcel/resultadoPRECIPITACIONES.xlsx", "src/main/insertDatos.sql");
 
         //PARA GENERAR LOS DATOS DE LOS OLIVOS
-
+/*
        //Para transformar el archivo generado por GEU al válido en nuestra BD
         GEUConverter.transformarArchivoSQL("src/main/J1Input.sql", "src/main/J1Output.sql");
         //Para obtener el archivo del punto medio
         GEUConverter.processSqlFile("src/main/J1Input.sql");
-*/
-/*
+
+
     for (String year : years)
     {
         String folderPath = "src/main/J1_OLIVOS/INDICES/" + year;
@@ -71,6 +71,7 @@ public class Main
     }
     comb.combineExcelFiles("src/main/J1_OLIVOS/resultadoIndices/","src/main/J1_OLIVOS/resultadoIndices/resultadoINDICESJ1.xlsx");
 */
+        /*
     CSVPIndicesO pro = new CSVPIndicesO();
     //pro.generateSQLFromExcel("src/main/J1_OLIVOS/resultadoIndices/resultadoINDICESJ1.xlsx","src/main/J1_OLIVOS/resultadosjson","src/main/J1_OLIVOS/insercionJ1.sql","Sentinel-2","Satelite");
     SQLConvertorDron dron=new SQLConvertorDron("src/main/J3_OLIVOS/resultadosDron/datosDron");
@@ -79,5 +80,7 @@ public class Main
     dron.readOliveIds(oliveSql);
     //prueba.procesarArchivos(rutaGuardar);
     dron.generarSQLParaDron("src/main/J3_OLIVOS/resultadosDron/resultado_final.xlsx","src/main/J3_OLIVOS/resultadosDron/resultadosJSONDron","src/main/J3_OLIVOS/resultadosDron/insercionJ3Dron.sql","DJI 210","Dron");
+    */
+
     }
 }
