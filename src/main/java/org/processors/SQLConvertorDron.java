@@ -6,12 +6,11 @@ package org.processors;
  */
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class SQLConvertorDron
 {
@@ -221,6 +220,38 @@ public class SQLConvertorDron
     }
 
     /**
+     * @brief Método para almacenar solo los datos del dron en un txt
+     * @param excelFilePath
+     * @param jsonFolderPath
+     * @param sqlFilePath
+     */
+    public void generarTXT(String excelFilePath, String jsonFolderPath, String sqlFilePath)
+    {
+        int indice = 1;
+        try (FileInputStream fileInputStream = new FileInputStream(excelFilePath);
+             Workbook workbook = new XSSFWorkbook(fileInputStream);
+             BufferedWriter writer = new BufferedWriter(new FileWriter(sqlFilePath)))
+        {
+            Sheet sheet = workbook.getSheetAt(0);
+            for (Row row : sheet)
+            {
+                if (row.getRowNum() > 0)
+                {
+                    String jsonFileName = "/indice_20240506_" + indice + ".json";
+                    indice++;
+                    String jsonFilePath = jsonFolderPath + jsonFileName;
+                    String jsonContent = readJSON(jsonFilePath);
+
+                    writer.write(jsonContent);
+                    writer.newLine();
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
      * Lee el contenido de un archivo JSON y lo retorna como una cadena de texto.
      *
      * @param jsonFilePath Ruta del archivo JSON.
@@ -240,4 +271,80 @@ public class SQLConvertorDron
         }
         return sb.toString();
     }
-}
+
+    public void generarMedia(String mediaPath, Integer provincia, Integer municipio, String zona, Integer poligono, Integer parcela, Integer recinto, String tipoFuente, String nombreFuente)
+    {
+        double totalNDVI = 0;
+        double totalNDWI = 0;
+        double totalSAVI = 0;
+        int count = 0;
+        String date="";
+        // Leer el archivo y procesar los datos
+        try (BufferedReader br = new BufferedReader(new FileReader(mediaPath)))
+        {
+            String line;
+            while ((line = br.readLine()) != null)
+            {
+                JSONObject jsonObject = new JSONObject(line);
+                JSONArray dataArray = jsonObject.getJSONArray("data");
+
+                double ndvi = 0, ndwi = 0, savi = 0;
+
+                for (int i = 0; i < dataArray.length(); i++)
+                {
+                    JSONObject dataObject = dataArray.getJSONObject(i);
+
+                    if (dataObject.has("NDVI")) {
+                        ndvi = dataObject.getDouble("NDVI");
+                    }
+                    if (dataObject.has("NDWI")) {
+                        ndwi = dataObject.getDouble("NDWI");
+                    }
+                    if (dataObject.has("SAVI")) {
+                        savi = dataObject.getDouble("SAVI");
+                    }
+                    if (dataObject.has("FECHA")) {
+                        date = dataObject.getString("FECHA");
+                    }
+                }
+
+                totalNDVI += ndvi;
+                totalNDWI += ndwi;
+                totalSAVI += savi;
+                count++;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // Calcular las medias
+        double avgNDVI = totalNDVI / count;
+        double avgNDWI = totalNDWI / count;
+        double avgSAVI = totalSAVI / count;
+
+        // Crear el JSON de reflectancia con los valores medios
+        JSONObject reflectanciaJson = new JSONObject();
+        JSONArray dataArray = new JSONArray();
+        JSONObject idObject = new JSONObject();
+        idObject.put("ID", provincia + ":" + municipio + ":" + poligono + ":" + parcela + ":" + recinto);
+        dataArray.put(idObject);
+        dataArray.put(new JSONObject().put("NDVI", avgNDVI));
+        dataArray.put(new JSONObject().put("NDWI", avgNDWI));
+        dataArray.put(new JSONObject().put("SAVI", avgSAVI));
+        reflectanciaJson.put("data", dataArray);
+
+        String sql = String.format(
+                "INSERT INTO HISTORICO_FINCA (FECHA, PROVINCIA_CODIGO, MUNICIPIO_CODIGO, ZONA_UBICACION, POLIGONO, PARCELA, RECINTO, NOMBRE_FUENTE, TIPO_FUENTE,REFLECTANCIA) " +
+                        "VALUES (TO_DATE('"+date+"', 'DD-MM-YYYY'), %d, %d, '%s', %d, %d, %d,'%s','%s', utl_raw.cast_to_raw('%s'));",
+                provincia, municipio, zona, poligono, parcela, recinto, nombreFuente, tipoFuente, reflectanciaJson.toString()
+        );
+
+        // Agregar la sentencia SQL al final del archivo
+        try (FileWriter fw = new FileWriter(mediaPath, true)) {
+            fw.write("\n" + sql);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    }

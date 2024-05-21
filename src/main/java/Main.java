@@ -47,12 +47,12 @@ public class Main
         }
         comb.combineExcelFiles("src/main/archivosExcel/resultadoPrecipitaciones/","src/main/archivosExcel/resultadoPRECIPITACIONES.xlsx");
 
-*/
+
         SQLConvertorF prueba=new SQLConvertorF();
         prueba.generarInsercionDesdeExcel("src/main/archivosExcel/resultadoPRECIPITACIONES.xlsx", "src/main/insertDatos.sql");
 
         //PARA GENERAR LOS DATOS DE LOS OLIVOS
-/*
+
        //Para transformar el archivo generado por GEU al válido en nuestra BD
         GEUConverter.transformarArchivoSQL("src/main/J1Input.sql", "src/main/J1Output.sql");
         //Para obtener el archivo del punto medio
@@ -71,16 +71,28 @@ public class Main
     }
     comb.combineExcelFiles("src/main/J1_OLIVOS/resultadoIndices/","src/main/J1_OLIVOS/resultadoIndices/resultadoINDICESJ1.xlsx");
 */
-        /*
+
     CSVPIndicesO pro = new CSVPIndicesO();
     //pro.generateSQLFromExcel("src/main/J1_OLIVOS/resultadoIndices/resultadoINDICESJ1.xlsx","src/main/J1_OLIVOS/resultadosjson","src/main/J1_OLIVOS/insercionJ1.sql","Sentinel-2","Satelite");
     SQLConvertorDron dron=new SQLConvertorDron("src/main/J3_OLIVOS/resultadosDron/datosDron");
-    String oliveSql="src/main/J3_OLIVOS/datosJ3.sql";
-    String rutaGuardar="src/main/J3_OLIVOS/resultadosDron/resultado_final.xlsx";
-    dron.readOliveIds(oliveSql);
+    //String oliveSql="src/main/J3_OLIVOS/datosJ3.sql";
+    //String rutaGuardar="src/main/J3_OLIVOS/resultadosDron/resultado_final.xlsx";
+    //dron.readOliveIds(oliveSql);
     //prueba.procesarArchivos(rutaGuardar);
-    dron.generarSQLParaDron("src/main/J3_OLIVOS/resultadosDron/resultado_final.xlsx","src/main/J3_OLIVOS/resultadosDron/resultadosJSONDron","src/main/J3_OLIVOS/resultadosDron/insercionJ3Dron.sql","DJI 210","Dron");
-    */
+    //dron.generarSQLParaDron("src/main/J3_OLIVOS/resultadosDron/resultado_final.xlsx","src/main/J3_OLIVOS/resultadosDron/resultadosJSONDron","src/main/J3_OLIVOS/resultadosDron/insercionJ3Dron.sql","DJI 210","Dron");
+    //dron.generarTXT("src/main/J1_OLIVOS/resultadosDron/resultado_final.xlsx","src/main/J1_OLIVOS/resultadosDron/resultadosJSONDron","src/main/J1_OLIVOS/resultadosDron/mediaJ1.txt");
+    //PARA GENERAR LA MEDIA DEL SATÉLITE
+    String mediaPath="src/main/J3_OLIVOS/resultadosDron/mediaJ3.txt";
+    Integer provincia=23;
+    Integer municipio=5;
+    String zona="J3";
+    Integer poligono=8;
+    Integer parcela=101;
+    Integer recinto=2;
+    String tipoFuente="Dron";
+    String nombreFuente="DJI 210";
+    dron.generarMedia(mediaPath, provincia, municipio, zona, poligono, parcela, recinto,tipoFuente,nombreFuente);
+
 
     }
 }
